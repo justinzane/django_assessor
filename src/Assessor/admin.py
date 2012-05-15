@@ -1,5 +1,5 @@
 '''
-Assessor.api
+Assessor.admin
 @updated: on May 14, 2012
 @author: justin
 @license:  AGPLv3
@@ -20,30 +20,3 @@ Assessor.api
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.    
 '''
-from tastypie.resources import ModelResource
-from tastypie import fields
-from extendedmodelresource import ExtendedModelResource
-from models import *
-
-class QuestionResource(ExtendedModelResource):
-    class Meta:
-        queryset = Question.objects.all()
-        resource_name = 'question'
-    class Nested:
-        choices = fields.ToManyField('api.resources.ChoiceResource', 'choices')
-
-class ChoiceResource(ExtendedModelResource):
-    class Meta:
-        queryset = Choice.objects.all()
-        resource_name = 'choice'
-
-class QuizResource(ExtendedModelResource):
-    class Meta:
-        queryset = Quiz.objects.all()
-        resource_name = 'quiz'
-
-class QuizQuestionResource(ExtendedModelResource):
-    class Meta:
-        queryset = QuizQuestion.objects.all()
-        resource_name = 'quizquestion'
-        

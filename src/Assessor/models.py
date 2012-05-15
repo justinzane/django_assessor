@@ -14,7 +14,7 @@ class Quiz(models.Model):
     num_questions = models.IntegerField()
     num_correct = models.IntegerField()
     
-class QuizQuestions(models.Model):
+class QuizQuestion(models.Model):
     quiz = models.ForeignKey(Quiz)
     question = models.ForeignKey(Question)
 
