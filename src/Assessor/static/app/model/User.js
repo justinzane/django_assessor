@@ -1,13 +1,13 @@
-Ext.define('Assessor.model.Question', {
+Ext.define('Assessor.model.User',{
 	extend: 'Ext.data.Model',
 	fields: [
 		{name: 'id', type: 'int'},
-		{name: 'text', type: 'string'},
+		{name: 'username', type: 'string'},
 		{name: 'resource_uri', type: 'string'}
 	],
 	proxy: {
 		type: 'rest',
-		url: '/api/v1/question/',
+		url: '/api/v1/user/',
 		headers: {
 			'accept':'application/json',
 			'content-type':'application/json'
