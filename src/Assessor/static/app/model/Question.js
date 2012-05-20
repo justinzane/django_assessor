@@ -5,6 +5,10 @@ Ext.define('Assessor.model.Question', {
 		{name: 'text', type: 'string'},
 		{name: 'resource_uri', type: 'string'}
 	],
+	associations: [{
+		type: 'hasMany', 
+		model: 'Assessor.model.Choice'
+	}],
 	proxy: {
 		type: 'rest',
 		url: '/api/v1/question/',

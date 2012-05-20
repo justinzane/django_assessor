@@ -1,9 +1,11 @@
 Ext.define('Assessor.view.Header', {
 	extend: 'Ext.panel.Panel',
 	alias: 'widget.headerpanel',
-	backgroundColor: '#000000',
-	color: '#ffffff',
-	textAlign: 'center',
-	height: 48,
-	html: 'Header goes here.'
+	bodyStyle: {
+		backgroundColor: '#1f1f3f',
+		color: '#ffffff',
+		textAlign: 'center',
+		height: '48px'
+	},
+	html: '<h1>Header goes here.</h1>'
 })

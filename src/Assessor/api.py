@@ -29,33 +29,34 @@ from models import *
 from django.contrib.auth.models import User
 
 class UserResource(ModelResource):
-    quiz = fields.ToManyField('Assessor.api.QuizResource', 'quiz_set', full=False, related_name='quiz')
     class Meta:
         queryset = User.objects.all()
         resource_name = 'user'
 
 class QuestionResource(ModelResource):
-    choice = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full=False, related_name='choice')
+    choice = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
     class Meta:
         queryset = Question.objects.all()
         resource_name = 'question'
 
 class ChoiceResource(ModelResource):
-    question = fields.ToOneField('Assessor.api.QuestionResource', 'question', full=False, related_name='question')
+    question_id = fields.ToOneField('Assessor.api.QuestionResource', 'question', full='id', related_name='question')
     class Meta:
         queryset = Choice.objects.all()
         resource_name = 'choice'
 
 class QuizResource(ModelResource):
-    user = fields.ToOneField('Assessor.api.UserResource', 'user', full=False, related_name='user')
+    #user = fields.ToOneField('Assessor.api.UserResource', 'user', full='id', related_name='user')
     class Meta:
         queryset = Quiz.objects.all()
         resource_name = 'quiz'
 
 class QuizQuestionResource(ModelResource):
-    quiz = fields.ToOneField('Assessor.api.QuizResource', 'quiz', full=False, related_name='quiz')
-    question = fields.ToOneField('Assessor.api.QuestionResource', 'question', full=False, related_name='question')
+    quiz_id = fields.ToOneField('Assessor.api.QuizResource', 'quiz', full='id', related_name='quiz')
+    question_id = fields.ToOneField('Assessor.api.QuestionResource', 'question', full='id', related_name='question')
+    
     class Meta:
         queryset = QuizQuestion.objects.all()
         resource_name = 'quizquestion'
+
 

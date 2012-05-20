@@ -2,7 +2,6 @@ Ext.define('Assessor.model.Quiz', {
 	extend: 'Ext.data.Model',
 	fields: [
 		{name: 'id', type: 'int'},
-		{name: 'user', type: 'int'},
 		{name: 'num_questions', type: 'int'},
 		{name: 'num_correct', type: 'int'},
 		{name: 'resource_uri', type: 'string'}

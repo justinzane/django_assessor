@@ -1,11 +1,22 @@
-Ext.define('Assessor.model.QuizQuestion'), {
+Ext.define('Assessor.model.QuizQuestion', {
 	extend: 'Ext.data.Model',
 	fields: [
 		{name: 'id', type: 'int'},
-		{name: 'quiz', type: 'int'},
-		{name: 'question', type: 'int'},
+		{name: 'quiz_id', type: 'string'},
+		{name: 'question_id', type: 'string'},
 		{name: 'resource_uri', type: 'string'}
 	],
+	associations: [{
+		type: 'belongsTo', 
+		model: 'Assessor.model.Quiz',
+		foreignKey: 'quiz_id',
+		primaryKey: 'id'
+	}, { 
+		type: 'belongsTo', 
+		model: 'Assessor.model.Question',
+		foreignKey: 'question_id',
+		primaryKey: 'id'
+	}],
 	proxy: {
 		type: 'rest',
 		url: '/api/v1/quizquestion/',
@@ -23,4 +34,4 @@ Ext.define('Assessor.model.QuizQuestion'), {
 			type: 'json'
 		}
 	}
-}
+})
