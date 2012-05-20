@@ -34,7 +34,7 @@ class UserResource(ModelResource):
         resource_name = 'user'
 
 class QuestionResource(ModelResource):
-    choice = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
+    #choice = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
     class Meta:
         queryset = Question.objects.all()
         resource_name = 'question'
