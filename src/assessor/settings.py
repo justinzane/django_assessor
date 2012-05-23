@@ -96,3 +96,4 @@ LOGGING = {
         },
     }
 }
+API_LIMIT_PER_PAGE = 0

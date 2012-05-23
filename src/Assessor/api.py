@@ -24,6 +24,7 @@ from tastypie.resources import ModelResource
 from tastypie import fields
 from tastypie.authentication import Authentication
 from tastypie.authorization import Authorization
+from tastypie.constants import ALL, ALL_WITH_RELATIONS
 #from extendedmodelresource import ExtendedModelResource
 from models import *
 from django.contrib.auth.models import User
@@ -34,16 +35,22 @@ class UserResource(ModelResource):
         resource_name = 'user'
 
 class QuestionResource(ModelResource):
-    #choice = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
+    #choices = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
     class Meta:
         queryset = Question.objects.all()
         resource_name = 'question'
+        filtering = {'id': ALL}
 
+#
+# http://localhost:8000/api/v1/choice/?filter=%5B%7B%22property%22%3A%22question_id%22%2C%22value%22%3A2%7D%5D
+# http://localhost:8000/api/v1/choice/?filter=[{"property":"question_id","value":2}]
+#
 class ChoiceResource(ModelResource):
     question_id = fields.ToOneField('Assessor.api.QuestionResource', 'question', full='id', related_name='question')
     class Meta:
         queryset = Choice.objects.all()
         resource_name = 'choice'
+        filtering = {'question_id': ALL_WITH_RELATIONS, 'id':ALL}
 
 class QuizResource(ModelResource):
     #user = fields.ToOneField('Assessor.api.UserResource', 'user', full='id', related_name='user')
