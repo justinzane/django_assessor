@@ -1,0 +1,3822 @@
+[
+    {
+        "text": "builds trust", 
+        "id": "1", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "results in depth of understanding of a client's psychodynamics", 
+        "id": "2", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "improves with a therapist's level of education", 
+        "id": "3", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "results in accurate empathy", 
+        "id": "4", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "10", 
+        "id": "1", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "12", 
+        "id": "2", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "14", 
+        "id": "3", 
+        "question_id": "1"
+    }, 
+    {
+        "text": "15", 
+        "id": "4", 
+        "question_id": "7"
+    }, 
+    {
+        "text": "authority figures", 
+        "id": "1", 
+        "question_id": "7"
+    }, 
+    {
+        "text": "reinforcement contingencies that follow the behavior", 
+        "id": "2", 
+        "question_id": "7"
+    }, 
+    {
+        "text": "stimuli or triggers that precede the behavior", 
+        "id": "3", 
+        "question_id": "7"
+    }, 
+    {
+        "text": "decision and free will", 
+        "id": "4", 
+        "question_id": "8"
+    }, 
+    {
+        "text": "Humanistic Existential", 
+        "id": "1", 
+        "question_id": "8"
+    }, 
+    {
+        "text": "Psychodynamic", 
+        "id": "2", 
+        "question_id": "8"
+    }, 
+    {
+        "text": "Behavioral", 
+        "id": "3", 
+        "question_id": "8"
+    }, 
+    {
+        "text": "Social Systems", 
+        "id": "4", 
+        "question_id": "9"
+    }, 
+    {
+        "text": "reduce anxiety and guilt feelings", 
+        "id": "1", 
+        "question_id": "9"
+    }, 
+    {
+        "text": "free up energy for adaptive problem solving", 
+        "id": "2", 
+        "question_id": "9"
+    }, 
+    {
+        "text": "promote dependency and reduce motivation", 
+        "id": "3", 
+        "question_id": "9"
+    }, 
+    {
+        "text": "either reduce anxiety, free up energy, or promote dependency", 
+        "id": "4", 
+        "question_id": "10"
+    }, 
+    {
+        "text": "to generate data for deepening self-exploration and self-awareness", 
+        "id": "1", 
+        "question_id": "10"
+    }, 
+    {
+        "text": "cathartic release of pent up frustrations and other problematic feelings", 
+        "id": "2", 
+        "question_id": "10"
+    }, 
+    {
+        "text": "to deepen the therapeutic alliance", 
+        "id": "3", 
+        "question_id": "10"
+    }, 
+    {
+        "text": "to prevent a sense of overexposure and premature termination", 
+        "id": "4", 
+        "question_id": "12"
+    }, 
+    {
+        "text": "I", 
+        "id": "1", 
+        "question_id": "12"
+    }, 
+    {
+        "text": "3", 
+        "id": "2", 
+        "question_id": "12"
+    }, 
+    {
+        "text": "6", 
+        "id": "3", 
+        "question_id": "13"
+    }, 
+    {
+        "text": "12", 
+        "id": "4", 
+        "question_id": "13"
+    }, 
+    {
+        "text": "anxiety", 
+        "id": "1", 
+        "question_id": "13"
+    }, 
+    {
+        "text": "depression", 
+        "id": "2", 
+        "question_id": "13"
+    }, 
+    {
+        "text": "psychosis", 
+        "id": "3", 
+        "question_id": "13"
+    }, 
+    {
+        "text": "cognitive dissonance", 
+        "id": "4", 
+        "question_id": "14"
+    }, 
+    {
+        "text": "schizophrenia", 
+        "id": "1", 
+        "question_id": "14"
+    }, 
+    {
+        "text": "organic mental disorder", 
+        "id": "2", 
+        "question_id": "14"
+    }, 
+    {
+        "text": "panic attacks", 
+        "id": "3", 
+        "question_id": "14"
+    }, 
+    {
+        "text": "dementia", 
+        "id": "4", 
+        "question_id": "11"
+    }, 
+    {
+        "text": "foster the client's acculturation to the \"mainstream culture\" in order to promote psychosocial adaptation", 
+        "id": "1", 
+        "question_id": "11"
+    }, 
+    {
+        "text": "encourage the client's acculturated family members to foster her acculturation to the mainstream culture, and not foster her acculturation yourself", 
+        "id": "2", 
+        "question_id": "11"
+    }, 
+    {
+        "text": "accept the client's own inclinations toward acculturating to the mainstream culture", 
+        "id": "3", 
+        "question_id": "11"
+    }, 
+    {
+        "text": "encourage the client to resist acculturation to the mainstream culture in order to maintain cultural diversity in the community", 
+        "id": "4", 
+        "question_id": "16"
+    }, 
+    {
+        "text": "psychopathologies that are stereotypically expected of African Americans", 
+        "id": "1", 
+        "question_id": "16"
+    }, 
+    {
+        "text": "cultural bias of traditional IQ tests and other psychometric tests", 
+        "id": "2", 
+        "question_id": "16"
+    }, 
+    {
+        "text": "misinterpretations of culturally normative behavior as idiosyncratic", 
+        "id": "3", 
+        "question_id": "16"
+    }, 
+    {
+        "text": "stereotypically expected psychopathologies, cultural bias and/or misinterpretations of culturally normative behavior", 
+        "id": "4", 
+        "question_id": "17"
+    }, 
+    {
+        "text": "preventing either client from feeling threatened when confronted by members of the opposite sex", 
+        "id": "1", 
+        "question_id": "17"
+    }, 
+    {
+        "text": "assessing the clients' tendency toward triangulation", 
+        "id": "2", 
+        "question_id": "17"
+    }, 
+    {
+        "text": "modeling positive cross gender communications", 
+        "id": "3", 
+        "question_id": "17"
+    }, 
+    {
+        "text": "testing the clients' object relations", 
+        "id": "4", 
+        "question_id": "18"
+    }, 
+    {
+        "text": "challenge the delusion and make it clear that you do not accept it as reality", 
+        "id": "1", 
+        "question_id": "18"
+    }, 
+    {
+        "text": "agree with the delusion in order to form a therapeutic alliance with the client", 
+        "id": "2", 
+        "question_id": "18"
+    }, 
+    {
+        "text": "neither confront nor accept the delusion", 
+        "id": "3", 
+        "question_id": "18"
+    }, 
+    {
+        "text": "ask the client why he has coine to hold such a peculiar belief", 
+        "id": "4", 
+        "question_id": "15"
+    }, 
+    {
+        "text": "primarily listen, while encouraging the expression of feelings", 
+        "id": "1", 
+        "question_id": "15"
+    }, 
+    {
+        "text": "recommend several possible strategies for accomplishing the client's goal", 
+        "id": "2", 
+        "question_id": "15"
+    }, 
+    {
+        "text": "focus on the how the presenting problem developed", 
+        "id": "3", 
+        "question_id": "15"
+    }, 
+    {
+        "text": "remain silent if the client appears to be confused, so that the client can freely take responsibility for resolving the confusion", 
+        "id": "4", 
+        "question_id": "19"
+    }, 
+    {
+        "text": "a cultural norm", 
+        "id": "1", 
+        "question_id": "19"
+    }, 
+    {
+        "text": "a delusion", 
+        "id": "2", 
+        "question_id": "19"
+    }, 
+    {
+        "text": "an illusion", 
+        "id": "3", 
+        "question_id": "19"
+    }, 
+    {
+        "text": "an affirmation of faith", 
+        "id": "4", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "crisis intervention", 
+        "id": "1", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "analytic and interpretive", 
+        "id": "2", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "supportive and accepting of appropriate defenses", 
+        "id": "3", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "focused on meeting environmental needs", 
+        "id": "4", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "prescriptions over the Internet", 
+        "id": "1", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "practice of health care delivery using audio or video tapes", 
+        "id": "2", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "practice of health care delivery using interactive audio, video or data communications", 
+        "id": "3", 
+        "question_id": "20"
+    }, 
+    {
+        "text": "counseling by telephone", 
+        "id": "4", 
+        "question_id": "21"
+    }, 
+    {
+        "text": "boys", 
+        "id": "1", 
+        "question_id": "21"
+    }, 
+    {
+        "text": "girls", 
+        "id": "2", 
+        "question_id": "21"
+    }, 
+    {
+        "text": "generally equal among boys and girls", 
+        "id": "3", 
+        "question_id": "21"
+    }, 
+    {
+        "text": "some disorders are more prevalent among boys, a similar number are more prevalent among girls", 
+        "id": "4", 
+        "question_id": "24"
+    }, 
+    {
+        "text": "all existing confidentiality protections apply", 
+        "id": "1", 
+        "question_id": "24"
+    }, 
+    {
+        "text": "telemedicine is inherently risky with regard to confidentiality and that confidentiality protections are therefore limited", 
+        "id": "2", 
+        "question_id": "24"
+    }, 
+    {
+        "text": "telemedicine has not yet demonstrated efficacy", 
+        "id": "3", 
+        "question_id": "24"
+    }, 
+    {
+        "text": "you have been trained in the use of telemedicine", 
+        "id": "4", 
+        "question_id": "25"
+    }, 
+    {
+        "text": "is homosexual", 
+        "id": "1", 
+        "question_id": "25"
+    }, 
+    {
+        "text": "does not meet the diagnostic criteria for any particular mental disorder", 
+        "id": "2", 
+        "question_id": "25"
+    }, 
+    {
+        "text": "meets the diagnostic criteria for a personality disorder", 
+        "id": "3", 
+        "question_id": "25"
+    }, 
+    {
+        "text": "meets the diagnostic criteria for pedophilia", 
+        "id": "4", 
+        "question_id": "26"
+    }, 
+    {
+        "text": "in a proceeding to determine the sanity of a criminal defendant", 
+        "id": "1", 
+        "question_id": "26"
+    }, 
+    {
+        "text": "in any civil trial", 
+        "id": "2", 
+        "question_id": "26"
+    }, 
+    {
+        "text": "in any criminal trial", 
+        "id": "3", 
+        "question_id": "26"
+    }, 
+    {
+        "text": "if the client has been the victim of a crime", 
+        "id": "4", 
+        "question_id": "23"
+    }, 
+    {
+        "text": "posttraumatic stress disorder", 
+        "id": "1", 
+        "question_id": "23"
+    }, 
+    {
+        "text": "adjustment disorder with anxious mood", 
+        "id": "2", 
+        "question_id": "23"
+    }, 
+    {
+        "text": "no diagnosis", 
+        "id": "3", 
+        "question_id": "23"
+    }, 
+    {
+        "text": "cyclothymic disorder", 
+        "id": "4", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "less than one month in duration", 
+        "id": "1", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "due to a mental disorder", 
+        "id": "2", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "documented by two or more psychiatrists", 
+        "id": "3", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "documented by two or more mental health professionals of any discipline", 
+        "id": "4", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "does not apply to marriage and family therapists because they are not considered to be a \"health practitioner\" under this law", 
+        "id": "1", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "applies to marriage and family therapists only when practicing psychotherapy", 
+        "id": "2", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "only requires reports from marriage and family therapists who treat psychological trauma resulting &om domestic violence", 
+        "id": "3", 
+        "question_id": "27"
+    }, 
+    {
+        "text": "only requires reports from health practitioners who treat wounds and injuries", 
+        "id": "4", 
+        "question_id": "30"
+    }, 
+    {
+        "text": "opiate s", 
+        "id": "1", 
+        "question_id": "30"
+    }, 
+    {
+        "text": "sedatives", 
+        "id": "2", 
+        "question_id": "30"
+    }, 
+    {
+        "text": "alcohol", 
+        "id": "3", 
+        "question_id": "30"
+    }, 
+    {
+        "text": "amphetamines", 
+        "id": "4", 
+        "question_id": "29"
+    }, 
+    {
+        "text": "illusions", 
+        "id": "1", 
+        "question_id": "29"
+    }, 
+    {
+        "text": "overvalued ideas", 
+        "id": "1", 
+        "question_id": "29"
+    }, 
+    {
+        "text": "obsessions", 
+        "id": "3", 
+        "question_id": "29"
+    }, 
+    {
+        "text": "catatonia", 
+        "id": "4", 
+        "question_id": "31"
+    }, 
+    {
+        "text": "reduce motivation for change", 
+        "id": "1", 
+        "question_id": "31"
+    }, 
+    {
+        "text": "cause overventilation", 
+        "id": "2", 
+        "question_id": "31"
+    }, 
+    {
+        "text": "expand emotional awareness", 
+        "id": "3", 
+        "question_id": "31"
+    }, 
+    {
+        "text": "help restructure character", 
+        "id": "4", 
+        "question_id": "32"
+    }, 
+    {
+        "text": "hyperventilation", 
+        "id": "1", 
+        "question_id": "32"
+    }, 
+    {
+        "text": "a schizophreniform disorder", 
+        "id": "2", 
+        "question_id": "32"
+    }, 
+    {
+        "text": "a brief psychotic disorder", 
+        "id": "3", 
+        "question_id": "32"
+    }, 
+    {
+        "text": "an adjustment disorder", 
+        "id": "4", 
+        "question_id": "33"
+    }, 
+    {
+        "text": "sought your services in order to escape detection after committing a crime", 
+        "id": "1", 
+        "question_id": "33"
+    }, 
+    {
+        "text": "is a minor", 
+        "id": "2", 
+        "question_id": "33"
+    }, 
+    {
+        "text": "is a family", 
+        "id": "3", 
+        "question_id": "33"
+    }, 
+    {
+        "text": "has failed to fully engage effectively in the treatment process", 
+        "id": "4", 
+        "question_id": "34"
+    }, 
+    {
+        "text": "denial and introjection", 
+        "id": "1", 
+        "question_id": "34"
+    }, 
+    {
+        "text": "intellectualization and rationalization", 
+        "id": "2", 
+        "question_id": "34"
+    }, 
+    {
+        "text": "sublimation and identification", 
+        "id": "3", 
+        "question_id": "34"
+    }, 
+    {
+        "text": "impulse control and sense of reality", 
+        "id": "4", 
+        "question_id": "35"
+    }, 
+    {
+        "text": "denial and suppression", 
+        "id": "1", 
+        "question_id": "35"
+    }, 
+    {
+        "text": "introjection and projection", 
+        "id": "2", 
+        "question_id": "35"
+    }, 
+    {
+        "text": "intellectualization and rationalization", 
+        "id": "3", 
+        "question_id": "35"
+    }, 
+    {
+        "text": "isolation and identification", 
+        "id": "4", 
+        "question_id": "36"
+    }, 
+    {
+        "text": "inaccurate information which has been provided to the therapist", 
+        "id": "1", 
+        "question_id": "36"
+    }, 
+    {
+        "text": "information needed to determine the sanity of a criminal defendant", 
+        "id": "2", 
+        "question_id": "36"
+    }, 
+    {
+        "text": "advice given by the therapist to the client", 
+        "id": "3", 
+        "question_id": "36"
+    }, 
+    {
+        "text": "information obtained by an examination of the patient", 
+        "id": "4", 
+        "question_id": "38"
+    }, 
+    {
+        "text": "object relations", 
+        "id": "1", 
+        "question_id": "38"
+    }, 
+    {
+        "text": "cognition", 
+        "id": "2", 
+        "question_id": "38"
+    }, 
+    {
+        "text": "adaptive regression", 
+        "id": "3", 
+        "question_id": "38"
+    }, 
+    {
+        "text": "stimulus barrier", 
+        "id": "4", 
+        "question_id": "37"
+    }, 
+    {
+        "text": "the person requesting the information must submit a written request to both the patient and the provider", 
+        "id": "1", 
+        "question_id": "37"
+    }, 
+    {
+        "text": "the person requesting the information must submit a written request to the patient but not to the provider", 
+        "id": "2", 
+        "question_id": "37"
+    }, 
+    {
+        "text": "the provider must inform the client that the information will not be transmitted by electronic means", 
+        "id": "3", 
+        "question_id": "37"
+    }, 
+    {
+        "text": "the provider must determine that the information will be used for purposes of either providing treatment or submitting claims for treatment services", 
+        "id": "4", 
+        "question_id": "40"
+    }, 
+    {
+        "text": "infancy", 
+        "id": "1", 
+        "question_id": "40"
+    }, 
+    {
+        "text": "toddlerhood", 
+        "id": "2", 
+        "question_id": "40"
+    }, 
+    {
+        "text": "preschool or early elementary years", 
+        "id": "3", 
+        "question_id": "40"
+    }, 
+    {
+        "text": "adolescence", 
+        "id": "4", 
+        "question_id": "41"
+    }, 
+    {
+        "text": "elementary school age", 
+        "id": "1", 
+        "question_id": "41"
+    }, 
+    {
+        "text": "adolescence", 
+        "id": "2", 
+        "question_id": "41"
+    }, 
+    {
+        "text": "young adulthood", 
+        "id": "3", 
+        "question_id": "41"
+    }, 
+    {
+        "text": "at any age", 
+        "id": "4", 
+        "question_id": "42"
+    }, 
+    {
+        "text": "assuring a sound theoretical basis for the change you are working toward", 
+        "id": "1", 
+        "question_id": "42"
+    }, 
+    {
+        "text": "generalizability of the findings to your other clients", 
+        "id": "2", 
+        "question_id": "42"
+    }, 
+    {
+        "text": "review by a human subjects review committee", 
+        "id": "3", 
+        "question_id": "42"
+    }, 
+    {
+        "text": "generalizability of changes observed in sessions, to changes in day to day family relationships", 
+        "id": "4", 
+        "question_id": "39"
+    }, 
+    {
+        "text": "especially careful when interpreting the client's response to which of these MSE techniques?", 
+        "id": "25", 
+        "question_id": "39"
+    }, 
+    {
+        "text": "serial sevens", 
+        "id": "1", 
+        "question_id": "39"
+    }, 
+    {
+        "text": "a question about today's date", 
+        "id": "2", 
+        "question_id": "39"
+    }, 
+    {
+        "text": "a request to assemble matchsticks in a manner that copies another pattern", 
+        "id": "3", 
+        "question_id": "39"
+    }, 
+    {
+        "text": "a request to interpret a proverb", 
+        "id": "4", 
+        "question_id": "43"
+    }, 
+    {
+        "text": "clarify that the third party will not be entitled to confidential information", 
+        "id": "1", 
+        "question_id": "43"
+    }, 
+    {
+        "text": "clarify the nature of the relationship with each party and the limits of confidentiality", 
+        "id": "2", 
+        "question_id": "43"
+    }, 
+    {
+        "text": "treat both the third party and the referred individual as clients", 
+        "id": "3", 
+        "question_id": "43"
+    }, 
+    {
+        "text": "provide the third party only with information regarding the client's attendance at therapy and a general summary of therapeutic progress", 
+        "id": "4", 
+        "question_id": "44"
+    }, 
+    {
+        "text": "participants in a sequential pattern of dysfunctional family dynamics", 
+        "id": "1", 
+        "question_id": "44"
+    }, 
+    {
+        "text": "victims of dysfunctional parents", 
+        "id": "2", 
+        "question_id": "44"
+    }, 
+    {
+        "text": "caused by troubled parents", 
+        "id": "3", 
+        "question_id": "44"
+    }, 
+    {
+        "text": "a symptom of an alienated society", 
+        "id": "4", 
+        "question_id": "46"
+    }, 
+    {
+        "text": "identify this pattern of behavior and engage the client in exploring what it might mean", 
+        "id": "1", 
+        "question_id": "46"
+    }, 
+    {
+        "text": "explain the importance of authority relationships with supervisors", 
+        "id": "2", 
+        "question_id": "46"
+    }, 
+    {
+        "text": "see what emerges &om the silence and pursue that theme", 
+        "id": "3", 
+        "question_id": "46"
+    }, 
+    {
+        "text": "encourage the client to speak when the subject of authority relationships with supervisors arises", 
+        "id": "4", 
+        "question_id": "45"
+    }, 
+    {
+        "text": "confusion", 
+        "id": "1", 
+        "question_id": "45"
+    }, 
+    {
+        "text": "insight development", 
+        "id": "2", 
+        "question_id": "45"
+    }, 
+    {
+        "text": "engagement", 
+        "id": "3", 
+        "question_id": "45"
+    }, 
+    {
+        "text": "resistance", 
+        "id": "4", 
+        "question_id": "47"
+    }, 
+    {
+        "text": "engagement", 
+        "id": "1", 
+        "question_id": "47"
+    }, 
+    {
+        "text": "assessment", 
+        "id": "2", 
+        "question_id": "47"
+    }, 
+    {
+        "text": "the middle phase", 
+        "id": "3", 
+        "question_id": "47"
+    }, 
+    {
+        "text": "termination", 
+        "id": "4", 
+        "question_id": "48"
+    }, 
+    {
+        "text": "a source of empathic insight to the client's psychodynamics", 
+        "id": "1", 
+        "question_id": "48"
+    }, 
+    {
+        "text": "a trans ference", 
+        "id": "2", 
+        "question_id": "48"
+    }, 
+    {
+        "text": "a countertransference", 
+        "id": "3", 
+        "question_id": "48"
+    }, 
+    {
+        "text": "unlikely in cognitive and behavioral approaches to therapy", 
+        "id": "4", 
+        "question_id": "49"
+    }, 
+    {
+        "text": "traumatic developmental history", 
+        "id": "1", 
+        "question_id": "49"
+    }, 
+    {
+        "text": "hypoglycemia", 
+        "id": "2", 
+        "question_id": "49"
+    }, 
+    {
+        "text": "cardiac arrhythmia", 
+        "id": "3", 
+        "question_id": "49"
+    }, 
+    {
+        "text": "small strokes", 
+        "id": "4", 
+        "question_id": "50"
+    }, 
+    {
+        "text": "a way to deny losing something of value", 
+        "id": "1", 
+        "question_id": "50"
+    }, 
+    {
+        "text": "an indication that the client has not yet uncovered a significant unresolved conflict", 
+        "id": "2", 
+        "question_id": "50"
+    }, 
+    {
+        "text": "a sign of psychopathology", 
+        "id": "3", 
+        "question_id": "50"
+    }, 
+    {
+        "text": "a sign of borderline personality disorder", 
+        "id": "4", 
+        "question_id": "51"
+    }, 
+    {
+        "text": "similar to the cause of experimental neurosis", 
+        "id": "1", 
+        "question_id": "51"
+    }, 
+    {
+        "text": "a cause of schizophrenia", 
+        "id": "2", 
+        "question_id": "51"
+    }, 
+    {
+        "text": "culturally valued in Southeast Asian cultines", 
+        "id": "3", 
+        "question_id": "51"
+    }, 
+    {
+        "text": "a cause of multiple personality disorder", 
+        "id": "4", 
+        "question_id": "54"
+    }, 
+    {
+        "text": "the child is between the ages of 3 and 9", 
+        "id": "1", 
+        "question_id": "54"
+    }, 
+    {
+        "text": "the child is preverbal", 
+        "id": "2", 
+        "question_id": "54"
+    }, 
+    {
+        "text": "the parent or guardian gives explicit permission", 
+        "id": "3", 
+        "question_id": "54"
+    }, 
+    {
+        "text": "the child will benefit from nonverbal expression of thoughts and feelings", 
+        "id": "4", 
+        "question_id": "53"
+    }, 
+    {
+        "text": "You may accept the offer if you determine that the uncle does not need to be a participant in the family's sessions.", 
+        "id": "1", 
+        "question_id": "53"
+    }, 
+    {
+        "text": "You may accept the offer only if the other family members agree.", 
+        "id": "2", 
+        "question_id": "53"
+    }, 
+    {
+        "text": "You may not accept the offer because of a conflict of interest.", 
+        "id": "3", 
+        "question_id": "53"
+    }, 
+    {
+        "text": "You may not accept the offer because the uncle, as a member of a troubled family, lacks the capacity to make informed decisions about such matters.", 
+        "id": "4", 
+        "question_id": "56"
+    }, 
+    {
+        "text": "the client", 
+        "id": "1", 
+        "question_id": "56"
+    }, 
+    {
+        "text": "the therapist", 
+        "id": "2", 
+        "question_id": "56"
+    }, 
+    {
+        "text": "the therapist's agency", 
+        "id": "3", 
+        "question_id": "56"
+    }, 
+    {
+        "text": "the agency's board of directors", 
+        "id": "4", 
+        "question_id": "57"
+    }, 
+    {
+        "text": "consent must be given without coercion", 
+        "id": "1", 
+        "question_id": "57"
+    }, 
+    {
+        "text": "the client must have accurate information about the treatment she is consenting to", 
+        "id": "2", 
+        "question_id": "57"
+    }, 
+    {
+        "text": "the client must be of sound mind, having the ability to understand and reason about the decision", 
+        "id": "3", 
+        "question_id": "57"
+    }, 
+    {
+        "text": "the consent must be documented", 
+        "id": "4", 
+        "question_id": "58"
+    }, 
+    {
+        "text": "being fired at work", 
+        "id": "1", 
+        "question_id": "58"
+    }, 
+    {
+        "text": "divorce", 
+        "id": "2", 
+        "question_id": "58"
+    }, 
+    {
+        "text": "death of a close lriend", 
+        "id": "3", 
+        "question_id": "58"
+    }, 
+    {
+        "text": "change in residence", 
+        "id": "4", 
+        "question_id": "55"
+    }, 
+    {
+        "text": "a male, age 55, who is living alone", 
+        "id": "1", 
+        "question_id": "55"
+    }, 
+    {
+        "text": "a female, age 19, who says she wants to kill herself to punish her father for leaving her mother", 
+        "id": "2", 
+        "question_id": "55"
+    }, 
+    {
+        "text": "a male, age 43, who is living with his wife", 
+        "id": "3", 
+        "question_id": "55"
+    }, 
+    {
+        "text": "a female, age 44, who is &ightened by her suicidal thoughts", 
+        "id": "4", 
+        "question_id": "60"
+    }, 
+    {
+        "text": "low self-esteem", 
+        "id": "1", 
+        "question_id": "60"
+    }, 
+    {
+        "text": "disturbed object relations", 
+        "id": "2", 
+        "question_id": "60"
+    }, 
+    {
+        "text": "phantom limb syndrome", 
+        "id": "3", 
+        "question_id": "60"
+    }, 
+    {
+        "text": "cognitive dissonance", 
+        "id": "4", 
+        "question_id": "61"
+    }, 
+    {
+        "text": "infancy", 
+        "id": "1", 
+        "question_id": "61"
+    }, 
+    {
+        "text": "age 2", 
+        "id": "2", 
+        "question_id": "61"
+    }, 
+    {
+        "text": "age 5", 
+        "id": "3", 
+        "question_id": "61"
+    }, 
+    {
+        "text": "adolescence", 
+        "id": "4", 
+        "question_id": "62"
+    }, 
+    {
+        "text": "reality oriented", 
+        "id": "1", 
+        "question_id": "62"
+    }, 
+    {
+        "text": "focused on in-depth interpretation of unconscious dynamics", 
+        "id": "2", 
+        "question_id": "62"
+    }, 
+    {
+        "text": "con&ontive", 
+        "id": "3", 
+        "question_id": "62"
+    }, 
+    {
+        "text": "paradoxical instruction", 
+        "id": "4", 
+        "question_id": "59"
+    }, 
+    {
+        "text": "an empathic response", 
+        "id": "1", 
+        "question_id": "59"
+    }, 
+    {
+        "text": "denial", 
+        "id": "2", 
+        "question_id": "59"
+    }, 
+    {
+        "text": "double bind communication", 
+        "id": "3", 
+        "question_id": "59"
+    }, 
+    {
+        "text": "supportive behavior", 
+        "id": "4", 
+        "question_id": "63"
+    }, 
+    {
+        "text": "childhood trauma", 
+        "id": "1", 
+        "question_id": "63"
+    }, 
+    {
+        "text": "cullen.ally sanctioned religious experience", 
+        "id": "2", 
+        "question_id": "63"
+    }, 
+    {
+        "text": "hyperthyroidism", 
+        "id": "3", 
+        "question_id": "63"
+    }, 
+    {
+        "text": "hypochondria", 
+        "id": "4", 
+        "question_id": "64"
+    }, 
+    {
+        "text": "reality problem solving", 
+        "id": "1", 
+        "question_id": "64"
+    }, 
+    {
+        "text": "clarification and working through of double bind communication", 
+        "id": "2", 
+        "question_id": "64"
+    }, 
+    {
+        "text": "interpretation of delusional themes", 
+        "id": "3", 
+        "question_id": "64"
+    }, 
+    {
+        "text": "meeting the client's housing needs", 
+        "id": "4", 
+        "question_id": "66"
+    }, 
+    {
+        "text": "encourage conflict", 
+        "id": "1", 
+        "question_id": "66"
+    }, 
+    {
+        "text": "suppress conflict", 
+        "id": "2", 
+        "question_id": "66"
+    }, 
+    {
+        "text": "expect and accept conflict", 
+        "id": "3", 
+        "question_id": "66"
+    }, 
+    {
+        "text": "take a strong leadership position", 
+        "id": "4", 
+        "question_id": "65"
+    }, 
+    {
+        "text": "organic dementia", 
+        "id": "1", 
+        "question_id": "65"
+    }, 
+    {
+        "text": "panic disorder", 
+        "id": "2", 
+        "question_id": "65"
+    }, 
+    {
+        "text": "personality disorder", 
+        "id": "3", 
+        "question_id": "65"
+    }, 
+    {
+        "text": "bulimia nervosa", 
+        "id": "4", 
+        "question_id": "68"
+    }, 
+    {
+        "text": "ask her daughter to move out until she is clean and sober", 
+        "id": "1", 
+        "question_id": "68"
+    }, 
+    {
+        "text": "bring her daughter in to see you for therapy", 
+        "id": "2", 
+        "question_id": "68"
+    }, 
+    {
+        "text": "set clear and simple expectations about paying rent and acceptable behavior at the house", 
+        "id": "3", 
+        "question_id": "68"
+    }, 
+    {
+        "text": "explore her own contribution to the development of her daughter's dysfunctional behavior", 
+        "id": "4", 
+        "question_id": "69"
+    }, 
+    {
+        "text": "she has established sufficient autonomy in her relationship with her daughter", 
+        "id": "1", 
+        "question_id": "69"
+    }, 
+    {
+        "text": "the daughter is successfully engaged in her own treatment", 
+        "id": "2", 
+        "question_id": "69"
+    }, 
+    {
+        "text": "the psychodynamic source of her codependency has been resolved", 
+        "id": "3", 
+        "question_id": "69"
+    }, 
+    {
+        "text": "she says she feels ready to terminate", 
+        "id": "4", 
+        "question_id": "70"
+    }, 
+    {
+        "text": "report to children's protective services immediately", 
+        "id": "1", 
+        "question_id": "70"
+    }, 
+    {
+        "text": "report to children's protective services if you have a reasonable suspicion of child abuse", 
+        "id": "2", 
+        "question_id": "70"
+    }, 
+    {
+        "text": "call children's protective services to see whether or not a previous report has been filed", 
+        "id": "3", 
+        "question_id": "70"
+    }, 
+    {
+        "text": "report to children's protective services only if you have clear evidence of child abuse", 
+        "id": "4", 
+        "question_id": "67"
+    }, 
+    {
+        "text": "help Mrs. Roth understand the nature of codependency", 
+        "id": "1", 
+        "question_id": "67"
+    }, 
+    {
+        "text": "encourage Mrs. Roth to speak about herself, not Lisa", 
+        "id": "2", 
+        "question_id": "67"
+    }, 
+    {
+        "text": "educate Mrs. Roth about the symptoms of chemical dependency", 
+        "id": "3", 
+        "question_id": "67"
+    }, 
+    {
+        "text": "observe Mrs. Roth's way of understanding and handling the problem", 
+        "id": "4", 
+        "question_id": "71"
+    }, 
+    {
+        "text": "infer the meaning, motives, or causes of an issue or event", 
+        "id": "1", 
+        "question_id": "71"
+    }, 
+    {
+        "text": "make the client aware of inconsistencies", 
+        "id": "2", 
+        "question_id": "71"
+    }, 
+    {
+        "text": "challenge the client to engage in more socially constructive behavior", 
+        "id": "3", 
+        "question_id": "71"
+    }, 
+    {
+        "text": "recognize that you will be unable to provide support", 
+        "id": "4", 
+        "question_id": "72"
+    }, 
+    {
+        "text": "unless the MFT has religious convictions regarding homosexuality", 
+        "id": "1", 
+        "question_id": "72"
+    }, 
+    {
+        "text": "unless homosexuality is unacceptable within the MFT's ethnic culture", 
+        "id": "2", 
+        "question_id": "72"
+    }, 
+    {
+        "text": "unless the MFT has had inadequate training in how to work with homosexual clients", 
+        "id": "3", 
+        "question_id": "72"
+    }, 
+    {
+        "text": "regardless of the MFT's religion, ethnic culture or prior training", 
+        "id": "4", 
+        "question_id": "73"
+    }, 
+    {
+        "text": "3 months", 
+        "id": "1", 
+        "question_id": "73"
+    }, 
+    {
+        "text": "6 months", 
+        "id": "2", 
+        "question_id": "73"
+    }, 
+    {
+        "text": "9 months", 
+        "id": "3", 
+        "question_id": "73"
+    }, 
+    {
+        "text": "one year", 
+        "id": "4", 
+        "question_id": "74"
+    }, 
+    {
+        "text": "licensed MFT, in order for you to provide qualifying supervision to this Intern you must...", 
+        "id": "1", 
+        "question_id": "74"
+    }, 
+    {
+        "text": "offer suggestions, but not direction of the Intern's work", 
+        "id": "1", 
+        "question_id": "74"
+    }, 
+    {
+        "text": "assume responsibility and control of the quality of marriage and family therapy services provided by the Intern", 
+        "id": "2", 
+        "question_id": "74"
+    }, 
+    {
+        "text": "be available to support the quality of the Intern's work, but only upon her request", 
+        "id": "3", 
+        "question_id": "74"
+    }, 
+    {
+        "text": "be employed by the Intern or by a third party agency which employs both you and the Intern", 
+        "id": "4", 
+        "question_id": "75"
+    }, 
+    {
+        "text": "change in one member will affect other members", 
+        "id": "1", 
+        "question_id": "75"
+    }, 
+    {
+        "text": "change in the system as a whole will affect each member", 
+        "id": "2", 
+        "question_id": "75"
+    }, 
+    {
+        "text": "change is constant", 
+        "id": "3", 
+        "question_id": "75"
+    }, 
+    {
+        "text": "the participants need to be free of social control", 
+        "id": "4", 
+        "question_id": "76"
+    }, 
+    {
+        "text": "cohesion", 
+        "id": "1", 
+        "question_id": "76"
+    }, 
+    {
+        "text": "open airing of conflict and crisis", 
+        "id": "2", 
+        "question_id": "76"
+    }, 
+    {
+        "text": "a fluid dominance hierarchy", 
+        "id": "3", 
+        "question_id": "76"
+    }, 
+    {
+        "text": "clarity and consensus of purpose", 
+        "id": "4", 
+        "question_id": "77"
+    }, 
+    {
+        "text": "undifferentiated self-concept", 
+        "id": "1", 
+        "question_id": "77"
+    }, 
+    {
+        "text": "overwhelmed by guilt for the offense", 
+        "id": "2", 
+        "question_id": "77"
+    }, 
+    {
+        "text": "androgynous sex role self-image", 
+        "id": "3", 
+        "question_id": "77"
+    }, 
+    {
+        "text": "family blames victim", 
+        "id": "4", 
+        "question_id": "78"
+    }, 
+    {
+        "text": "hyperventilation", 
+        "id": "1", 
+        "question_id": "78"
+    }, 
+    {
+        "text": "psychomotor agitation", 
+        "id": "2", 
+        "question_id": "78"
+    }, 
+    {
+        "text": "psychomotor retardation", 
+        "id": "3", 
+        "question_id": "78"
+    }, 
+    {
+        "text": "anhedonia", 
+        "id": "4", 
+        "question_id": "79"
+    }, 
+    {
+        "text": "modeling", 
+        "id": "1", 
+        "question_id": "79"
+    }, 
+    {
+        "text": "interpretation", 
+        "id": "2", 
+        "question_id": "79"
+    }, 
+    {
+        "text": "communication", 
+        "id": "3", 
+        "question_id": "79"
+    }, 
+    {
+        "text": "introj ection", 
+        "id": "4", 
+        "question_id": "80"
+    }, 
+    {
+        "text": "be determined by the client", 
+        "id": "1", 
+        "question_id": "80"
+    }, 
+    {
+        "text": "reflect the problem, person and situational aspects of a case", 
+        "id": "2", 
+        "question_id": "80"
+    }, 
+    {
+        "text": "address the client's need to improve self-esteem", 
+        "id": "3", 
+        "question_id": "80"
+    }, 
+    {
+        "text": "contain at least five objectives", 
+        "id": "4", 
+        "question_id": "82"
+    }, 
+    {
+        "text": "provoke defensiveness", 
+        "id": "1", 
+        "question_id": "82"
+    }, 
+    {
+        "text": "elicit valid and reliable information", 
+        "id": "2", 
+        "question_id": "82"
+    }, 
+    {
+        "text": "express the interviewer's countertransferences", 
+        "id": "3", 
+        "question_id": "82"
+    }, 
+    {
+        "text": "focus the client's attention on underlying affect", 
+        "id": "4", 
+        "question_id": "83"
+    }, 
+    {
+        "text": "leading questions", 
+        "id": "1", 
+        "question_id": "83"
+    }, 
+    {
+        "text": "multiple questions in a single sentence", 
+        "id": "2", 
+        "question_id": "83"
+    }, 
+    {
+        "text": "honest and open labeling of your suspicions", 
+        "id": "3", 
+        "question_id": "83"
+    }, 
+    {
+        "text": "open ended questions", 
+        "id": "4", 
+        "question_id": "84"
+    }, 
+    {
+        "text": "his primary sexual orientation is to agemates", 
+        "id": "1", 
+        "question_id": "84"
+    }, 
+    {
+        "text": "a precipitating stress probably caused his paraphilia", 
+        "id": "2", 
+        "question_id": "84"
+    }, 
+    {
+        "text": "his pedophilic interests emerged after adolescence", 
+        "id": "3", 
+        "question_id": "84"
+    }, 
+    {
+        "text": "he uses primitive defense mechanisms when sexually aroused", 
+        "id": "4", 
+        "question_id": "85"
+    }, 
+    {
+        "text": "mood disorder", 
+        "id": "1", 
+        "question_id": "85"
+    }, 
+    {
+        "text": "personality disorder", 
+        "id": "2", 
+        "question_id": "85"
+    }, 
+    {
+        "text": "delusional disorder", 
+        "id": "3", 
+        "question_id": "85"
+    }, 
+    {
+        "text": "Munchausen's syndrome", 
+        "id": "4", 
+        "question_id": "86"
+    }, 
+    {
+        "text": "the specific intended use of the information", 
+        "id": "1", 
+        "question_id": "86"
+    }, 
+    {
+        "text": "the credentials of the person making the request", 
+        "id": "2", 
+        "question_id": "86"
+    }, 
+    {
+        "text": "by what date the information must be received", 
+        "id": "3", 
+        "question_id": "86"
+    }, 
+    {
+        "text": "that the information will be protected under HIPAA regulations", 
+        "id": "4", 
+        "question_id": "89"
+    }, 
+    {
+        "text": "a good asset to your agency's board of directors. When you contact the chair of the board to make your suggestion you...", 
+        "id": "25", 
+        "question_id": "89"
+    }, 
+    {
+        "text": "may not reveal the information about Mrs. Kahn's citation", 
+        "id": "1", 
+        "question_id": "89"
+    }, 
+    {
+        "text": "may reveal the information because she is not your client and did not present the information to you in confidence", 
+        "id": "2", 
+        "question_id": "89"
+    }, 
+    {
+        "text": "may reveal the information because it is favorable and not derogatory to the client", 
+        "id": "3", 
+        "question_id": "89"
+    }, 
+    {
+        "text": "may reveal the information, but only after contacting the client for her permission", 
+        "id": "4", 
+        "question_id": "90"
+    }, 
+    {
+        "text": "a flight of ideas", 
+        "id": "1", 
+        "question_id": "90"
+    }, 
+    {
+        "text": "delusional thinking", 
+        "id": "2", 
+        "question_id": "90"
+    }, 
+    {
+        "text": "illogical thinking", 
+        "id": "3", 
+        "question_id": "90"
+    }, 
+    {
+        "text": "ideas of reference", 
+        "id": "4", 
+        "question_id": "88"
+    }, 
+    {
+        "text": "thought blocking", 
+        "id": "1", 
+        "question_id": "88"
+    }, 
+    {
+        "text": "depression", 
+        "id": "2", 
+        "question_id": "88"
+    }, 
+    {
+        "text": "obsessiveness and/or compulsiveness", 
+        "id": "3", 
+        "question_id": "88"
+    }, 
+    {
+        "text": "low self-esteem", 
+        "id": "4", 
+        "question_id": "92"
+    }, 
+    {
+        "text": "a delusion", 
+        "id": "1", 
+        "question_id": "92"
+    }, 
+    {
+        "text": "an hallucination", 
+        "id": "2", 
+        "question_id": "92"
+    }, 
+    {
+        "text": "an illusion", 
+        "id": "3", 
+        "question_id": "92"
+    }, 
+    {
+        "text": "ideas of reference", 
+        "id": "4", 
+        "question_id": "93"
+    }, 
+    {
+        "text": "physically abused", 
+        "id": "1", 
+        "question_id": "93"
+    }, 
+    {
+        "text": "neglected", 
+        "id": "2", 
+        "question_id": "93"
+    }, 
+    {
+        "text": "sexually abused", 
+        "id": "3", 
+        "question_id": "93"
+    }, 
+    {
+        "text": "exposed to lead", 
+        "id": "4", 
+        "question_id": "94"
+    }, 
+    {
+        "text": "has good insight into unconscious motivations", 
+        "id": "1", 
+        "question_id": "94"
+    }, 
+    {
+        "text": "is able to vary the degree of intimacy and distance in a relationship", 
+        "id": "2", 
+        "question_id": "94"
+    }, 
+    {
+        "text": "is able to tolerate frustration when goal attainment is blocked", 
+        "id": "3", 
+        "question_id": "94"
+    }, 
+    {
+        "text": "is socially active with many friends", 
+        "id": "4", 
+        "question_id": "91"
+    }, 
+    {
+        "text": "circumstantial thinking", 
+        "id": "1", 
+        "question_id": "91"
+    }, 
+    {
+        "text": "delusional thinking", 
+        "id": "2", 
+        "question_id": "91"
+    }, 
+    {
+        "text": "thought blocking", 
+        "id": "3", 
+        "question_id": "91"
+    }, 
+    {
+        "text": "hallucinatory thinking", 
+        "id": "4", 
+        "question_id": "96"
+    }, 
+    {
+        "text": "every time he does his chores", 
+        "id": "1", 
+        "question_id": "96"
+    }, 
+    {
+        "text": "every fifth time he does his chores", 
+        "id": "2", 
+        "question_id": "96"
+    }, 
+    {
+        "text": "once a week", 
+        "id": "3", 
+        "question_id": "96"
+    }, 
+    {
+        "text": "occasionally at varying intervals when he does his chores", 
+        "id": "4", 
+        "question_id": "97"
+    }, 
+    {
+        "text": "enhancing client motivation", 
+        "id": "1", 
+        "question_id": "97"
+    }, 
+    {
+        "text": "client engagement", 
+        "id": "2", 
+        "question_id": "97"
+    }, 
+    {
+        "text": "crisis intervention", 
+        "id": "3", 
+        "question_id": "97"
+    }, 
+    {
+        "text": "goal attainment scaling", 
+        "id": "4", 
+        "question_id": "98"
+    }, 
+    {
+        "text": "treatment planning", 
+        "id": "1", 
+        "question_id": "98"
+    }, 
+    {
+        "text": "intervention", 
+        "id": "2", 
+        "question_id": "98"
+    }, 
+    {
+        "text": "the middle phase", 
+        "id": "3", 
+        "question_id": "98"
+    }, 
+    {
+        "text": "termination", 
+        "id": "4", 
+        "question_id": "95"
+    }, 
+    {
+        "text": "an adolescent reporting a depersonalization experience", 
+        "id": "1", 
+        "question_id": "95"
+    }, 
+    {
+        "text": "a psychotic adult", 
+        "id": "2", 
+        "question_id": "95"
+    }, 
+    {
+        "text": "a demented elder", 
+        "id": "3", 
+        "question_id": "95"
+    }, 
+    {
+        "text": "a confabulating elder", 
+        "id": "4", 
+        "question_id": "99"
+    }, 
+    {
+        "text": "during engagement", 
+        "id": "1", 
+        "question_id": "99"
+    }, 
+    {
+        "text": "during the assessment", 
+        "id": "2", 
+        "question_id": "99"
+    }, 
+    {
+        "text": "during the middle phase following development of a treatment plan", 
+        "id": "3", 
+        "question_id": "99"
+    }, 
+    {
+        "text": "once insight is achieved", 
+        "id": "4", 
+        "question_id": "101"
+    }, 
+    {
+        "text": "a transference if the mother was, in fact, authoritarian and harsh", 
+        "id": "1", 
+        "question_id": "101"
+    }, 
+    {
+        "text": "a displacement if the mother was, in fact, authoritarian and harsh", 
+        "id": "2", 
+        "question_id": "101"
+    }, 
+    {
+        "text": "a projection, if the mother was not authoritarian and harsh", 
+        "id": "3", 
+        "question_id": "101"
+    }, 
+    {
+        "text": "an illusion", 
+        "id": "4", 
+        "question_id": "100"
+    }, 
+    {
+        "text": "set short term goals within a specified time frame", 
+        "id": "1", 
+        "question_id": "100"
+    }, 
+    {
+        "text": "use self-revelation", 
+        "id": "2", 
+        "question_id": "100"
+    }, 
+    {
+        "text": "use role play", 
+        "id": "3", 
+        "question_id": "100"
+    }, 
+    {
+        "text": "assure the client of your dependability", 
+        "id": "4", 
+        "question_id": "103"
+    }, 
+    {
+        "text": "help the client see that guilt can be healthy", 
+        "id": "1", 
+        "question_id": "103"
+    }, 
+    {
+        "text": "encourage the client to return the money", 
+        "id": "2", 
+        "question_id": "103"
+    }, 
+    {
+        "text": "universalize the experience to provide reassurance", 
+        "id": "3", 
+        "question_id": "103"
+    }, 
+    {
+        "text": "listen non-judgmentally, allowing ventilation", 
+        "id": "4", 
+        "question_id": "104"
+    }, 
+    {
+        "text": "is documented and signed by a third party", 
+        "id": "1", 
+        "question_id": "104"
+    }, 
+    {
+        "text": "addresses mutual role expectations", 
+        "id": "2", 
+        "question_id": "104"
+    }, 
+    {
+        "text": "rules out suicidal behavior", 
+        "id": "3", 
+        "question_id": "104"
+    }, 
+    {
+        "text": "is written by the client", 
+        "id": "4", 
+        "question_id": "106"
+    }, 
+    {
+        "text": "may reveal any participating family member's confidences with any other participating family member", 
+        "id": "1", 
+        "question_id": "106"
+    }, 
+    {
+        "text": "may not reveal any participating family member's confidences unless all family members have agreed to a \"no secrets\" policy", 
+        "id": "2", 
+        "question_id": "106"
+    }, 
+    {
+        "text": "may not reveal any participating family member's confidences with any other participating family member without the prior written permission of that \nindividual", 
+        "id": "3", 
+        "question_id": "106"
+    }, 
+    {
+        "text": "may reveal confidences among all participants in the identified \"client system\" if it serves a therapeutic purpose", 
+        "id": "4", 
+        "question_id": "105"
+    }, 
+    {
+        "text": "the parental coalition", 
+        "id": "1", 
+        "question_id": "105"
+    }, 
+    {
+        "text": "the sibling coalition", 
+        "id": "2", 
+        "question_id": "105"
+    }, 
+    {
+        "text": "the dominant parent", 
+        "id": "3", 
+        "question_id": "105"
+    }, 
+    {
+        "text": "no individual or subgroup...all members would have equal power", 
+        "id": "4", 
+        "question_id": "107"
+    }, 
+    {
+        "text": "a physician is included in the team", 
+        "id": "1", 
+        "question_id": "107"
+    }, 
+    {
+        "text": "the team is multidisciplinary", 
+        "id": "2", 
+        "question_id": "107"
+    }, 
+    {
+        "text": "the team members each represent a well funded agency", 
+        "id": "3", 
+        "question_id": "107"
+    }, 
+    {
+        "text": "the differentiated roles are coordinated", 
+        "id": "4", 
+        "question_id": "108"
+    }, 
+    {
+        "text": "clarification", 
+        "id": "1", 
+        "question_id": "108"
+    }, 
+    {
+        "text": "ventilation", 
+        "id": "2", 
+        "question_id": "108"
+    }, 
+    {
+        "text": "behavioral rehearsal d, psychodynamic insight", 
+        "id": "3", 
+        "question_id": "110"
+    }, 
+    {
+        "text": "possessing matter depicting a minor engaged in obscene acts", 
+        "id": "1", 
+        "question_id": "110"
+    }, 
+    {
+        "text": "employing a minor to perform obscene acts", 
+        "id": "2", 
+        "question_id": "110"
+    }, 
+    {
+        "text": "distributing matter depicting a minor engaged in obscene acts", 
+        "id": "3", 
+        "question_id": "110"
+    }, 
+    {
+        "text": "when a person with custody of a child permits the child to engage in prostitution", 
+        "id": "4", 
+        "question_id": "109"
+    }, 
+    {
+        "text": "during the evening hours", 
+        "id": "1", 
+        "question_id": "109"
+    }, 
+    {
+        "text": "under stress", 
+        "id": "2", 
+        "question_id": "109"
+    }, 
+    {
+        "text": "when suicidal", 
+        "id": "3", 
+        "question_id": "109"
+    }, 
+    {
+        "text": "under no circumstances", 
+        "id": "4", 
+        "question_id": "111"
+    }, 
+    {
+        "text": "obsessions", 
+        "id": "1", 
+        "question_id": "111"
+    }, 
+    {
+        "text": "compulsions", 
+        "id": "2", 
+        "question_id": "111"
+    }, 
+    {
+        "text": "both obsessions and compulsions", 
+        "id": "3", 
+        "question_id": "111"
+    }, 
+    {
+        "text": "neither obsessions nor compulsions", 
+        "id": "4", 
+        "question_id": "112"
+    }, 
+    {
+        "text": "in a crisis situation when their own ability to deal with a problem is inadequate due to exceptional anxiety and pain", 
+        "id": "1", 
+        "question_id": "112"
+    }, 
+    {
+        "text": "when it is advice about selecting ends (goals), not only advice about the means to an end", 
+        "id": "2", 
+        "question_id": "112"
+    }, 
+    {
+        "text": "when they have a well-founded confidence in you as the advice giver", 
+        "id": "3", 
+        "question_id": "112"
+    }, 
+    {
+        "text": "their cultural conditioning is such that they tend to depend on others for advice", 
+        "id": "4", 
+        "question_id": "114"
+    }, 
+    {
+        "text": "verbal messages without nonverbal messages", 
+        "id": "1", 
+        "question_id": "114"
+    }, 
+    {
+        "text": "repetition", 
+        "id": "2", 
+        "question_id": "114"
+    }, 
+    {
+        "text": "emphasis", 
+        "id": "3", 
+        "question_id": "114"
+    }, 
+    {
+        "text": "use of feedback to test comprehension", 
+        "id": "4", 
+        "question_id": "113"
+    }, 
+    {
+        "text": "group size should determine composition", 
+        "id": "1", 
+        "question_id": "113"
+    }, 
+    {
+        "text": "group structure should determine composition", 
+        "id": "2", 
+        "question_id": "113"
+    }, 
+    {
+        "text": "group composition should determine structure", 
+        "id": "3", 
+        "question_id": "113"
+    }, 
+    {
+        "text": "group purpose should determine structure", 
+        "id": "4", 
+        "question_id": "115"
+    }, 
+    {
+        "text": "you may share client information freely if the colleague is a licensed professional bound by ethical standards regarding maintaining confidentiality", 
+        "id": "1", 
+        "question_id": "115"
+    }, 
+    {
+        "text": "you may share client information freely if the colleague is a licensed marriage and family therapist", 
+        "id": "2", 
+        "question_id": "115"
+    }, 
+    {
+        "text": "you may only share personally identifiable information with the prior written consent of the client", 
+        "id": "3", 
+        "question_id": "115"
+    }, 
+    {
+        "text": "you may only share personally identifiable information if the client consents in writing and is present at the time of the consultation", 
+        "id": "4", 
+        "question_id": "117"
+    }, 
+    {
+        "text": "may not give gifts to clients", 
+        "id": "1", 
+        "question_id": "117"
+    }, 
+    {
+        "text": "may not give gifts that impair the integrity of the therapeutic relationship", 
+        "id": "2", 
+        "question_id": "117"
+    }, 
+    {
+        "text": "may give any gift that is not of substantial value", 
+        "id": "3", 
+        "question_id": "117"
+    }, 
+    {
+        "text": "may give a gift of substantial value only if it constitutes a fair exchange with a gift of similar value &om the client", 
+        "id": "4", 
+        "question_id": "118"
+    }, 
+    {
+        "text": "the situation with which he is struggling has an attainable solution", 
+        "id": "1", 
+        "question_id": "118"
+    }, 
+    {
+        "text": "he is not responsible for having a problem", 
+        "id": "2", 
+        "question_id": "118"
+    }, 
+    {
+        "text": "with help, the problem will be resolved", 
+        "id": "3", 
+        "question_id": "118"
+    }, 
+    {
+        "text": "he has the capacity to resolve the problem without help", 
+        "id": "4", 
+        "question_id": "116"
+    }, 
+    {
+        "text": "an agreement on the next step in the therapeutic process", 
+        "id": "1", 
+        "question_id": "116"
+    }, 
+    {
+        "text": "a mutual way of defining the presenting problem", 
+        "id": "2", 
+        "question_id": "116"
+    }, 
+    {
+        "text": "a selection of treatment modalities", 
+        "id": "3", 
+        "question_id": "116"
+    }, 
+    {
+        "text": "a preliminary agreement regarding role relationships", 
+        "id": "4", 
+        "question_id": "120"
+    }, 
+    {
+        "text": "is prohibited until the therapy relationship has first terminated", 
+        "id": "1", 
+        "question_id": "120"
+    }, 
+    {
+        "text": "is prohibited with former clients", 
+        "id": "2", 
+        "question_id": "120"
+    }, 
+    {
+        "text": "is prohibited with former clients for one year following termination of therapy or the last professional contact", 
+        "id": "3", 
+        "question_id": "120"
+    }, 
+    {
+        "text": "prohibited with former clients for two years following termination of therapy or the last professional contact", 
+        "id": "4", 
+        "question_id": "121"
+    }, 
+    {
+        "text": "ambiguity about norms and covert communications", 
+        "id": "1", 
+        "question_id": "121"
+    }, 
+    {
+        "text": "homeostasis", 
+        "id": "2", 
+        "question_id": "121"
+    }, 
+    {
+        "text": "a dominant parental coalition", 
+        "id": "3", 
+        "question_id": "121"
+    }, 
+    {
+        "text": "social control", 
+        "id": "4", 
+        "question_id": "122"
+    }, 
+    {
+        "text": "enmeshment", 
+        "id": "1", 
+        "question_id": "122"
+    }, 
+    {
+        "text": "disengagement", 
+        "id": "2", 
+        "question_id": "122"
+    }, 
+    {
+        "text": "inflexible structure", 
+        "id": "3", 
+        "question_id": "122"
+    }, 
+    {
+        "text": "factitious communication", 
+        "id": "4", 
+        "question_id": "119"
+    }, 
+    {
+        "text": "a survivor of childhood sexual assault or exploitation", 
+        "id": "1", 
+        "question_id": "119"
+    }, 
+    {
+        "text": "responding to the inherent intimacy of the therapeutic relationship", 
+        "id": "2", 
+        "question_id": "119"
+    }, 
+    {
+        "text": "being deceptive", 
+        "id": "3", 
+        "question_id": "119"
+    }, 
+    {
+        "text": "responding to a seductive manipulation by the prior therapist", 
+        "id": "4", 
+        "question_id": "123"
+    }, 
+    {
+        "text": "neglect of a child in out of home care", 
+        "id": "1", 
+        "question_id": "123"
+    }, 
+    {
+        "text": "non-accidental infliction of physical injury", 
+        "id": "2", 
+        "question_id": "123"
+    }, 
+    {
+        "text": "unjustifiable corporal punishment", 
+        "id": "3", 
+        "question_id": "123"
+    }, 
+    {
+        "text": "mutual assaults between minors", 
+        "id": "4", 
+        "question_id": "125"
+    }, 
+    {
+        "text": "six sessions are sufficient to resolve most of their current clients' problems", 
+        "id": "1", 
+        "question_id": "125"
+    }, 
+    {
+        "text": "the greatest gains in therapy occur during early sessions after which there is a point of diminishing retiuns", 
+        "id": "2", 
+        "question_id": "125"
+    }, 
+    {
+        "text": "most current clients have probably already achieved their goals and objectives", 
+        "id": "3", 
+        "question_id": "125"
+    }, 
+    {
+        "text": "counseling and psychotherapy are generally ineffective", 
+        "id": "4", 
+        "question_id": "126"
+    }, 
+    {
+        "text": "task oriented activity", 
+        "id": "1", 
+        "question_id": "126"
+    }, 
+    {
+        "text": "engaging social supports", 
+        "id": "2", 
+        "question_id": "126"
+    }, 
+    {
+        "text": "partializing the problem", 
+        "id": "3", 
+        "question_id": "126"
+    }, 
+    {
+        "text": "somatiz ation", 
+        "id": "4", 
+        "question_id": "124"
+    }, 
+    {
+        "text": "a recommendation as to which staff member at the other agency can best meet the client's needs", 
+        "id": "1", 
+        "question_id": "124"
+    }, 
+    {
+        "text": "ambivalence about using the referral", 
+        "id": "2", 
+        "question_id": "124"
+    }, 
+    {
+        "text": "how the referral is related to the client's problem and purpose", 
+        "id": "3", 
+        "question_id": "124"
+    }, 
+    {
+        "text": "potential benefits of using the agency's services", 
+        "id": "4", 
+        "question_id": "127"
+    }, 
+    {
+        "text": "share only client identifiable information that is needed to achieve the purposes of the consultation if the client has consented in writing", 
+        "id": "1", 
+        "question_id": "127"
+    }, 
+    {
+        "text": "share only client identifiable information that is needed to achieve the purposes of the consultation if the client has consented verbally or in writing", 
+        "id": "2", 
+        "question_id": "127"
+    }, 
+    {
+        "text": "share whatever client identifiable information is needed for your colleague to understand the nature of the client's case", 
+        "id": "3", 
+        "question_id": "127"
+    }, 
+    {
+        "text": "share whatever client identifiable information the client has authorized you to provide", 
+        "id": "4", 
+        "question_id": "128"
+    }, 
+    {
+        "text": "help the client separate his experience of the present stressful event &om his experience of prior crises", 
+        "id": "1", 
+        "question_id": "128"
+    }, 
+    {
+        "text": "use the crisis intervention approach as a way of engaging the client in longer term therapy", 
+        "id": "2", 
+        "question_id": "128"
+    }, 
+    {
+        "text": "explore how the present experience of stabilizing and resolving a crisis state may help in coping with future crises", 
+        "id": "3", 
+        "question_id": "128"
+    }, 
+    {
+        "text": "see what can be learned &om past coping mechanisms", 
+        "id": "2", 
+        "question_id": "129"
+    }, 
+    {
+        "text": "good candidate for brief therapy because successful engagement in a brief therapy depends on...", 
+        "id": "1", 
+        "question_id": "129"
+    }, 
+    {
+        "text": "being free of ambivalence about using psychotherapy", 
+        "id": "1", 
+        "question_id": "129"
+    }, 
+    {
+        "text": "having multiple conflicts or problem areas to focus on", 
+        "id": "2", 
+        "question_id": "129"
+    }, 
+    {
+        "text": "having ego strength to tolerate rapid involvement and loss", 
+        "id": "3", 
+        "question_id": "129"
+    }, 
+    {
+        "text": "being &ee of ego defenses", 
+        "id": "4", 
+        "question_id": "130"
+    }, 
+    {
+        "text": "the client consents", 
+        "id": "1", 
+        "question_id": "130"
+    }, 
+    {
+        "text": "care is taken to determine the information's validity", 
+        "id": "2", 
+        "question_id": "130"
+    }, 
+    {
+        "text": "the client was instructed earlier about the limits to confidentiality", 
+        "id": "3", 
+        "question_id": "130"
+    }, 
+    {
+        "text": "the client has a serious and persistent mental illness", 
+        "id": "4", 
+        "question_id": "131"
+    }, 
+    {
+        "text": "the pursuit of his own goals", 
+        "id": "1", 
+        "question_id": "131"
+    }, 
+    {
+        "text": "insight", 
+        "id": "2", 
+        "question_id": "131"
+    }, 
+    {
+        "text": "the therapist's techniques", 
+        "id": "3", 
+        "question_id": "131"
+    }, 
+    {
+        "text": "the therapist's authority", 
+        "id": "4", 
+        "question_id": "132"
+    }, 
+    {
+        "text": "you may enter into this business relationship, but only after confirming that the client has actually engaged with another therapist", 
+        "id": "1", 
+        "question_id": "132"
+    }, 
+    {
+        "text": "you may not enter into this business relationship", 
+        "id": "2", 
+        "question_id": "132"
+    }, 
+    {
+        "text": "you may not enter into this business relationship if you believe the client's request represents a resistance", 
+        "id": "3", 
+        "question_id": "132"
+    }, 
+    {
+        "text": "you should enter into this business relationship if you believe it would be mutually beneficial and if you believe it would foster the client's therapy goals", 
+        "id": "4", 
+        "question_id": "133"
+    }, 
+    {
+        "text": "the payment is based on the nature of the referral", 
+        "id": "1", 
+        "question_id": "133"
+    }, 
+    {
+        "text": "the payment is based on both consultative services received &om the referring person and on the nature of the referral", 
+        "id": "2", 
+        "question_id": "133"
+    }, 
+    {
+        "text": "the payment is based on consultative services received &om the referring person but not on the nature of the referral", 
+        "id": "3", 
+        "question_id": "133"
+    }, 
+    {
+        "text": "the payment should not be made at all; no payment of any kind may be made to a person who has referred a client to you.", 
+        "id": "4", 
+        "question_id": "135"
+    }, 
+    {
+        "text": "loss of hope and emotional exhaustion", 
+        "id": "1", 
+        "question_id": "135"
+    }, 
+    {
+        "text": "affective numbing", 
+        "id": "2", 
+        "question_id": "135"
+    }, 
+    {
+        "text": "denial", 
+        "id": "3", 
+        "question_id": "135"
+    }, 
+    {
+        "text": "reduction of suicide risk following the initial stage turmoil", 
+        "id": "4", 
+        "question_id": "136"
+    }, 
+    {
+        "text": "schizotypal symptoms", 
+        "id": "1", 
+        "question_id": "136"
+    }, 
+    {
+        "text": "panic symptoms", 
+        "id": "2", 
+        "question_id": "136"
+    }, 
+    {
+        "text": "depression symptoms", 
+        "id": "3", 
+        "question_id": "136"
+    }, 
+    {
+        "text": "manic symptoms", 
+        "id": "4", 
+        "question_id": "134"
+    }, 
+    {
+        "text": "constitutes a dual relationship and should therefore not be made", 
+        "id": "1", 
+        "question_id": "134"
+    }, 
+    {
+        "text": "may be made only if a written agreement clarifies the nature of the exchange", 
+        "id": "2", 
+        "question_id": "134"
+    }, 
+    {
+        "text": "may be made only if an independent third party confirms the comparable worth of the barter exchange", 
+        "id": "3", 
+        "question_id": "134"
+    }, 
+    {
+        "text": "is non-taxable and should therefore not be made", 
+        "id": "4", 
+        "question_id": "137"
+    }, 
+    {
+        "text": "is based on Rankian Personality Theory", 
+        "id": "1", 
+        "question_id": "137"
+    }, 
+    {
+        "text": "is affiliated with the Methodist Church, but non-sectarian in its approach and membership", 
+        "id": "2", 
+        "question_id": "137"
+    }, 
+    {
+        "text": "charges dues according to a sliding scale with no fee charged to those who cannot afford payment", 
+        "id": "3", 
+        "question_id": "137"
+    }, 
+    {
+        "text": "has a primary purpose of achieving sobriety and staying sober", 
+        "id": "4", 
+        "question_id": "138"
+    }, 
+    {
+        "text": "a desire to stop using cocaine", 
+        "id": "1", 
+        "question_id": "138"
+    }, 
+    {
+        "text": "abstinence &om using cocaine while engaged in the program", 
+        "id": "2", 
+        "question_id": "138"
+    }, 
+    {
+        "text": "belief in a higher power", 
+        "id": "3", 
+        "question_id": "138"
+    }, 
+    {
+        "text": "being introduced by a sponsor who is already a member", 
+        "id": "4", 
+        "question_id": "140"
+    }, 
+    {
+        "text": "a married woman works outside the home", 
+        "id": "1", 
+        "question_id": "140"
+    }, 
+    {
+        "text": "the father relates in a warm and playful manner with the children", 
+        "id": "2", 
+        "question_id": "140"
+    }, 
+    {
+        "text": "unrelated godparents serve a parental role", 
+        "id": "3", 
+        "question_id": "140"
+    }, 
+    {
+        "text": "children establish a closer relationship with their mother than with their father", 
+        "id": "4", 
+        "question_id": "139"
+    }, 
+    {
+        "text": "panic disorder", 
+        "id": "1", 
+        "question_id": "139"
+    }, 
+    {
+        "text": "schizophrenia", 
+        "id": "2", 
+        "question_id": "139"
+    }, 
+    {
+        "text": "bereavement", 
+        "id": "3", 
+        "question_id": "139"
+    }, 
+    {
+        "text": "specific phobia", 
+        "id": "4", 
+        "question_id": "141"
+    }, 
+    {
+        "text": "has the purpose of protecting against pain following physical injury", 
+        "id": "1", 
+        "question_id": "141"
+    }, 
+    {
+        "text": "involves a feeling of detachment or estrangement from others", 
+        "id": "2", 
+        "question_id": "141"
+    }, 
+    {
+        "text": "means that she has learned to use a cognitive therapy technique involving mind over matter", 
+        "id": "3", 
+        "question_id": "141"
+    }, 
+    {
+        "text": "is due to substance use", 
+        "id": "4", 
+        "question_id": "142"
+    }, 
+    {
+        "text": "is associated with abusive or exploitive acting out", 
+        "id": "1", 
+        "question_id": "142"
+    }, 
+    {
+        "text": "is discordant with the content of a person's speech or ideation", 
+        "id": "2", 
+        "question_id": "142"
+    }, 
+    {
+        "text": "reflects an exaggerated or histrionic response to a minor stressor", 
+        "id": "3", 
+        "question_id": "142"
+    }, 
+    {
+        "text": "is inconsistent with a person's ethnic culture", 
+        "id": "4", 
+        "question_id": "143"
+    }, 
+    {
+        "text": "a course of action", 
+        "id": "1", 
+        "question_id": "143"
+    }, 
+    {
+        "text": "the outcome of her actions", 
+        "id": "2", 
+        "question_id": "143"
+    }, 
+    {
+        "text": "the outcome of her own psychotherapy", 
+        "id": "3", 
+        "question_id": "143"
+    }, 
+    {
+        "text": "the therapist's level of genuineness", 
+        "id": "4", 
+        "question_id": "144"
+    }, 
+    {
+        "text": "malingering", 
+        "id": "1", 
+        "question_id": "144"
+    }, 
+    {
+        "text": "factitious disorder", 
+        "id": "2", 
+        "question_id": "144"
+    }, 
+    {
+        "text": "lying", 
+        "id": "3", 
+        "question_id": "144"
+    }, 
+    {
+        "text": "confabulation", 
+        "id": "4", 
+        "question_id": "145"
+    }, 
+    {
+        "text": "an hallucination", 
+        "id": "1", 
+        "question_id": "145"
+    }, 
+    {
+        "text": "a delusion", 
+        "id": "2", 
+        "question_id": "145"
+    }, 
+    {
+        "text": "an illusion", 
+        "id": "3", 
+        "question_id": "145"
+    }, 
+    {
+        "text": "an idea of reference", 
+        "id": "4", 
+        "question_id": "146"
+    }, 
+    {
+        "text": "become more prominent with age", 
+        "id": "1", 
+        "question_id": "146"
+    }, 
+    {
+        "text": "become less prominent with age", 
+        "id": "2", 
+        "question_id": "146"
+    }, 
+    {
+        "text": "remain stable over the course of his or her life", 
+        "id": "3", 
+        "question_id": "146"
+    }, 
+    {
+        "text": "become more functional under stress", 
+        "id": "4", 
+        "question_id": "147"
+    }, 
+    {
+        "text": "recurrent use resulting in a failure to fulfill major role obligations", 
+        "id": "1", 
+        "question_id": "147"
+    }, 
+    {
+        "text": "compulsive use pattern", 
+        "id": "2", 
+        "question_id": "147"
+    }, 
+    {
+        "text": "recurrent substance related legal problems", 
+        "id": "3", 
+        "question_id": "147"
+    }, 
+    {
+        "text": "recurrent use in hazardous situations", 
+        "id": "4", 
+        "question_id": "148"
+    }, 
+    {
+        "text": "illegal under all circumstances", 
+        "id": "1", 
+        "question_id": "148"
+    }, 
+    {
+        "text": "illegal if it is considered cruel or inhuman", 
+        "id": "2", 
+        "question_id": "148"
+    }, 
+    {
+        "text": "legal if the child's caretaker deems it to be in the child's best interest", 
+        "id": "3", 
+        "question_id": "148"
+    }, 
+    {
+        "text": "legal under all circumstances when done by a child's parent", 
+        "id": "4", 
+        "question_id": "149"
+    }, 
+    {
+        "text": "language that they understand, that in the healthy infant the object concept develops during the developmental stage when a child is dealing with the conflict between...", 
+        "id": "1", 
+        "question_id": "149"
+    }, 
+    {
+        "text": "trust vs. mistrust", 
+        "id": "1", 
+        "question_id": "149"
+    }, 
+    {
+        "text": "autonomy vs. shame and doubt", 
+        "id": "2", 
+        "question_id": "149"
+    }, 
+    {
+        "text": "initiative vs. guilt", 
+        "id": "3", 
+        "question_id": "149"
+    }, 
+    {
+        "text": "industry vs. inferiority", 
+        "id": "4", 
+        "question_id": "150"
+    }, 
+    {
+        "text": "pay the fee only if your colleague has made the client aware of the payment", 
+        "id": "1", 
+        "question_id": "150"
+    }, 
+    {
+        "text": "pay the fee only if you have made the client aware of the payment", 
+        "id": "2", 
+        "question_id": "150"
+    }, 
+    {
+        "text": "not agree to pay the fee, but give the client the option of paying the fee on your behalf", 
+        "id": "3", 
+        "question_id": "150"
+    }, 
+    {
+        "text": "not agree to pay the fee, and not ask the client to pay the fee on your behalf BKRKEI.H'. TRAINING ASSOCIATES \ufffd Z009", 
+        "id": "4", 
+        "question_id": "151"
+    }, 
+    {
+        "text": "contact your supervisor's superior in order to see if the supervisor's decision can", 
+        "id": "1", 
+        "question_id": "151"
+    }, 
+    {
+        "text": "overruled", 
+        "id": "25", 
+        "question_id": "151"
+    }, 
+    {
+        "text": "make the report", 
+        "id": "2", 
+        "question_id": "151"
+    }, 
+    {
+        "text": "refrain &om making the report and take no further action unless directed to do so", 
+        "id": "3", 
+        "question_id": "151"
+    }, 
+    {
+        "text": "gather additional information so that you can provide your supervisor with a stronger case to back up your suspicion, thereby gaining the supervisor's \npermission to make the report", 
+        "id": "4", 
+        "question_id": "152"
+    }, 
+    {
+        "text": "handle their conflicts between themselves on a one to one basis outside of team meetings", 
+        "id": "1", 
+        "question_id": "152"
+    }, 
+    {
+        "text": "take their conflicts with other team members to their supervisor so that each individual can find resolutions that will benefit all team members", 
+        "id": "2", 
+        "question_id": "152"
+    }, 
+    {
+        "text": "air their conflicts and differences during team meetings so that they can work out resolutions as a group", 
+        "id": "3", 
+        "question_id": "152"
+    }, 
+    {
+        "text": "suppress their conflicts so that they do not interfere with work", 
+        "id": "4", 
+        "question_id": "153"
+    }, 
+    {
+        "text": "review the supervisee's case documentation and process notes", 
+        "id": "1", 
+        "question_id": "153"
+    }, 
+    {
+        "text": "interview clients without the supervisee present to inquire about their satisfaction with the supervisee's services", 
+        "id": "2", 
+        "question_id": "153"
+    }, 
+    {
+        "text": "directly observe occasional sessions by sitting in with the client and supervisee", 
+        "id": "3", 
+        "question_id": "153"
+    }, 
+    {
+        "text": "review the supervisee's case documentation and progress notes, and directly observe occasional sessions by sitting in with the client and supervisee", 
+        "id": "4", 
+        "question_id": "154"
+    }, 
+    {
+        "text": "within 25 10 of the customary fee charge by MFT's in the local community", 
+        "id": "1", 
+        "question_id": "154"
+    }, 
+    {
+        "text": "disclosed to the client or prospective client prior to the commencement of treatment", 
+        "id": "2", 
+        "question_id": "154"
+    }, 
+    {
+        "text": "reflective of your level of experience", 
+        "id": "3", 
+        "question_id": "154"
+    }, 
+    {
+        "text": "posted at your private practice office", 
+        "id": "4", 
+        "question_id": "155"
+    }, 
+    {
+        "text": "unconscious preoccupation with traumatic events in the individual's early life", 
+        "id": "1", 
+        "question_id": "155"
+    }, 
+    {
+        "text": "unfortimate circumstances such as loss of a loved one, family conflict or job loss", 
+        "id": "2", 
+        "question_id": "155"
+    }, 
+    {
+        "text": "violation of sacred community norms", 
+        "id": "3", 
+        "question_id": "155"
+    }, 
+    {
+        "text": "physiological dysfunction", 
+        "id": "4", 
+        "question_id": "156"
+    }, 
+    {
+        "text": "only if the MFT has previously informed the client of this right", 
+        "id": "1", 
+        "question_id": "156"
+    }, 
+    {
+        "text": "only when the services received fi.om the MFT constitute applied psychotherapy of a non-medical nature", 
+        "id": "2", 
+        "question_id": "156"
+    }, 
+    {
+        "text": "under all circumstances except when a mandated report supercedes the privilege", 
+        "id": "3", 
+        "question_id": "156"
+    }, 
+    {
+        "text": "for all information communicated to the marriage and family therapist with the exception of identifying information and diagnosis", 
+        "id": "4", 
+        "question_id": "157"
+    }, 
+    {
+        "text": "consider your client to be Bee of mental health problems because this symptom pattern is specific to a particular culture", 
+        "id": "1", 
+        "question_id": "157"
+    }, 
+    {
+        "text": "consider your client to have a mental health problem", 
+        "id": "2", 
+        "question_id": "157"
+    }, 
+    {
+        "text": "respectfully help your client understand that soul loss is not the cause of his symptoms", 
+        "id": "3", 
+        "question_id": "157"
+    }, 
+    {
+        "text": "deny this client access to services designed for the mentally ill", 
+        "id": "4", 
+        "question_id": "159"
+    }, 
+    {
+        "text": "diagnosis", 
+        "id": "1", 
+        "question_id": "159"
+    }, 
+    {
+        "text": "motivations", 
+        "id": "2", 
+        "question_id": "159"
+    }, 
+    {
+        "text": "social status", 
+        "id": "3", 
+        "question_id": "159"
+    }, 
+    {
+        "text": "preferences", 
+        "id": "4", 
+        "question_id": "160"
+    }, 
+    {
+        "text": "the cultinal reference groups as experienced by your client", 
+        "id": "1", 
+        "question_id": "160"
+    }, 
+    {
+        "text": "your client's racial heritage", 
+        "id": "2", 
+        "question_id": "160"
+    }, 
+    {
+        "text": "your client's language abilities and preference", 
+        "id": "3", 
+        "question_id": "160"
+    }, 
+    {
+        "text": "your client's current degree of involvement with one or another cultural community", 
+        "id": "4", 
+        "question_id": "161"
+    }, 
+    {
+        "text": "socialization", 
+        "id": "1", 
+        "question_id": "161"
+    }, 
+    {
+        "text": "goal orientation", 
+        "id": "2", 
+        "question_id": "161"
+    }, 
+    {
+        "text": "norm enforcement", 
+        "id": "3", 
+        "question_id": "161"
+    }, 
+    {
+        "text": "group adaptation", 
+        "id": "4", 
+        "question_id": "158"
+    }, 
+    {
+        "text": "the patient", 
+        "id": "1", 
+        "question_id": "158"
+    }, 
+    {
+        "text": "the psychotherapist", 
+        "id": "2", 
+        "question_id": "158"
+    }, 
+    {
+        "text": "the personal representative of a deceased patient", 
+        "id": "3", 
+        "question_id": "158"
+    }, 
+    {
+        "text": "a patient's conservator", 
+        "id": "4", 
+        "question_id": "162"
+    }, 
+    {
+        "text": "the services of the psychotherapist were sought to enable anyone to commit a crime", 
+        "id": "1", 
+        "question_id": "162"
+    }, 
+    {
+        "text": "the patient dies", 
+        "id": "2", 
+        "question_id": "162"
+    }, 
+    {
+        "text": "the communications were regarding individuals other than the patient", 
+        "id": "3", 
+        "question_id": "162"
+    }, 
+    {
+        "text": "the psychotherapist believes that disclosure will be in the patient's best interest", 
+        "id": "4", 
+        "question_id": "164"
+    }, 
+    {
+        "text": "family structure", 
+        "id": "1", 
+        "question_id": "164"
+    }, 
+    {
+        "text": "habits and character traits", 
+        "id": "2", 
+        "question_id": "164"
+    }, 
+    {
+        "text": "goal orientations", 
+        "id": "3", 
+        "question_id": "164"
+    }, 
+    {
+        "text": "entropy", 
+        "id": "4", 
+        "question_id": "165"
+    }, 
+    {
+        "text": "pre-group orientation", 
+        "id": "1", 
+        "question_id": "165"
+    }, 
+    {
+        "text": "exploring and testing", 
+        "id": "2", 
+        "question_id": "165"
+    }, 
+    {
+        "text": "cohesiveness", 
+        "id": "3", 
+        "question_id": "165"
+    }, 
+    {
+        "text": "problem solving", 
+        "id": "4", 
+        "question_id": "163"
+    }, 
+    {
+        "text": "make members aware of the importance of the group", 
+        "id": "1", 
+        "question_id": "163"
+    }, 
+    {
+        "text": "encourage members to communicate through the therapist rather than through chaotic direct communications with one another", 
+        "id": "2", 
+        "question_id": "163"
+    }, 
+    {
+        "text": "promote norms of courtesy and self-containment", 
+        "id": "3", 
+        "question_id": "163"
+    }, 
+    {
+        "text": "select natural group leaders from among those with the greatest leadership potential", 
+        "id": "4", 
+        "question_id": "166"
+    }, 
+    {
+        "text": "forming", 
+        "id": "1", 
+        "question_id": "166"
+    }, 
+    {
+        "text": "storming {the early phase of exploring and testing)", 
+        "id": "2", 
+        "question_id": "166"
+    }, 
+    {
+        "text": "norming {the later phase of exploration and testing)", 
+        "id": "3", 
+        "question_id": "166"
+    }, 
+    {
+        "text": "performing {problem solving)", 
+        "id": "4", 
+        "question_id": "167"
+    }, 
+    {
+        "text": "s cap ego ating", 
+        "id": "1", 
+        "question_id": "167"
+    }, 
+    {
+        "text": "communication gaps", 
+        "id": "2", 
+        "question_id": "167"
+    }, 
+    {
+        "text": "lack of stimulation", 
+        "id": "3", 
+        "question_id": "167"
+    }, 
+    {
+        "text": "value conflicts", 
+        "id": "4", 
+        "question_id": "169"
+    }, 
+    {
+        "text": "agree to accept the client's goal", 
+        "id": "1", 
+        "question_id": "169"
+    }, 
+    {
+        "text": "insist on your own goal, since it is based on your comprehensive assessment of the client's needs", 
+        "id": "2", 
+        "question_id": "169"
+    }, 
+    {
+        "text": "negotiate a common goal, recognizing how developing self-acceptance and self- esteem are ways of becoming more attractive to women", 
+        "id": "3", 
+        "question_id": "169"
+    }, 
+    {
+        "text": "terminate due to irreconcilable differences, but refer the client to another therapist who might be able to genuinely accept his goal", 
+        "id": "4", 
+        "question_id": "168"
+    }, 
+    {
+        "text": "Psychoanalytic Psychotherapy", 
+        "id": "1", 
+        "question_id": "168"
+    }, 
+    {
+        "text": "the Crisis Intervention approach", 
+        "id": "2", 
+        "question_id": "168"
+    }, 
+    {
+        "text": "a behavioral approach", 
+        "id": "3", 
+        "question_id": "168"
+    }, 
+    {
+        "text": "Gestalt Therapy", 
+        "id": "4", 
+        "question_id": "171"
+    }, 
+    {
+        "text": "open ended questions...clarification...interpretation", 
+        "id": "1", 
+        "question_id": "171"
+    }, 
+    {
+        "text": "reassurance...con&ontation...advice", 
+        "id": "2", 
+        "question_id": "171"
+    }, 
+    {
+        "text": "closed ended questions...interpretation...confrontation", 
+        "id": "3", 
+        "question_id": "171"
+    }, 
+    {
+        "text": "engagement...intervention...assessment", 
+        "id": "4", 
+        "question_id": "172"
+    }, 
+    {
+        "text": "dysthymia", 
+        "id": "1", 
+        "question_id": "172"
+    }, 
+    {
+        "text": "major depressive disorder", 
+        "id": "2", 
+        "question_id": "172"
+    }, 
+    {
+        "text": "adjustment disorder with depressed mood", 
+        "id": "3", 
+        "question_id": "172"
+    }, 
+    {
+        "text": "mood disorder due to a general medical condition", 
+        "id": "4", 
+        "question_id": "173"
+    }, 
+    {
+        "text": "persistent desire", 
+        "id": "1", 
+        "question_id": "173"
+    }, 
+    {
+        "text": "withdrawal", 
+        "id": "2", 
+        "question_id": "173"
+    }, 
+    {
+        "text": "tolerance", 
+        "id": "3", 
+        "question_id": "173"
+    }, 
+    {
+        "text": "substance induced disorder", 
+        "id": "4", 
+        "question_id": "170"
+    }, 
+    {
+        "text": "least likely as a contributing cause?", 
+        "id": "25", 
+        "question_id": "170"
+    }, 
+    {
+        "text": "loss of impulse control due to noncompliance with his medication regimen", 
+        "id": "1", 
+        "question_id": "170"
+    }, 
+    {
+        "text": "loss of impulse control due to substance abuse", 
+        "id": "2", 
+        "question_id": "170"
+    }, 
+    {
+        "text": "the client might have been sexually assaulted", 
+        "id": "3", 
+        "question_id": "170"
+    }, 
+    {
+        "text": "mood disorder with psychotic symptoms", 
+        "id": "4", 
+        "question_id": "174"
+    }, 
+    {
+        "text": "tolerance and withdrawal", 
+        "id": "1", 
+        "question_id": "174"
+    }, 
+    {
+        "text": "persistent desire to use the drug", 
+        "id": "2", 
+        "question_id": "174"
+    }, 
+    {
+        "text": "recurrent use of a drug despite having medical problems which result &om the use of the drug", 
+        "id": "3", 
+        "question_id": "174"
+    }, 
+    {
+        "text": "use of the drug during morning hours", 
+        "id": "4", 
+        "question_id": "175"
+    }, 
+    {
+        "text": "may formulate the diagnosis if you find that the client substantially meets criteria in the DSM manual", 
+        "id": "1", 
+        "question_id": "175"
+    }, 
+    {
+        "text": "may formulate the diagnosis because diagnosis of mental disorders is within a marriage and family therapist's scope of practice", 
+        "id": "2", 
+        "question_id": "175"
+    }, 
+    {
+        "text": "may not formulate the diagnosis unless your diagnosis is corroborated by another mental health professional", 
+        "id": "3", 
+        "question_id": "175"
+    }, 
+    {
+        "text": "may not formulate the diagnosis until you have become competent to do so", 
+        "id": "4", 
+        "question_id": "176"
+    }, 
+    {
+        "text": "direct experience of the authentic self", 
+        "id": "1", 
+        "question_id": "176"
+    }, 
+    {
+        "text": "cognitive grasp of problem solving alternatives", 
+        "id": "2", 
+        "question_id": "176"
+    }, 
+    {
+        "text": "conscious understanding of previously unconscious motives and conflicts", 
+        "id": "3", 
+        "question_id": "176"
+    }, 
+    {
+        "text": "assertive expression of deeper emotions in relationships with others", 
+        "id": "4", 
+        "question_id": "177"
+    }, 
+    {
+        "text": "role play and in vivo practice of peak experience skills", 
+        "id": "1", 
+        "question_id": "177"
+    }, 
+    {
+        "text": "maintaining a daily log of spiritual and other peak experiences, and rating their degree of intensity", 
+        "id": "2", 
+        "question_id": "177"
+    }, 
+    {
+        "text": "clarification, interpretation and explanation of the circumstances giving rise to peak experience", 
+        "id": "3", 
+        "question_id": "177"
+    }, 
+    {
+        "text": "guided imagery and use of symbolic art work", 
+        "id": "4", 
+        "question_id": "178"
+    }, 
+    {
+        "text": "false identifications", 
+        "id": "1", 
+        "question_id": "178"
+    }, 
+    {
+        "text": "development of the Fair Witness", 
+        "id": "2", 
+        "question_id": "178"
+    }, 
+    {
+        "text": "the transpersonal Self", 
+        "id": "3", 
+        "question_id": "178"
+    }, 
+    {
+        "text": "the authentic self", 
+        "id": "4", 
+        "question_id": "180"
+    }, 
+    {
+        "text": "set a fee greater than the true value of your service", 
+        "id": "1", 
+        "question_id": "180"
+    }, 
+    {
+        "text": "accept prospective payment in advance of futine sessions", 
+        "id": "2", 
+        "question_id": "180"
+    }, 
+    {
+        "text": "fail to post a rate schedule in a clearly visible manner at the location where services are rendered", 
+        "id": "3", 
+        "question_id": "180"
+    }, 
+    {
+        "text": "first chsclose your fee after the commencement of treatment rather than before", 
+        "id": "4", 
+        "question_id": "181"
+    }, 
+    {
+        "text": "be aimed at resolving symptoms of a diagnosable mental disorder", 
+        "id": "1", 
+        "question_id": "181"
+    }, 
+    {
+        "text": "involve more than one individual as the client", 
+        "id": "2", 
+        "question_id": "181"
+    }, 
+    {
+        "text": "be based on a distinct theoretical orientation", 
+        "id": "3", 
+        "question_id": "181"
+    }, 
+    {
+        "text": "be performed with individuals, couples, or groups for the purpose of achieving more adequate, satisfying, and productive marriage and family adjustments", 
+        "id": "4", 
+        "question_id": "179"
+    }, 
+    {
+        "text": "failed to obtain informed consent", 
+        "id": "1", 
+        "question_id": "179"
+    }, 
+    {
+        "text": "violated the separation of church and state", 
+        "id": "2", 
+        "question_id": "179"
+    }, 
+    {
+        "text": "violated your scope of competence", 
+        "id": "3", 
+        "question_id": "179"
+    }, 
+    {
+        "text": "engaged in gross negligence", 
+        "id": "4", 
+        "question_id": "183"
+    }, 
+    {
+        "text": "notify your supervisor for approval to release this information", 
+        "id": "1", 
+        "question_id": "183"
+    }, 
+    {
+        "text": "obtain the client's permission to release this information, explaining that by warning his wife you will be protecting him from an act that will ultimately hurt \nhimself", 
+        "id": "2", 
+        "question_id": "183"
+    }, 
+    {
+        "text": "speak with the wife to confirm whether or not she has decided to divorce him, in order to determine whether or not his story is accurate.....if she confirms the story, \nthen reveal the threat", 
+        "id": "3", 
+        "question_id": "183"
+    }, 
+    {
+        "text": "notify the police and the wife", 
+        "id": "4", 
+        "question_id": "184"
+    }, 
+    {
+        "text": "specific versus general", 
+        "id": "1", 
+        "question_id": "184"
+    }, 
+    {
+        "text": "variable versus fixed", 
+        "id": "2", 
+        "question_id": "184"
+    }, 
+    {
+        "text": "internal versus external", 
+        "id": "3", 
+        "question_id": "184"
+    }, 
+    {
+        "text": "isolated versus intimate", 
+        "id": "4", 
+        "question_id": "185"
+    }, 
+    {
+        "text": "ascertain the client's unmet need beyond the presenting problem", 
+        "id": "1", 
+        "question_id": "185"
+    }, 
+    {
+        "text": "determine the extent to which either insufficient motivation, capacity or opportunity are causing the client's coping problems", 
+        "id": "2", 
+        "question_id": "185"
+    }, 
+    {
+        "text": "set short term goals within a specified time limit in order to mobilize energy", 
+        "id": "3", 
+        "question_id": "185"
+    }, 
+    {
+        "text": "socialize the individual into the role of client", 
+        "id": "4", 
+        "question_id": "182"
+    }, 
+    {
+        "text": "may provide psychotherapy and refer her for psychotropic medications", 
+        "id": "1", 
+        "question_id": "182"
+    }, 
+    {
+        "text": "may not hold the parents liable for payment for the services unless they participate", 
+        "id": "2", 
+        "question_id": "182"
+    }, 
+    {
+        "text": "must include the minor's parent or guardian", 
+        "id": "3", 
+        "question_id": "182"
+    }, 
+    {
+        "text": "must honor the parent's or guardian's right to terminate treatment", 
+        "id": "4", 
+        "question_id": "187"
+    }, 
+    {
+        "text": "engage the client in behavioral contracting", 
+        "id": "1", 
+        "question_id": "187"
+    }, 
+    {
+        "text": "identify the precise maladaptive behaviors to be changed", 
+        "id": "2", 
+        "question_id": "187"
+    }, 
+    {
+        "text": "specify the desired adaptive behaviors to be acquired", 
+        "id": "3", 
+        "question_id": "187"
+    }, 
+    {
+        "text": "specify the learning procedures to be followed", 
+        "id": "4", 
+        "question_id": "188"
+    }, 
+    {
+        "text": "focus on using positive reinforcement", 
+        "id": "1", 
+        "question_id": "188"
+    }, 
+    {
+        "text": "suppress an anxiety response by eliciting a relaxation response in the presence of the anxiety provoking stimulus", 
+        "id": "2", 
+        "question_id": "188"
+    }, 
+    {
+        "text": "present stimuli that are associated with anxiety for long periods of time until they lose their capacity to evoke anxiety", 
+        "id": "3", 
+        "question_id": "188"
+    }, 
+    {
+        "text": "suppress a behavior by presenting an aversive stimulus", 
+        "id": "4", 
+        "question_id": "189"
+    }, 
+    {
+        "text": "may not use a collection agency because revealing your client's name to the agency would breach confidentiality", 
+        "id": "1", 
+        "question_id": "189"
+    }, 
+    {
+        "text": "may not use a collection agency because this is an adversarial act that would violate the integrity of the therapeutic alliance", 
+        "id": "2", 
+        "question_id": "189"
+    }, 
+    {
+        "text": "may use a collection agency if the client provides specific written consent to do so", 
+        "id": "3", 
+        "question_id": "189"
+    }, 
+    {
+        "text": "may use a collection agency if you have informed the client prior to entering the therapeutic relationship that this is among your payment practices", 
+        "id": "4", 
+        "question_id": "186"
+    }, 
+    {
+        "text": "identify a variety of threatening situations", 
+        "id": "1", 
+        "question_id": "186"
+    }, 
+    {
+        "text": "rate the intensity of the client's anxiety associated with a variety of threatening situations", 
+        "id": "2", 
+        "question_id": "186"
+    }, 
+    {
+        "text": "teach the client deep relaxation techniques", 
+        "id": "3", 
+        "question_id": "186"
+    }, 
+    {
+        "text": "explain behavioral analysis procedures to the client", 
+        "id": "4", 
+        "question_id": "191"
+    }, 
+    {
+        "text": "you may deny the client access to the clinical record only if therapy has been terminated", 
+        "id": "1", 
+        "question_id": "191"
+    }, 
+    {
+        "text": "you may deny the client access to the clinical record only if therapy has been terminated directly as a result of the failure to make payments", 
+        "id": "2", 
+        "question_id": "191"
+    }, 
+    {
+        "text": "you may not deny the client access to the clinical record if it is needed for treatment solely on the grounds of an unpaid bill", 
+        "id": "3", 
+        "question_id": "191"
+    }, 
+    {
+        "text": "you may deny the client access to the clinical record unless the request to see the record is for the purpose of confirming the amount owed", 
+        "id": "4", 
+        "question_id": "192"
+    }, 
+    {
+        "text": "cognitions lead to emotional responses", 
+        "id": "1", 
+        "question_id": "192"
+    }, 
+    {
+        "text": "emotions lead to cognitions", 
+        "id": "2", 
+        "question_id": "192"
+    }, 
+    {
+        "text": "behavioral inclinations lead to emotional responses", 
+        "id": "3", 
+        "question_id": "192"
+    }, 
+    {
+        "text": "behavioral inclinations lead to cognitions", 
+        "id": "4", 
+        "question_id": "193"
+    }, 
+    {
+        "text": "the individual engages in \"all or none\" thinking using rigid dichotomies", 
+        "id": "1", 
+        "question_id": "193"
+    }, 
+    {
+        "text": "the significance of the evidence is undervalued", 
+        "id": "2", 
+        "question_id": "193"
+    }, 
+    {
+        "text": "mental filters are used to draw a conclusion from a small, selected portion of the available information", 
+        "id": "3", 
+        "question_id": "193"
+    }, 
+    {
+        "text": "a person erroneously assumes responsibility for external problems where little or no responsibility exists", 
+        "id": "4", 
+        "question_id": "190"
+    }, 
+    {
+        "text": "narcissistic personality disorder", 
+        "id": "1", 
+        "question_id": "190"
+    }, 
+    {
+        "text": "narcissistic personality trait", 
+        "id": "2", 
+        "question_id": "190"
+    }, 
+    {
+        "text": "egocentrism", 
+        "id": "3", 
+        "question_id": "190"
+    }, 
+    {
+        "text": "perceptual dominance", 
+        "id": "4", 
+        "question_id": "196"
+    }, 
+    {
+        "text": "the client must be informed of potential risks of refusing treatment", 
+        "id": "1", 
+        "question_id": "196"
+    }, 
+    {
+        "text": "the client must be adequately informed of significant information concerning treatment processes and procedures", 
+        "id": "2", 
+        "question_id": "196"
+    }, 
+    {
+        "text": "the client must be age 18 or older", 
+        "id": "3", 
+        "question_id": "196"
+    }, 
+    {
+        "text": "all of the above", 
+        "id": "4", 
+        "question_id": "197"
+    }, 
+    {
+        "text": "be children", 
+        "id": "1", 
+        "question_id": "197"
+    }, 
+    {
+        "text": "be adults", 
+        "id": "2", 
+        "question_id": "197"
+    }, 
+    {
+        "text": "have a co-occurring diagnosis of mental retardation", 
+        "id": "3", 
+        "question_id": "197"
+    }, 
+    {
+        "text": "have a co-occurring diagnosis of autistic disorder", 
+        "id": "4", 
+        "question_id": "194"
+    }, 
+    {
+        "text": "explain that learned communication skills will be lost if the underlying ambivalence is not resolved", 
+        "id": "2", 
+        "question_id": "194"
+    }, 
+    {
+        "text": "ask the client to return for therapy after you have obtained training in communication skill development", 
+        "id": "3", 
+        "question_id": "194"
+    }, 
+    {
+        "text": "explain your understanding of the problem and recommendation but if the client persists in rejecting individual therapy, refer to a therapist who can provide the \nrequested service", 
+        "id": "4", 
+        "question_id": "200"
+    }, 
+    {
+        "text": "between ages 2 and 4", 
+        "id": "1", 
+        "question_id": "200"
+    }, 
+    {
+        "text": "between ages 6 and 7", 
+        "id": "2", 
+        "question_id": "200"
+    }, 
+    {
+        "text": "between ages 8 and 11", 
+        "id": "3", 
+        "question_id": "200"
+    }, 
+    {
+        "text": "between ages 12 and 18", 
+        "id": "4", 
+        "question_id": "198"
+    }, 
+    {
+        "text": "gradually expose the client to anxiety provoking situations", 
+        "id": "1", 
+        "question_id": "198"
+    }, 
+    {
+        "text": "teach relaxation techniques", 
+        "id": "2", 
+        "question_id": "198"
+    }, 
+    {
+        "text": "establish baseline anxiety levels in a variety of situations", 
+        "id": "3", 
+        "question_id": "198"
+    }
+]

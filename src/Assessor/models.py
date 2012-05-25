@@ -1,14 +1,19 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
-import json, random
+import json, random, hashlib
 
 class Question(models.Model):
+    hash = models.CharField(max_length=40, unique=True)
     text = models.TextField()
     
     def __unicode__(self):
         return (json.dumps({'id':self.pk,
+                            'hash': self.hash,
                             'text':self.text}, indent=4))
+    
+    def __hash_text__(self):
+        return hashlib.sha1(self.text).hexdigest()
             
 class Choice(models.Model):
     text = models.TextField()
