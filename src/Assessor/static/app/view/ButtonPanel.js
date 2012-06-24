@@ -8,11 +8,6 @@ Ext.define('Assessor.view.ButtonPanel', {
 		itemId: 'quizbuttongroup',
 		items: [{
 			xtype: 'button',
-			itemId: 'startbutton',
-			text: 'Start Quiz',
-			disabled: false
-		}, {
-			xtype: 'button',
 			itemId: 'prevbutton',
 			text: 'Previous Question',
 			disabled: true

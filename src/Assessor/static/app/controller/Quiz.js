@@ -1,27 +1,28 @@
 Ext.define('Assessor.controller.Quiz', {
-	extend: 'Ext.app.Controller',
-	itemId: 'quizcontroller',
-    models: ['Question', 'Choice'],
-    stores: ['Question', 'Choice'],
-    views: ['QuestionCard'],
+	extend : 'Ext.app.Controller',
+	itemId : 'quizcontroller',
+	models : ['Question', 'Choice'],
+	stores : ['Question', 'Choice'],
+	views : ['QuestionCard'],
 
-// Custom Functions
+	// Custom Functions
 	/**
 	 * update the buttons based on the state of the quiz cards
 	 */
-	updateButtons: function(){
+	updateButtons : function() {
 		var index = this.getCardIndex();
 		var nb = Ext.ComponentQuery.query('#nextbutton')[0];
 		var pb = Ext.ComponentQuery.query('#prevbutton')[0];
 		var fb = Ext.ComponentQuery.query('#finishbutton')[0];
-		if (index<Ext.getStore('Question').count()) {
+		console.debug("Index: ", index, " QuestCount: ", Ext.getStore('Question').count());
+		if (index < (Ext.getStore('Question').count() - 1)) {
 			nb.enable();
 			fb.disable();
 		} else {
 			nb.disable();
 			fb.enable();
 		};
-		if (index>1){
+		if (index > 0) {
 			pb.enable();
 		} else {
 			pb.disable();
@@ -30,38 +31,47 @@ Ext.define('Assessor.controller.Quiz', {
 	/**
 	 * get active question card index
 	 */
-	getCardIndex: function(){
+	getCardIndex : function() {
 		return (Ext.ComponentQuery.query('quizcards')[0].getLayout().activeItem.itemId.split('-')[1]);
 	},
 	/**
 	 * set active question card index
 	 */
-	setCardIndex: function(index){
-		Ext.ComponentQuery.query('quizcards')[0].getLayout().setActiveItem('questioncard-'+index);
+	setCardIndex : function (index) {
+		Ext.ComponentQuery.query('quizcards')[0].getLayout().setActiveItem('questioncard-' + index);
 	},
 	/**
 	 * start the quiz
 	 */
-	startQuiz: function(args) {
-		this.createQuestionCards();
-		var sb = Ext.ComponentQuery.query('#startbutton')[0];
-		sb.disable();
-		this.updateButtons();
+	startQuiz : function (args) {
+		// find number requested
+		var numQuestions = Ext.ComponentQuery.query('numberfield')[0].value;
+		// remove startCard
+		Ext.ComponentQuery.query('quizcards')[0].removeAll();
+		// load numQuestions records from store.Questions
+		Ext.getStore('Question').load({
+			scope: this,
+			params: {
+				limit: numQuestions
+			},
+			callback: function () {
+				this.createQuestionCards(numQuestions);
+				this.updateButtons();
+			}
+		});
 	},
 	/**
 	 * callback to create radiogroups with data from association store
 	 */
-	createRadioGroup: function(records, operation, success){
-		console.info('records: ', records);
-		console.info('records.length: ', records.length);
-	    if (success) {
-	    	for (var i=0; i<records.length; i++) {
-	    		console.info('question_id: ', records[i].data['question_id']);
-	    		var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
+	createRadioGroup : function(records, operation, success) {
+		if (success) {
+			for (var i = 0; i < records.length; i++) {
+				console.info('question_id: ', records[i].data['question_id']);
+				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
-					boxLabel: records[i].data['text'], 
-					name: 'rb', 
-					inputValue: records[i].data['id']
+					boxLabel : records[i].data['text'],
+					name : 'rb',
+					inputValue : records[i].data['id']
 				});
 				rg.add(bl);
 			};
@@ -70,30 +80,30 @@ Ext.define('Assessor.controller.Quiz', {
 	/**
 	 * create the UI cards with questions from server.
 	 */
-	createQuestionCards: function() {
+	createQuestionCards : function(numQuestions) {
 		var qs = Ext.getStore('Question');
 		var cs = Ext.getStore('Choice');
-		
-    	//create components
-		var qc =  Ext.ComponentQuery.query('quizcards')[0];
-		for (i=0; i<qs.count(); i++) {
+
+		//create components
+		var qc = Ext.ComponentQuery.query('quizcards')[0];
+		for ( i = 0; i < numQuestions; i++) {
 			var df = Ext.create('Ext.form.field.Display', {
-				itemId: 'questionfield-'+qs.getAt(i).data['id'],
-				name: 'questionfield-'+qs.getAt(i).data['id'],
-				fieldLabel: 'Question '+qs.getAt(i).data['id'],
-				value: qs.getAt(i).data['text']
+				itemId : 'questionfield-' + qs.getAt(i).data['id'],
+				name : 'questionfield-' + qs.getAt(i).data['id'],
+				fieldLabel : 'Question ' + qs.getAt(i).data['id'],
+				value : qs.getAt(i).data['text']
 			});
 			var rg = Ext.create('Ext.form.RadioGroup', {
-				itemId: 'choicegroup-'+qs.getAt(i).data['id'],
-				alias: 'widget.choicegroup-'+qs.getAt(i).data['id'],
-				columns: 1,
-				vertical: true
+				itemId : 'choicegroup-' + qs.getAt(i).data['id'],
+				alias : 'widget.choicegroup-' + qs.getAt(i).data['id'],
+				columns : 1,
+				vertical : true
 			});
 			var qs_cs = qs.getAt(i).getChoices();
 			qs_cs.load(this.createRadioGroup);
 			var card = Ext.create('Assessor.view.QuestionCard', {
-				itemId: 'questioncard-' + qs.getAt(i).data['id'],
-				items: [df, rg]
+				itemId : 'questioncard-' + i, // qs.getAt(i).data['id'], using hash as ID now.
+				items : [df, rg]
 			});
 			qc.add(card);
 		};
@@ -103,25 +113,29 @@ Ext.define('Assessor.controller.Quiz', {
 	 * finishQuiz -- finishes and scores the quiz
 	 * @param {Object} args
 	 */
-	finishQuiz: function(args) {
+	finishQuiz : function(args) {
 		var num_questions = Ext.ComponentQuery.query('quizcards')[0].items.length;
 		var num_correct = 0;
-		// loop through quiz cards 
-		for (i=0; i<num_questions; i++) {
+		// loop through quiz cards
+		for ( i = 0; i < num_questions; i++) {
 			//var card = Ext.ComponentQuery.query('quizcards')[0].items[i];
 			//get question id
 			var question_id = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).itemId.split('-')[1];
 			//get selected radiofield id
-			var selected_id = Ext.ComponentQuery.query('#choicegroup-'+question_id)[0].getValue()['rb'];
-			qs = Ext.getStore('Choice');
-			if (qs.getById(selected_id).data['is_correct']){
-				num_correct += 1;
+			try {
+				var selected_id = Ext.ComponentQuery.query('#choicegroup-'+question_id)[0].getValue()['rb'];
+				qs = Ext.getStore('Choice');
+				if (qs.getById(selected_id).data['is_correct']) {
+					num_correct += 1;
+				}
+			} catch (e) {
+				console.log(e);
 			}
 		}
-		console.log('Score: ', 100.0*num_correct/num_questions);
+		console.log('Score: ', 100.0 * num_correct / num_questions);
 	},
 	//
-	nextQuestion: function(args) {
+	nextQuestion : function(args) {
 		var cardlayout = Ext.ComponentQuery.query('quizcards')[0].getLayout();
 		var activeIndex = cardlayout.activeItem.itemId.split('-')[1];
 		if (activeIndex < Ext.getStore('Question').count()) {
@@ -131,7 +145,7 @@ Ext.define('Assessor.controller.Quiz', {
 		this.updateButtons();
 	},
 	//
-	prevQuestion: function(args) {
+	prevQuestion : function(args) {
 		var cardlayout = Ext.ComponentQuery.query('quizcards')[0].getLayout();
 		var activeIndex = cardlayout.activeItem.itemId.split('-')[1];
 		if (activeIndex > 0) {
@@ -140,20 +154,20 @@ Ext.define('Assessor.controller.Quiz', {
 		};
 		this.updateButtons();
 	},
- 	//
- 	init: function(){
- 		this.control({
-			'#nextbutton': {
-				click: this.nextQuestion
+	//
+	init : function() {
+		this.control({
+			'#nextbutton' : {
+				click : this.nextQuestion
 			},
-			'#prevbutton': {
-				click: this.prevQuestion
+			'#prevbutton' : {
+				click : this.prevQuestion
 			},
-			'#startbutton': {
-				click: this.startQuiz
+			'#startbutton' : {
+				click : this.startQuiz
 			},
-			'#finishbutton': {
-				click: this.finishQuiz
+			'#finishbutton' : {
+				click : this.finishQuiz
 			},
 		})
 	}

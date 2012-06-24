@@ -3,6 +3,7 @@ Ext.define('Assessor.model.Question', {
 	fields: [
 		{name: 'id', type: 'int'},
 		{name: 'text', type: 'string'},
+		{name: 'explanation', type: 'string'},
 		{name: 'resource_uri', type: 'string'}
 	],
 	hasMany: {

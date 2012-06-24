@@ -26,18 +26,20 @@ from tastypie.authentication import Authentication
 from tastypie.authorization import Authorization
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 #from extendedmodelresource import ExtendedModelResource
-from models import *
+from models import Question, Choice
 from django.contrib.auth.models import User
 
 class UserResource(ModelResource):
     class Meta:
+        allowed_methods = ['get']
         queryset = User.objects.all()
         resource_name = 'user'
 
 class QuestionResource(ModelResource):
     #choices = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
     class Meta:
-        queryset = Question.objects.all()
+        allowed_methods = ['get']
+        queryset = Question.objects.all().order_by('?')
         resource_name = 'question'
         filtering = {'id': ALL}
 
@@ -48,22 +50,8 @@ class QuestionResource(ModelResource):
 class ChoiceResource(ModelResource):
     question_id = fields.ToOneField('Assessor.api.QuestionResource', 'question', full='id', related_name='question')
     class Meta:
+        allowed_methods = ['get']
         queryset = Choice.objects.all()
         resource_name = 'choice'
         filtering = {'question_id': ALL_WITH_RELATIONS, 'id':ALL}
-
-class QuizResource(ModelResource):
-    #user = fields.ToOneField('Assessor.api.UserResource', 'user', full='id', related_name='user')
-    class Meta:
-        queryset = Quiz.objects.all()
-        resource_name = 'quiz'
-
-class QuizQuestionResource(ModelResource):
-    quiz_id = fields.ToOneField('Assessor.api.QuizResource', 'quiz', full='id', related_name='quiz')
-    question_id = fields.ToOneField('Assessor.api.QuestionResource', 'question', full='id', related_name='question')
-    
-    class Meta:
-        queryset = QuizQuestion.objects.all()
-        resource_name = 'quizquestion'
-
 

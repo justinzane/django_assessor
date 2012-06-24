@@ -1,23 +1,19 @@
 Ext.define('Assessor.view.Viewport', {
 	extend: 'Ext.container.Viewport',
 	requires: [
-		'Assessor.view.Header', 
+		'Assessor.view.Header',
 		'Assessor.view.Footer',
 		'Assessor.view.IndexPanel',
 		'Assessor.view.IndexMenu',
 		'Assessor.view.ButtonPanel',
 		'Assessor.view.QuizCards',
+		'Assessor.view.StartCard',
 		'Assessor.view.QuestionCard'],
 	layout: 'border',
 	padding: 5,
 	items: [{
 		xtype: 'headerpanel',
 		region: 'north'
-	}, {
-		xtype: 'indexpanel',
-		split: 'true',
-		width: 200,
-		region: 'west'
 	}, {
 		xtype: 'panel',
 		region: 'center',

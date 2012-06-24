@@ -4,5 +4,7 @@ Ext.define('Assessor.view.QuizCards', {
 	itemId: 'quizcards',
 	layout: 'card',
 	activeItem: 0,
-	items: []
+	items: [{
+		xtype: 'startcard'
+	}]
 })
