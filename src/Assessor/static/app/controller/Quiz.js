@@ -14,7 +14,7 @@ Ext.define('Assessor.controller.Quiz', {
 		var nb = Ext.ComponentQuery.query('#nextbutton')[0];
 		var pb = Ext.ComponentQuery.query('#prevbutton')[0];
 		var fb = Ext.ComponentQuery.query('#finishbutton')[0];
-		console.debug("Index: ", index, " QuestCount: ", Ext.getStore('Question').count());
+		//console.debug("Index: ", index, " QuestCount: ", Ext.getStore('Question').count());
 		if (index < (Ext.getStore('Question').count() - 1)) {
 			nb.enable();
 			fb.disable();
@@ -66,7 +66,7 @@ Ext.define('Assessor.controller.Quiz', {
 	createRadioGroup : function(records, operation, success) {
 		if (success) {
 			for (var i = 0; i < records.length; i++) {
-				console.info('question_id: ', records[i].data['question_id']);
+				//console.info('question_id: ', records[i].data['question_id']);
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
 					boxLabel : records[i].data['text'],
@@ -102,7 +102,8 @@ Ext.define('Assessor.controller.Quiz', {
 			var qs_cs = qs.getAt(i).getChoices();
 			qs_cs.load(this.createRadioGroup);
 			var card = Ext.create('Assessor.view.QuestionCard', {
-				itemId : 'questioncard-' + i, // qs.getAt(i).data['id'], using hash as ID now.
+				itemId : 'questioncard-' + i,
+				questionId : qs.getAt(i).data['id'],
 				items : [df, rg]
 			});
 			qc.add(card);
@@ -118,13 +119,13 @@ Ext.define('Assessor.controller.Quiz', {
 		var num_correct = 0;
 		// loop through quiz cards
 		for ( i = 0; i < num_questions; i++) {
-			//var card = Ext.ComponentQuery.query('quizcards')[0].items[i];
-			//get question id
-			var question_id = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).itemId.split('-')[1];
+			var questionId = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).questionId;
+			console.debug("questionId", questionId);
 			//get selected radiofield id
 			try {
-				var selected_id = Ext.ComponentQuery.query('#choicegroup-'+question_id)[0].getValue()['rb'];
+				var selected_id = Ext.ComponentQuery.query('#choicegroup-'+questionId)[0].getValue()['rb'];
 				qs = Ext.getStore('Choice');
+				console.debug(qs.getById(selected_id).data)
 				if (qs.getById(selected_id).data['is_correct']) {
 					num_correct += 1;
 				}
