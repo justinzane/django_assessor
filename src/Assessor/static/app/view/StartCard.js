@@ -2,24 +2,28 @@ Ext.define('Assessor.view.StartCard', {
 	extend: 'Ext.form.Panel',
 	alias: 'widget.startcard',
 	layout: 'anchor',
+	autoScroll: true,
 	items: [{
+		xtype: 'panel',
+		itemId: 'startpanel',
+		html: '<h2>The Assessor</h2>' + 
+		'<p>The Assessor is a practice exam for the California BBS ' +  
+		'Marriage and Family Therapy License Exam. The real exam consists of 200 ' + 
+		'questions. You may choose to try between 5 and 200. Pick how many you ' + 
+		'want and click the start button.</p>'
+	}, {
 		xtype: 'numberfield',
-		fieldLabel: 'Number of Questions',
+		fieldLabel: 'Num. Questions',
 		alias: 'widget.numQuestionsField',
 		name: 'numQuestions',
-		minValue: 10,
+		minValue: 5,
 		maxValue: 200,
-		value: 20,
+		value: 5,
 		step: 5
 	}, {
 		xtype: 'button',
 		itemId: 'startbutton',
 		text: 'Start Quiz',
 		disabled: false
-	}],
-	html: '<h2>The Assessor</h2>' + 
-		'<p>The Assessor is a practice exam for the California BBS ' +  
-		'Marriage and Family Therapy License Exam. The real exam consists of 200 ' + 
-		'questions. You may choose to try between 10 and 200. Pick how many you ' + 
-		'want and click the start button.</p>'
+	}]
 })

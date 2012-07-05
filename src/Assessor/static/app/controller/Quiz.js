@@ -1,9 +1,9 @@
 Ext.define('Assessor.controller.Quiz', {
 	extend : 'Ext.app.Controller',
 	itemId : 'quizcontroller',
-	models : ['Question', 'Choice'],
-	stores : ['Question', 'Choice'],
-	views : ['QuestionCard'],
+	models : ['Question', 'Choice', 'Explanation'],
+	stores : ['Question', 'Choice', 'Explanation'],
+	views : ['QuestionCard', 'ResultCard', 'ExplanationGrid'],
 
 	// Custom Functions
 	/**
@@ -14,7 +14,6 @@ Ext.define('Assessor.controller.Quiz', {
 		var nb = Ext.ComponentQuery.query('#nextbutton')[0];
 		var pb = Ext.ComponentQuery.query('#prevbutton')[0];
 		var fb = Ext.ComponentQuery.query('#finishbutton')[0];
-		//console.debug("Index: ", index, " QuestCount: ", Ext.getStore('Question').count());
 		if (index < (Ext.getStore('Question').count() - 1)) {
 			nb.enable();
 			fb.disable();
@@ -66,7 +65,6 @@ Ext.define('Assessor.controller.Quiz', {
 	createRadioGroup : function(records, operation, success) {
 		if (success) {
 			for (var i = 0; i < records.length; i++) {
-				//console.info('question_id: ', records[i].data['question_id']);
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
 					boxLabel : records[i].data['text'],
@@ -115,25 +113,48 @@ Ext.define('Assessor.controller.Quiz', {
 	 * @param {Object} args
 	 */
 	finishQuiz : function(args) {
+		var cs = Ext.getStore('Choice');
+		var es = Ext.getStore('Explanation');
+		var qs = Ext.getStore('Question');
+		// Empty Explanation store/model/proxy.
+		es.model.proxy.clear();
+		var scoreContent = '';
 		var num_questions = Ext.ComponentQuery.query('quizcards')[0].items.length;
 		var num_correct = 0;
 		// loop through quiz cards
 		for ( i = 0; i < num_questions; i++) {
 			var questionId = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).questionId;
-			console.debug("questionId", questionId);
 			//get selected radiofield id
 			try {
 				var selected_id = Ext.ComponentQuery.query('#choicegroup-'+questionId)[0].getValue()['rb'];
-				qs = Ext.getStore('Choice');
-				console.debug(qs.getById(selected_id).data)
-				if (qs.getById(selected_id).data['is_correct']) {
+				if (cs.getById(selected_id).data['is_correct']) {
 					num_correct += 1;
+				} else {
+					var exp = Ext.create('Assessor.model.Explanation', {
+						question: qs.getById(questionId).data['text'],
+						choice: cs.getById(selected_id).data['text'],
+						explanation: qs.getById(questionId).data['explanation']
+					});
+					exp.save();
+					es.add(exp);
 				}
 			} catch (e) {
 				console.log(e);
 			}
 		}
-		console.log('Score: ', 100.0 * num_correct / num_questions);
+		var pctScore = 100.0 * num_correct / num_questions;
+		scoreContent += '<p>Your score was ' + pctScore + '%. ';
+		if (pctScore>=70.0) {
+			scoreContent += 'Congratulations, you passed!</p>';
+		} else {
+			scoreContent += 'BBS requires at least a 70%, keep studying.</p>';
+		}
+		Ext.ComponentQuery.query('quizcards')[0].removeAll();
+		// make sure the grid has data
+		es.load()
+		rc = Ext.create('Assessor.view.ResultCard', {});
+		Ext.ComponentQuery.query('#resultpanel')[0].html = '<h2>Your Results</h2>' + scoreContent
+		Ext.ComponentQuery.query('quizcards')[0].add(rc);
 	},
 	//
 	nextQuestion : function(args) {

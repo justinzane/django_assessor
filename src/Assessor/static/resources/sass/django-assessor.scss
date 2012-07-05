@@ -3,20 +3,29 @@
 $include-default: false;
 
 // Insert your custom variables here.
-$base-color: #7f572f;
-$base-gradient: 'glossy' !default;
-$font-family: 'DejaVu Sans';
-$font-size: 1.0em; 
+$base-color: #bf3fff;
+$base-gradient: 'flat' !default;
+$font-family: 'Open Sans';
+$condensed-font-family: 'Open Sans Condensed';
+$font-size: 16px; 
 
-$form-field-font-family: 'Anka/Coder Condensed';
 $form-field-background-color: #cfcfcf;
 $form-field-color: #00002f;
-$form-label-font-family: 'Anka/Coder Condensed';
+$form-field-font-family: $font-family;
 $form-label-background-color: #1f1f1f;
 $form-label-color: #dfdfff;
+$form-label-font-family: $condensed-font-family;
+$form-radio-background-color: #efdfbf;
+$form-radio-color: #00002f;
+$fieldset-header-line-height: 20px;
+$fieldset-header-font-family: $font-family !default;
 
 $panel-body-background-color: #ffefdf;
+$panel-header-font-family: $font-family !default;
 
+$button-small-font-family: $condensed-font-family !default;
+$button-medium-font-family: $condensed-font-family !default;
+$button-large-font-family: $condensed-font-family !default;
 
 
 //---------------------------------------------------------
@@ -51,10 +60,3 @@ $panel-body-background-color: #ffefdf;
 @include extjs-tree;
 @include extjs-drawcomponent;
 @include extjs-viewport;
-
-// This line changes the location of your images when creating UIs to be relative instead of within the ExtJS directory.
-// You MUST set this to true/string value if you are creating new UIs + supporting legacy browsers.
-// This only applies to new UIs. It does not apply to default component images (i.e. when changing $base-color)
-// The value can either be true, in which case the image path will be "../images/"
-// or a string, of where the path is
-$relative-image-path-for-uis: true; // defaults to "../images/" when true

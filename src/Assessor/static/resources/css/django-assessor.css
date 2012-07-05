@@ -205,8 +205,8 @@ input, textarea, select {
 /* line 1, ../../extjs/resources/themes/stylesheets/ext4/default/core/_core.scss */
 .x-body {
   color: black;
-  font-size: 1em;
-  font-family: "DejaVu Sans";
+  font-size: 16px;
+  font-family: "Open Sans";
 }
 
 /* line 7, ../../extjs/resources/themes/stylesheets/ext4/default/core/_core.scss */
@@ -605,9 +605,9 @@ tr.x-container:before {
   left: 0;
   padding: 2px;
   border: 1px solid;
-  border-color: #64411e;
+  border-color: #b013ff;
   background-image: none;
-  background-color: #9d6b39;
+  background-color: #cc67ff;
 }
 /* line 40, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_loadmask.scss */
 .x-mask-msg div {
@@ -616,10 +616,10 @@ tr.x-container:before {
   background-repeat: no-repeat;
   background-position: 5px center;
   cursor: wait;
-  border: 1px solid #523f2b;
+  border: 1px solid #ad1fee;
   background-color: #eeeeee;
   color: #222222;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
 }
 
 /**
@@ -652,7 +652,7 @@ tr.x-container:before {
   padding-left: 20px;
   white-space: nowrap;
   color: #000;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
   border: 1px solid;
   border-color: #ddd #bbb #bbb #ddd;
   background-color: #fff;
@@ -1113,7 +1113,7 @@ tr.x-container:before {
 
 /* line 70, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
 .x-border-layout-ct {
-  background-color: #9d7039;
+  background-color: #d467ff;
   position: relative;
 }
 
@@ -1160,11 +1160,11 @@ tr.x-container:before {
 
 /* line 108, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
 .x-accordion-hd {
-  background: #a7692b !important;
-  -moz-box-shadow: inset 0 0 0 0 #a7692b;
-  -webkit-box-shadow: inset 0 0 0 0 #a7692b;
-  -o-box-shadow: inset 0 0 0 0 #a7692b;
-  box-shadow: inset 0 0 0 0 #a7692b;
+  background: #cb63ff !important;
+  -moz-box-shadow: inset 0 0 0 0 #cb63ff;
+  -webkit-box-shadow: inset 0 0 0 0 #cb63ff;
+  -o-box-shadow: inset 0 0 0 0 #cb63ff;
+  box-shadow: inset 0 0 0 0 #cb63ff;
 }
 /* line 112, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
 .x-accordion-hd .x-tool-collapse-top,
@@ -1199,7 +1199,7 @@ tr.x-container:before {
 .x-accordion-hd {
   border-width: 1px 0 1px 0 !important;
   padding: 4px 5px 5px 5px;
-  border-top-color: #a87747 !important;
+  border-top-color: #d384fb !important;
 }
 
 /* line 151, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
@@ -1209,16 +1209,16 @@ tr.x-container:before {
 
 /* line 155, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
 .x-accordion-hd-sibling-expanded {
-  border-top-color: #64411e !important;
-  -moz-box-shadow: inset 0 1px 0 0 #a87747;
-  -webkit-box-shadow: inset 0 1px 0 0 #a87747;
-  -o-box-shadow: inset 0 1px 0 0 #a87747;
-  box-shadow: inset 0 1px 0 0 #a87747;
+  border-top-color: #b013ff !important;
+  -moz-box-shadow: inset 0 1px 0 0 #d384fb;
+  -webkit-box-shadow: inset 0 1px 0 0 #d384fb;
+  -o-box-shadow: inset 0 1px 0 0 #d384fb;
+  box-shadow: inset 0 1px 0 0 #d384fb;
 }
 
 /* line 160, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
 .x-accordion-hd-last-collapsed {
-  border-bottom-color: #a7692b !important;
+  border-bottom-color: #cb63ff !important;
 }
 
 /* line 169, ../../extjs/resources/themes/stylesheets/ext4/default/layout/_layout.scss */
@@ -1713,13 +1713,13 @@ tr.x-container:before {
 
 /* line 14, ../../extjs/resources/themes/stylesheets/ext4/default/util/_scroller.scss */
 .x-scroller-vertical {
-  border: 1px solid #64411e;
+  border: 1px solid #b013ff;
   border-top-color: #c5c5c5;
 }
 
 /* line 19, ../../extjs/resources/themes/stylesheets/ext4/default/util/_scroller.scss */
 .x-scroller-horizontal {
-  border: 1px solid #64411e;
+  border: 1px solid #b013ff;
 }
 
 /* line 23, ../../extjs/resources/themes/stylesheets/ext4/default/util/_scroller.scss */
@@ -2038,7 +2038,7 @@ tr.x-container:before {
 .x-boundlist {
   border-width: 1px;
   border-style: solid;
-  border-color: #794714;
+  border-color: #b61eff;
   background: white;
 }
 /* line 8, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_boundlist.scss */
@@ -2072,14 +2072,14 @@ tr.x-container:before {
 
 /* line 39, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_boundlist.scss */
 .x-boundlist-selected {
-  background: #8a6332;
-  border-color: #58411c;
+  background: #cd4dff;
+  border-color: #c904ff;
 }
 
 /* line 44, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_boundlist.scss */
 .x-boundlist-item-over {
-  background: #9d7039;
-  border-color: #6b4f22;
+  background: #d467ff;
+  border-color: #ce1eff;
 }
 
 /* line 49, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_boundlist.scss */
@@ -2413,9 +2413,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 4px;
@@ -2541,55 +2541,55 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-over {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-focus {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-menu-active,
 .x-btn-default-small-pressed {
-  border-color: #5c4124;
+  border-color: #b514fc;
   background-image: none;
-  background-color: #6a4d31;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6a4d31), color-stop(48%, #6f5137), color-stop(52%, #723d11), color-stop(100%, #7b4313));
-  background-image: -webkit-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -moz-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -o-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -ms-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
+  background-color: #b336f5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b336f5), color-stop(48%, #b143f3), color-stop(52%, #a614ff), color-stop(100%, #ac1fff));
+  background-image: -webkit-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -moz-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -o-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -ms-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-disabled {
-  border-color: #626262;
+  border-color: #b684d0;
   background-image: none;
-  background-color: #777777;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(48%, #717171), color-stop(52%, #5a5a5a), color-stop(100%, #5f5f5f));
-  background-image: -webkit-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -moz-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -o-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -ms-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
+  background-color: #c9a3dc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c9a3dc), color-stop(48%, #c49bd8), color-stop(52%, #b079cc), color-stop(100%, #b481ce));
+  background-image: -webkit-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -moz-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -o-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -ms-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
 }
 /* line 854, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-disabled .x-btn-inner {
@@ -2622,7 +2622,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-over .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-small-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -2641,7 +2641,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-focus .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-small-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -2669,7 +2669,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-small-pressed .x-frame-mc {
-  background-color: #6a4d31;
+  background-color: #b336f5;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-small-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -2688,7 +2688,7 @@ tr.x-container:before {
 }
 /* line 965, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-disabled .x-frame-mc {
-  background-color: #777777;
+  background-color: #c9a3dc;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-small-disabled-bg.gif');
 }
 
@@ -2801,9 +2801,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 3px;
@@ -2926,55 +2926,55 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-over {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-focus {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-menu-active,
 .x-btn-default-medium-pressed {
-  border-color: #5c4124;
+  border-color: #b514fc;
   background-image: none;
-  background-color: #6a4d31;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6a4d31), color-stop(48%, #6f5137), color-stop(52%, #723d11), color-stop(100%, #7b4313));
-  background-image: -webkit-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -moz-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -o-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -ms-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
+  background-color: #b336f5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b336f5), color-stop(48%, #b143f3), color-stop(52%, #a614ff), color-stop(100%, #ac1fff));
+  background-image: -webkit-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -moz-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -o-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -ms-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-disabled {
-  border-color: #626262;
+  border-color: #b684d0;
   background-image: none;
-  background-color: #777777;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(48%, #717171), color-stop(52%, #5a5a5a), color-stop(100%, #5f5f5f));
-  background-image: -webkit-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -moz-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -o-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -ms-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
+  background-color: #c9a3dc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c9a3dc), color-stop(48%, #c49bd8), color-stop(52%, #b079cc), color-stop(100%, #b481ce));
+  background-image: -webkit-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -moz-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -o-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -ms-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
 }
 /* line 854, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-disabled .x-btn-inner {
@@ -3007,7 +3007,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-over .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-medium-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3026,7 +3026,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-focus .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-medium-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3054,7 +3054,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-medium-pressed .x-frame-mc {
-  background-color: #6a4d31;
+  background-color: #b336f5;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3073,7 +3073,7 @@ tr.x-container:before {
 }
 /* line 965, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-disabled .x-frame-mc {
-  background-color: #777777;
+  background-color: #c9a3dc;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif');
 }
 
@@ -3186,9 +3186,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 3px;
@@ -3311,55 +3311,55 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-over {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-focus {
-  border-color: #84541f;
+  border-color: #b551e2;
   background-image: none;
-  background-color: #d95b0b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d95b0b), color-stop(48%, #cf5c0a), color-stop(52%, #8d5928), color-stop(100%, #9a5d23));
-  background-image: -webkit-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -moz-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -o-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: -ms-linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
-  background-image: linear-gradient(top, #d95b0b, #cf5c0a 48%, #8d5928 52%, #9a5d23);
+  background-color: #c275ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c275ff), color-stop(48%, #c16aff), color-stop(52%, #b566de), color-stop(100%, #ba66e7));
+  background-image: -webkit-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -moz-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -o-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: -ms-linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
+  background-image: linear-gradient(top, #c275ff, #c16aff 48%, #b566de 52%, #ba66e7);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-menu-active,
 .x-btn-default-large-pressed {
-  border-color: #5c4124;
+  border-color: #b514fc;
   background-image: none;
-  background-color: #6a4d31;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6a4d31), color-stop(48%, #6f5137), color-stop(52%, #723d11), color-stop(100%, #7b4313));
-  background-image: -webkit-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -moz-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -o-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: -ms-linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
-  background-image: linear-gradient(top, #6a4d31, #6f5137 48%, #723d11 52%, #7b4313);
+  background-color: #b336f5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b336f5), color-stop(48%, #b143f3), color-stop(52%, #a614ff), color-stop(100%, #ac1fff));
+  background-image: -webkit-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -moz-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -o-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: -ms-linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
+  background-image: linear-gradient(top, #b336f5, #b143f3 48%, #a614ff 52%, #ac1fff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-disabled {
-  border-color: #626262;
+  border-color: #b684d0;
   background-image: none;
-  background-color: #777777;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(48%, #717171), color-stop(52%, #5a5a5a), color-stop(100%, #5f5f5f));
-  background-image: -webkit-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -moz-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -o-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: -ms-linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
-  background-image: linear-gradient(top, #777777, #717171 48%, #5a5a5a 52%, #5f5f5f);
+  background-color: #c9a3dc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c9a3dc), color-stop(48%, #c49bd8), color-stop(52%, #b079cc), color-stop(100%, #b481ce));
+  background-image: -webkit-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -moz-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -o-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: -ms-linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
+  background-image: linear-gradient(top, #c9a3dc, #c49bd8 48%, #b079cc 52%, #b481ce);
 }
 /* line 854, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-disabled .x-btn-inner {
@@ -3392,7 +3392,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-over .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-large-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3411,7 +3411,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-focus .x-frame-mc {
-  background-color: #d95b0b;
+  background-color: #c275ff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-large-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3439,7 +3439,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-large-pressed .x-frame-mc {
-  background-color: #6a4d31;
+  background-color: #b336f5;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-large-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3458,7 +3458,7 @@ tr.x-container:before {
 }
 /* line 965, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-disabled .x-frame-mc {
-  background-color: #777777;
+  background-color: #c9a3dc;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-large-disabled-bg.gif');
 }
 
@@ -3560,9 +3560,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-small .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 4px;
@@ -3685,42 +3685,42 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-small-over {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-small-focus {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-small-menu-active,
 .x-btn-default-toolbar-small-pressed {
-  border-color: #292016;
+  border-color: #8612bd;
   background-image: none;
-  background-color: #6d5035;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d5035), color-stop(48%, #72543b), color-stop(52%, #774013), color-stop(100%, #7f4616));
-  background-image: -webkit-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -moz-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -o-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -ms-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
+  background-color: #b43ff3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b43ff3), color-stop(48%, #b24bf2), color-stop(52%, #a71bff), color-stop(100%, #ad26ff));
+  background-image: -webkit-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -moz-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -o-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -ms-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3759,7 +3759,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-over .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3778,7 +3778,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-focus .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3806,7 +3806,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-small-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-small-pressed .x-frame-mc {
-  background-color: #6d5035;
+  background-color: #b43ff3;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -3914,9 +3914,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-medium .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 3px;
@@ -4039,42 +4039,42 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-medium-over {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-medium-focus {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-medium-menu-active,
 .x-btn-default-toolbar-medium-pressed {
-  border-color: #292016;
+  border-color: #8612bd;
   background-image: none;
-  background-color: #6d5035;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d5035), color-stop(48%, #72543b), color-stop(52%, #774013), color-stop(100%, #7f4616));
-  background-image: -webkit-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -moz-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -o-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -ms-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
+  background-color: #b43ff3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b43ff3), color-stop(48%, #b24bf2), color-stop(52%, #a71bff), color-stop(100%, #ad26ff));
+  background-image: -webkit-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -moz-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -o-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -ms-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4113,7 +4113,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-over .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4132,7 +4132,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-focus .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4160,7 +4160,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-medium-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-medium-pressed .x-frame-mc {
-  background-color: #6d5035;
+  background-color: #b43ff3;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4268,9 +4268,9 @@ tr.x-container:before {
 
 /* line 639, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-large .x-btn-inner {
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans Condensed";
   color: #333333;
   background-repeat: no-repeat;
   padding: 0 3px;
@@ -4393,42 +4393,42 @@ tr.x-container:before {
 
 /* line 773, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-large-over {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 797, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-large-focus {
-  border-color: #38291a;
+  border-color: #930bd7;
   background-image: none;
-  background-color: #d15d0a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d15d0a), color-stop(48%, #c65e0a), color-stop(52%, #865726), color-stop(100%, #935c21));
-  background-image: -webkit-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -moz-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -o-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: -ms-linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
-  background-image: linear-gradient(top, #d15d0a, #c65e0a 48%, #865726 52%, #935c21);
+  background-color: #c26cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c26cff), color-stop(48%, #c261ff), color-stop(52%, #b55fdd), color-stop(100%, #ba5ee6));
+  background-image: -webkit-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -moz-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -o-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: -ms-linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
+  background-image: linear-gradient(top, #c26cff, #c261ff 48%, #b55fdd 52%, #ba5ee6);
 }
 
 /* line 822, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-toolbar-large-menu-active,
 .x-btn-default-toolbar-large-pressed {
-  border-color: #292016;
+  border-color: #8612bd;
   background-image: none;
-  background-color: #6d5035;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d5035), color-stop(48%, #72543b), color-stop(52%, #774013), color-stop(100%, #7f4616));
-  background-image: -webkit-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -moz-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -o-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: -ms-linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
-  background-image: linear-gradient(top, #6d5035, #72543b 48%, #774013 52%, #7f4616);
+  background-color: #b43ff3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b43ff3), color-stop(48%, #b24bf2), color-stop(52%, #a71bff), color-stop(100%, #ad26ff));
+  background-image: -webkit-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -moz-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -o-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: -ms-linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
+  background-image: linear-gradient(top, #b43ff3, #b24bf2 48%, #a71bff 52%, #ad26ff);
 }
 
 /* line 846, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4467,7 +4467,7 @@ tr.x-container:before {
 }
 /* line 901, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-over .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif');
 }
 /* line 915, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4486,7 +4486,7 @@ tr.x-container:before {
 }
 /* line 922, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-focus .x-frame-mc {
-  background-color: #d15d0a;
+  background-color: #c26cff;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif');
 }
 /* line 937, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4514,7 +4514,7 @@ tr.x-container:before {
 /* line 944, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-toolbar-large-menu-active .x-frame-mc,
 .x-nbr .x-btn-default-toolbar-large-pressed .x-frame-mc {
-  background-color: #6d5035;
+  background-color: #b43ff3;
   background-image: url('../../extjs/resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif');
 }
 /* line 958, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
@@ -4597,12 +4597,12 @@ tr.x-container:before {
   padding: 1px 1px 1px 1px;
   border-width: 1px;
   border-style: solid;
-  background-color: #896238;
+  background-color: #c756fc;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-btn-group-default-framed-mc {
-  background-color: #896238;
+  background-color: #c756fc;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -4652,11 +4652,11 @@ tr.x-container:before {
 
 /* line 56, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_btn-group.scss */
 .x-btn-group-default-framed {
-  border-color: #55453a;
-  -moz-box-shadow: #956d44 0 1px 0px 0 inset, #956d44 0 -1px 0px 0 inset, #956d44 -1px 0 0px 0 inset, #956d44 1px 0 0px 0 inset;
-  -webkit-box-shadow: #956d44 0 1px 0px 0 inset, #956d44 0 -1px 0px 0 inset, #956d44 -1px 0 0px 0 inset, #956d44 1px 0 0px 0 inset;
-  -o-box-shadow: #956d44 0 1px 0px 0 inset, #956d44 0 -1px 0px 0 inset, #956d44 -1px 0 0px 0 inset, #956d44 1px 0 0px 0 inset;
-  box-shadow: #956d44 0 1px 0px 0 inset, #956d44 0 -1px 0px 0 inset, #956d44 -1px 0 0px 0 inset, #956d44 1px 0 0px 0 inset;
+  border-color: #9d3ee1;
+  -moz-box-shadow: #cb71f8 0 1px 0px 0 inset, #cb71f8 0 -1px 0px 0 inset, #cb71f8 -1px 0 0px 0 inset, #cb71f8 1px 0 0px 0 inset;
+  -webkit-box-shadow: #cb71f8 0 1px 0px 0 inset, #cb71f8 0 -1px 0px 0 inset, #cb71f8 -1px 0 0px 0 inset, #cb71f8 1px 0 0px 0 inset;
+  -o-box-shadow: #cb71f8 0 1px 0px 0 inset, #cb71f8 0 -1px 0px 0 inset, #cb71f8 -1px 0 0px 0 inset, #cb71f8 1px 0 0px 0 inset;
+  box-shadow: #cb71f8 0 1px 0px 0 inset, #cb71f8 0 -1px 0px 0 inset, #cb71f8 -1px 0 0px 0 inset, #cb71f8 1px 0 0px 0 inset;
 }
 
 /* line 64, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_btn-group.scss */
@@ -4667,7 +4667,7 @@ tr.x-container:before {
 /* line 68, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_btn-group.scss */
 .x-btn-group-header-body-default-framed {
   padding: 1px 0;
-  background: #87572c;
+  background: #ba44ff;
   -moz-border-radius-topleft: 2px;
   -webkit-border-top-left-radius: 2px;
   -o-border-top-left-radius: 2px;
@@ -4684,13 +4684,13 @@ tr.x-container:before {
 
 /* line 76, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_btn-group.scss */
 .x-btn-group-header-text-default-framed {
-  font: normal 1em "DejaVu Sans";
-  color: black;
+  font: normal 15px "Open Sans";
+  color: #540574;
 }
 
 /* line 2, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x-datepicker {
-  border: 1px solid black;
+  border: 1px solid #120018;
   background-color: white;
   position: relative;
 }
@@ -4698,7 +4698,7 @@ tr.x-container:before {
 .x-datepicker a {
   -moz-outline: 0 none;
   outline: 0 none;
-  color: black;
+  color: #240031;
   text-decoration: none;
   border-width: 0;
 }
@@ -4715,13 +4715,13 @@ tr.x-container:before {
   position: relative;
   height: 26px;
   background-image: none;
-  background-color: black;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0b0804), color-stop(100%, #000000));
-  background-image: -webkit-linear-gradient(top, #0b0804, #000000);
-  background-image: -moz-linear-gradient(top, #0b0804, #000000);
-  background-image: -o-linear-gradient(top, #0b0804, #000000);
-  background-image: -ms-linear-gradient(top, #0b0804, #000000);
-  background-image: linear-gradient(top, #0b0804, #000000);
+  background-color: #250030;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #30003f), color-stop(100%, #15001c));
+  background-image: -webkit-linear-gradient(top, #30003f, #15001c);
+  background-image: -moz-linear-gradient(top, #30003f, #15001c);
+  background-image: -o-linear-gradient(top, #30003f, #15001c);
+  background-image: -ms-linear-gradient(top, #30003f, #15001c);
+  background-image: linear-gradient(top, #30003f, #15001c);
 }
 
 /* line 38, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
@@ -4829,19 +4829,19 @@ table.x-datepicker-inner th {
   width: 25px;
   height: 19px;
   padding: 0;
-  color: black;
-  font: normal 10px "DejaVu Sans";
+  color: #190120;
+  font: normal 10px "Open Sans";
   text-align: right;
-  border-bottom: 1px solid #8d521b;
+  border-bottom: 1px solid #b939ff;
   border-collapse: separate;
   background-image: none;
-  background-color: #b86b23;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c57225), color-stop(100%, #a76120));
-  background-image: -webkit-linear-gradient(top, #c57225, #a76120);
-  background-image: -moz-linear-gradient(top, #c57225, #a76120);
-  background-image: -o-linear-gradient(top, #c57225, #a76120);
-  background-image: -ms-linear-gradient(top, #c57225, #a76120);
-  background-image: linear-gradient(top, #c57225, #a76120);
+  background-color: #cb6cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d07bff), color-stop(100%, #c458ff));
+  background-image: -webkit-linear-gradient(top, #d07bff, #c458ff);
+  background-image: -moz-linear-gradient(top, #d07bff, #c458ff);
+  background-image: -o-linear-gradient(top, #d07bff, #c458ff);
+  background-image: -ms-linear-gradient(top, #d07bff, #c458ff);
+  background-image: linear-gradient(top, #d07bff, #c458ff);
   cursor: default;
 }
 /* line 153, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
@@ -4866,7 +4866,7 @@ table.x-datepicker-inner a {
   padding-right: 4px;
   display: block;
   zoom: 1;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
   color: black;
   text-decoration: none;
   text-align: right;
@@ -4879,8 +4879,8 @@ table.x-datepicker-inner .x-datepicker-active {
 /* line 190, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 table.x-datepicker-inner .x-datepicker-selected a {
   background: repeat-x left top;
-  background-color: #92673c;
-  border: 1px solid #55391c;
+  background-color: #c963fb;
+  border: 1px solid #ae02ff;
 }
 /* line 196, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 table.x-datepicker-inner .x-datepicker-selected span {
@@ -4902,7 +4902,7 @@ table.x-datepicker-inner a:hover,
 table.x-datepicker-inner .x-datepicker-disabled a:hover {
   text-decoration: none !important;
   color: #000;
-  background-color: #cb6c11;
+  background-color: #cd6dff;
 }
 /* line 225, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 table.x-datepicker-inner .x-datepicker-disabled a {
@@ -4915,15 +4915,15 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-datepicker-footer,
 .x-monthpicker-buttons {
   position: relative;
-  border-top: 1px solid #8d521b;
+  border-top: 1px solid #b939ff;
   background-image: none;
-  background-color: #b86b23;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #996b3b), color-stop(49%, #896039), color-stop(51%, #805a35), color-stop(100%, #835e37));
-  background-image: -webkit-linear-gradient(top, #996b3b, #896039 49%, #805a35 51%, #835e37);
-  background-image: -moz-linear-gradient(top, #996b3b, #896039 49%, #805a35 51%, #835e37);
-  background-image: -o-linear-gradient(top, #996b3b, #896039 49%, #805a35 51%, #835e37);
-  background-image: -ms-linear-gradient(top, #996b3b, #896039 49%, #805a35 51%, #835e37);
-  background-image: linear-gradient(top, #996b3b, #896039 49%, #805a35 51%, #835e37);
+  background-color: #cb6cff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cd67fd), color-stop(49%, #c357fb), color-stop(51%, #c04afb), color-stop(100%, #c44ffb));
+  background-image: -webkit-linear-gradient(top, #cd67fd, #c357fb 49%, #c04afb 51%, #c44ffb);
+  background-image: -moz-linear-gradient(top, #cd67fd, #c357fb 49%, #c04afb 51%, #c44ffb);
+  background-image: -o-linear-gradient(top, #cd67fd, #c357fb 49%, #c04afb 51%, #c44ffb);
+  background-image: -ms-linear-gradient(top, #cd67fd, #c357fb 49%, #c04afb 51%, #c44ffb);
+  background-image: linear-gradient(top, #cd67fd, #c357fb 49%, #c04afb 51%, #c44ffb);
   text-align: center;
 }
 /* line 246, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
@@ -4947,7 +4947,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 264, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x-monthpicker {
-  border: 1px solid black;
+  border: 1px solid #120018;
   background-color: white;
 }
 
@@ -4963,7 +4963,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-monthpicker-item {
   float: left;
   margin: 4px 0 5px 0;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
   text-align: center;
   vertical-align: middle;
   height: 18px;
@@ -4975,23 +4975,23 @@ table.x-datepicker-inner .x-datepicker-disabled a {
   display: block;
   margin: 0 5px;
   text-decoration: none;
-  color: black;
+  color: #240031;
   border: 1px solid white;
   line-height: 17px;
 }
 /* line 304, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x-monthpicker-item a:hover {
-  background-color: #cb6c11;
+  background-color: #cd6dff;
 }
 /* line 308, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x-monthpicker-item a.x-monthpicker-selected {
-  background-color: #b86b23;
-  border: 1px solid #55391c;
+  background-color: #cb6cff;
+  border: 1px solid #ae02ff;
 }
 
 /* line 315, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x-monthpicker-months {
-  border-right: 1px solid black;
+  border-right: 1px solid #120018;
   width: 87px;
 }
 
@@ -5216,7 +5216,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 84, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x-menu-item-text {
-  font-size: 1em;
+  font-size: 15px;
   color: #222222;
 }
 
@@ -5271,15 +5271,15 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 /* line 132, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x-menu-item-active .x-menu-item-link {
   background-image: none;
-  background-color: #b76a1e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c47221), color-stop(100%, #a5601c));
-  background-image: -webkit-linear-gradient(top, #c47221, #a5601c);
-  background-image: -moz-linear-gradient(top, #c47221, #a5601c);
-  background-image: -o-linear-gradient(top, #c47221, #a5601c);
-  background-image: -ms-linear-gradient(top, #c47221, #a5601c);
-  background-image: linear-gradient(top, #c47221, #a5601c);
+  background-color: #cc66ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d175ff), color-stop(100%, #c552ff));
+  background-image: -webkit-linear-gradient(top, #d175ff, #c552ff);
+  background-image: -moz-linear-gradient(top, #d175ff, #c552ff);
+  background-image: -o-linear-gradient(top, #d175ff, #c552ff);
+  background-image: -ms-linear-gradient(top, #d175ff, #c552ff);
+  background-image: linear-gradient(top, #d175ff, #c552ff);
   margin: 0px;
-  border: 1px solid #864f19;
+  border: 1px solid #ba30ff;
   cursor: pointer;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -5322,7 +5322,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 180, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x-nlg .x-menu-item-active .x-menu-item-link {
-  background: #b76a1e repeat-x left top;
+  background: #cc66ff repeat-x left top;
   background-image: url('../../extjs/resources/themes/images/default/menu/menu-item-active-bg.gif');
 }
 
@@ -5334,7 +5334,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 /* line 4, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-panel .x-grid-body {
   background: #ffefdf;
-  border-color: #64411e;
+  border-color: #b013ff;
   border-style: solid;
   border-width: 1px;
   border-top-color: #c5c5c5;
@@ -5353,7 +5353,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 24, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-header-hidden .x-grid-body {
-  border-top-color: #64411e !important;
+  border-top-color: #b013ff !important;
 }
 
 /* line 28, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5390,7 +5390,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
   cursor: default;
   zoom: 1;
   padding: 0;
-  border: 1px solid #64411e;
+  border: 1px solid #b013ff;
   border-bottom-color: #c5c5c5;
   background-image: none;
   background-color: #c5c5c5;
@@ -5418,7 +5418,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
   border-bottom: 0 none;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
   color: null;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
   background-image: none;
   background-color: #c5c5c5;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #e3e4e6));
@@ -5459,16 +5459,16 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-column-header-over,
 .x-column-header-sort-ASC,
 .x-column-header-sort-DESC {
-  border-left-color: #8a5017;
-  border-right-color: #8a5017;
+  border-left-color: #ba32ff;
+  border-right-color: #ba32ff;
   background-image: none;
-  background-color: #8a5017;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c97520), color-stop(39%, #c97520), color-stop(40%, #b76b1e), color-stop(100%, #b76b1e));
-  background-image: -webkit-linear-gradient(top, #c97520, #c97520 39%, #b76b1e 40%, #b76b1e);
-  background-image: -moz-linear-gradient(top, #c97520, #c97520 39%, #b76b1e 40%, #b76b1e);
-  background-image: -o-linear-gradient(top, #c97520, #c97520 39%, #b76b1e 40%, #b76b1e);
-  background-image: -ms-linear-gradient(top, #c97520, #c97520 39%, #b76b1e 40%, #b76b1e);
-  background-image: linear-gradient(top, #c97520, #c97520 39%, #b76b1e 40%, #b76b1e);
+  background-color: #ba32ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d37aff), color-stop(39%, #d37aff), color-stop(40%, #cd66ff), color-stop(100%, #cd66ff));
+  background-image: -webkit-linear-gradient(top, #d37aff, #d37aff 39%, #cd66ff 40%, #cd66ff);
+  background-image: -moz-linear-gradient(top, #d37aff, #d37aff 39%, #cd66ff 40%, #cd66ff);
+  background-image: -o-linear-gradient(top, #d37aff, #d37aff 39%, #cd66ff 40%, #cd66ff);
+  background-image: -ms-linear-gradient(top, #d37aff, #d37aff 39%, #cd66ff 40%, #cd66ff);
+  background-image: linear-gradient(top, #d37aff, #d37aff 39%, #cd66ff 40%, #cd66ff);
 }
 
 /* line 131, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5546,7 +5546,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 /* line 195, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row .x-grid-cell {
   color: null;
-  font: normal 1em/5em "DejaVu Sans";
+  font: normal 15px/19px "Open Sans";
   background-color: white;
   border-color: #ededed;
   border-style: solid;
@@ -5592,8 +5592,8 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 .x-grid-row-selected .x-grid-cell,
 .x-grid-row-selected .x-grid-rowwrap-div {
   border-style: dotted;
-  border-color: #6b4f22;
-  background-color: #9d7039 !important;
+  border-color: #ce1eff;
+  background-color: #d467ff !important;
 }
 
 /* line 250, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5610,7 +5610,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 261, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-rowbody {
-  font: normal 11px/13px "DejaVu Sans";
+  font: normal 11px/13px "Open Sans";
   padding: 4px;
 }
 /* line 266, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5625,16 +5625,17 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 
 /* line 276, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-cell-inner {
-  overflow: hidden;
-  -o-text-overflow: ellipsis;
-  text-overflow: ellipsis;
-  padding: 2px 6px 3px;
-  white-space: nowrap;
+	font-family: "Open Sans Condensed";
+	overflow: auto;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	padding: 2px 6px 3px;
+	white-space: normal;
 }
 
 /* line 287, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-with-row-lines .x-grid-cell-inner {
-  line-height: 3em;
+  line-height: 17px;
   padding-bottom: 4px;
 }
 
@@ -5652,7 +5653,7 @@ table.x-datepicker-inner .x-datepicker-disabled a {
 /* line 302, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row .x-grid-cell-special {
   padding: 0;
-  border-right: 1px solid #515151;
+  border-right: 1px solid #a86bc6;
   background-image: none;
   background-color: #f6f6f6;
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f6f6f6), color-stop(100%, #e9e9e9));
@@ -5683,15 +5684,15 @@ browsers will do whacky things with it.
 
 /* line 327, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row-selected .x-grid-cell-special {
-  border-right: 1px solid #8a5017;
+  border-right: 1px solid #ba32ff;
   background-image: none;
-  background-color: #9d7039;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #9d7039), color-stop(100%, #8a6332));
-  background-image: -webkit-linear-gradient(left, #9d7039, #8a6332);
-  background-image: -moz-linear-gradient(left, #9d7039, #8a6332);
-  background-image: -o-linear-gradient(left, #9d7039, #8a6332);
-  background-image: -ms-linear-gradient(left, #9d7039, #8a6332);
-  background-image: linear-gradient(left, #9d7039, #8a6332);
+  background-color: #d467ff;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #d467ff), color-stop(100%, #cd4dff));
+  background-image: -webkit-linear-gradient(left, #d467ff, #cd4dff);
+  background-image: -moz-linear-gradient(left, #d467ff, #cd4dff);
+  background-image: -o-linear-gradient(left, #d467ff, #cd4dff);
+  background-image: -ms-linear-gradient(left, #d467ff, #cd4dff);
+  background-image: linear-gradient(left, #d467ff, #cd4dff);
 }
 
 /* line 333, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5725,7 +5726,7 @@ browsers will do whacky things with it.
 /* line 363, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-with-col-lines .x-grid-cell {
   padding-right: 0;
-  border-right: 1px solid #515151;
+  border-right: 1px solid #a86bc6;
 }
 
 /* line 370, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5854,7 +5855,7 @@ browsers will do whacky things with it.
   background: white;
   border-width: 0 0 2px 0;
   border-style: solid;
-  border-color: #64421e;
+  border-color: #b413ff;
   cursor: pointer;
 }
 
@@ -5862,8 +5863,8 @@ browsers will do whacky things with it.
 .x-grid-group-title {
   background: transparent no-repeat 0 -1px;
   background-image: url('../../extjs/resources/themes/images/default/grid/group-collapse.gif');
-  color: black;
-  font: bold 1em "DejaVu Sans";
+  color: #460365;
+  font: bold 15px "Open Sans";
   padding: 0 0 0 14px;
 }
 
@@ -6104,15 +6105,15 @@ browsers will do whacky things with it.
 }
 /* line 727, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row-editor .x-form-display-field {
-  font: normal 1em/15px "DejaVu Sans";
+  font: normal 15px/15px "Open Sans";
   padding-top: 0;
   padding-left: 2px;
 }
 /* line 733, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row-editor .x-panel-body {
-  background-color: #b57531;
-  border-top: 1px solid #64411e !important;
-  border-bottom: 1px solid #64411e !important;
+  background-color: #d477ff;
+  border-top: 1px solid #b013ff !important;
+  border-bottom: 1px solid #b013ff !important;
 }
 
 /* line 743, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -6131,7 +6132,7 @@ browsers will do whacky things with it.
 
 /* line 757, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-editor .x-form-text, .x-grid-row-editor .x-form-text {
-  font: normal 1em/15px "DejaVu Sans";
+  font: normal 15px/15px "Open Sans";
   height: 18px;
 }
 
@@ -6186,7 +6187,7 @@ browsers will do whacky things with it.
 
 /* line 817, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row-editor-buttons {
-  background-color: #b57531;
+  background-color: #d477ff;
   position: absolute;
   bottom: -31px;
   padding: 4px;
@@ -6236,7 +6237,7 @@ browsers will do whacky things with it.
   bottom: 0px;
   width: 192px;
   height: 1px;
-  background-color: #64411e;
+  background-color: #b013ff;
 }
 
 /* line 865, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -6245,7 +6246,7 @@ browsers will do whacky things with it.
   height: 27px;
   width: 1px;
   top: 1px;
-  background-color: #64411e;
+  background-color: #b013ff;
 }
 
 /* line 871, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -6329,7 +6330,7 @@ browsers will do whacky things with it.
 .x-form-item-label {
   display: block;
   padding: 3px 0 0;
-  font-size: 1em;
+  font-size: 16px;
   user-select: none;
   -o-user-select: none;
   -ms-user-select: none;
@@ -6352,7 +6353,7 @@ browsers will do whacky things with it.
 .x-form-invalid-under {
   padding: 2px 2px 2px 18px;
   color: #c0272b;
-  font: normal 1em "DejaVu Sans";
+  font: normal 15px "Open Sans";
   line-height: 16px;
   background: no-repeat 0 2px;
   background-image: url('../../extjs/resources/themes/images/default/form/exclamation.gif');
@@ -6392,7 +6393,7 @@ browsers will do whacky things with it.
 .x-form-field,
 .x-form-display-field {
   margin: 0 0 0 0;
-  font: normal 1em "Anka/Coder Condensed";
+  font: normal 16px "Open Sans";
   color: #00002f;
 }
 
@@ -6454,7 +6455,7 @@ textarea.x-form-field {
 /* line 72, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_field.scss */
 .x-form-focus,
 textarea.x-form-focus {
-  border-color: #402918;
+  border-color: #8a01e7;
 }
 
 /* line 77, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_field.scss */
@@ -6469,7 +6470,7 @@ textarea.x-form-invalid-field {
 
 /* line 87, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_field.scss */
 .x-form-item {
-  font: normal 1em "DejaVu Sans";
+  font: normal 16px "Open Sans Condensed";
 }
 
 /* line 91, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_field.scss */
@@ -6547,13 +6548,13 @@ textarea.x-form-invalid-field {
 
 /* line 21, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_fieldset.scss */
 .x-fieldset-header-checkbox {
-  line-height: 14px;
+  line-height: 20px;
 }
 
 /* line 25, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_fieldset.scss */
 .x-fieldset-header {
-  font: 1em/14px bold "DejaVu Sans";
-  color: black;
+  font: 15px/20px bold "Open Sans";
+  color: #240031;
   padding: 0 3px 1px;
   overflow: hidden;
 }
@@ -6782,9 +6783,9 @@ textarea.x-form-invalid-field {
 
 /* line 16, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_checkboxgroup.scss */
 .x-check-group-alt {
-  background: #86643b;
-  border-top: 1px dotted #42413c;
-  border-bottom: 1px dotted #42413c;
+  background: #ca58f9;
+  border-top: 1px dotted #c740ce;
+  border-bottom: 1px dotted #c740ce;
 }
 
 /* line 23, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_checkboxgroup.scss */
@@ -6830,13 +6831,13 @@ textarea.x-form-invalid-field {
 /* line 33, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x-form-trigger-over {
   background-position: -17px 0;
-  border-bottom-color: #402918;
+  border-bottom-color: #8a01e7;
 }
 
 /* line 39, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x-form-trigger-wrap-focus .x-form-trigger {
   background-position: -51px 0;
-  border-bottom-color: #402918;
+  border-bottom-color: #8a01e7;
 }
 
 /* line 45, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
@@ -7284,27 +7285,27 @@ textarea.x-form-invalid-field {
 
 /* line 248, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-default {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 253, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default {
-  font-size: 1em;
-  border-color: #64411e;
+  font-size: 15px;
+  border-color: #b013ff;
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset;
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset;
 }
 
 /* line 277, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
@@ -7339,17 +7340,17 @@ textarea.x-form-invalid-field {
 
 /* line 338, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-text-default {
-  color: black;
-  font-size: 1em;
+  color: #160021;
+  font-size: 15px;
   font-weight: bold;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans";
   line-height: 17px;
 }
 
 /* line 348, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-body-default {
   background: #ffefdf;
-  border-color: #64411e;
+  border-color: #b013ff;
   color: black;
   border-width: 1px;
   border-style: solid;
@@ -7358,25 +7359,25 @@ textarea.x-form-invalid-field {
 /* line 363, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-collapsed .x-window-header-default,
 .x-panel-collapsed .x-panel-header-default {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 368, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-vertical {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 375, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-left,
 .x-panel-header-default-right {
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 416, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
@@ -7442,34 +7443,34 @@ textarea.x-form-invalid-field {
 
 /* line 434, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-top {
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset;
 }
 
 /* line 438, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-right {
-  -moz-box-shadow: #b97939 -1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 -1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 -1px 0 0px 0 inset;
-  box-shadow: #b97939 -1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff -1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff -1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff -1px 0 0px 0 inset;
+  box-shadow: #d683ff -1px 0 0px 0 inset;
 }
 
 /* line 442, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-bottom {
-  -moz-box-shadow: #b97939 0 -1px 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 -1px 0px 0 inset;
-  -o-box-shadow: #b97939 0 -1px 0px 0 inset;
-  box-shadow: #b97939 0 -1px 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 -1px 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 -1px 0px 0 inset;
+  -o-box-shadow: #d683ff 0 -1px 0px 0 inset;
+  box-shadow: #d683ff 0 -1px 0px 0 inset;
 }
 
 /* line 446, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-left {
-  -moz-box-shadow: #b97939 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 1px 0 0px 0 inset;
-  box-shadow: #b97939 1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff 1px 0 0px 0 inset;
+  box-shadow: #d683ff 1px 0 0px 0 inset;
 }
 
 /* line 481, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
@@ -7488,27 +7489,27 @@ textarea.x-form-invalid-field {
 
 /* line 248, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-default-framed {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 253, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed {
-  font-size: 1em;
-  border-color: #64411e;
+  font-size: 15px;
+  border-color: #b013ff;
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset;
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset;
 }
 
 /* line 277, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
@@ -7573,17 +7574,17 @@ textarea.x-form-invalid-field {
 
 /* line 338, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-text-default-framed {
-  color: black;
-  font-size: 1em;
+  color: #160021;
+  font-size: 15px;
   font-weight: bold;
-  font-family: "DejaVu Sans";
+  font-family: "Open Sans";
   line-height: 17px;
 }
 
 /* line 348, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-body-default-framed {
-  background: #9d6b39;
-  border-color: #64411e;
+  background: #cc67ff;
+  border-color: #b013ff;
   color: black;
   border-width: 0;
   border-style: solid;
@@ -7592,25 +7593,25 @@ textarea.x-form-invalid-field {
 /* line 363, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-collapsed .x-window-header-default-framed,
 .x-panel-collapsed .x-panel-header-default-framed {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 368, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-vertical {
-  border-color: #64411e;
+  border-color: #b013ff;
 }
 
 /* line 375, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-left,
 .x-panel-header-default-framed-right {
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 69, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7624,12 +7625,12 @@ textarea.x-form-invalid-field {
   padding: 4px 4px 4px 4px;
   border-width: 1px;
   border-style: solid;
-  background-color: #9d6b39;
+  background-color: #cc67ff;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-default-framed-mc {
-  background-color: #9d6b39;
+  background-color: #cc67ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7707,19 +7708,19 @@ textarea.x-form-invalid-field {
   border-width: 1px 1px 0 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-top-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7796,19 +7797,19 @@ textarea.x-form-invalid-field {
   border-width: 1px 1px 1px 0;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-right-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7886,19 +7887,19 @@ textarea.x-form-invalid-field {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-bottom-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7975,19 +7976,19 @@ textarea.x-form-invalid-field {
   border-width: 1px 0 1px 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-left-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8037,34 +8038,34 @@ textarea.x-form-invalid-field {
 
 /* line 399, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-top {
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
 }
 
 /* line 403, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-right {
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset;
 }
 
 /* line 407, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-bottom {
-  -moz-box-shadow: #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  box-shadow: #b97939 0 -1px 0px 0 inset, #b97939 -1px 0 0px 0 inset, #b97939 1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  box-shadow: #d683ff 0 -1px 0px 0 inset, #d683ff -1px 0 0px 0 inset, #d683ff 1px 0 0px 0 inset;
 }
 
 /* line 411, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-default-framed-left {
-  -moz-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  -o-box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 1px 0 0px 0 inset;
-  box-shadow: #b97939 0 1px 0px 0 inset, #b97939 0 -1px 0px 0 inset, #b97939 1px 0 0px 0 inset;
+  -moz-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff 1px 0 0px 0 inset;
+  box-shadow: #d683ff 0 1px 0px 0 inset, #d683ff 0 -1px 0px 0 inset, #d683ff 1px 0 0px 0 inset;
 }
 
 /* line 452, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
@@ -8127,19 +8128,19 @@ textarea.x-form-invalid-field {
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-top-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8216,19 +8217,19 @@ textarea.x-form-invalid-field {
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-right-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8306,19 +8307,19 @@ textarea.x-form-invalid-field {
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(top, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(top, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-bottom-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8395,19 +8396,19 @@ textarea.x-form-invalid-field {
   border-width: 1px;
   border-style: solid;
   background-image: none;
-  background-color: #925f2d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #9e6733), color-stop(45%, #92612f), color-stop(46%, #754e23), color-stop(50%, #754e23), color-stop(51%, #7f5628), color-stop(100%, #925f2d));
-  background-image: -webkit-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -moz-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -o-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: -ms-linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
-  background-image: linear-gradient(right, #9e6733, #92612f 45%, #754e23 46%, #754e23 50%, #7f5628 51%, #925f2d);
+  background-color: #c550ff;
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #c863fe), color-stop(45%, #c553fe), color-stop(46%, #bc29ff), color-stop(50%, #bc29ff), color-stop(51%, #c139fe), color-stop(100%, #c550ff));
+  background-image: -webkit-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -moz-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -o-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: -ms-linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
+  background-image: linear-gradient(right, #c863fe, #c553fe 45%, #bc29ff 46%, #bc29ff 50%, #c139fe 51%, #c550ff);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-left-mc {
   background-image: url('../../extjs/resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-bg.gif');
-  background-color: #925f2d;
+  background-color: #c550ff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8481,7 +8482,7 @@ textarea.x-form-invalid-field {
   position: absolute;
   overflow: visible;
   /*pointer needs to be able to stick out*/
-  border-color: #3c2f21;
+  border-color: #8748a5;
 }
 /* line 8, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_qtip.scss */
 .x-tip .x-tip-header .x-box-item {
@@ -8503,12 +8504,12 @@ textarea.x-form-invalid-field {
   padding: 2px 2px 2px 2px;
   border-width: 1px;
   border-style: solid;
-  background-color: #de7c0b;
+  background-color: #d77aff;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-tip-mc {
-  background-color: #de7c0b;
+  background-color: #d77aff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8565,7 +8566,7 @@ textarea.x-form-invalid-field {
   -webkit-user-select: none;
   cursor: default;
   color: #444444;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -8587,7 +8588,7 @@ textarea.x-form-invalid-field {
 .x-tip-body,
 .x-form-invalid-tip-body {
   color: #444444;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: normal;
 }
 /* line 55, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_qtip.scss */
@@ -8605,7 +8606,7 @@ textarea.x-form-invalid-field {
   width: 0;
   border-style: solid;
   border-width: 5px;
-  border-color: #3c2f21;
+  border-color: #8748a5;
   zoom: 1;
 }
 
@@ -8949,7 +8950,7 @@ textarea.x-form-invalid-field {
   padding: 0 5px;
   height: 18px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 15px;
   line-height: 16px;
   text-align: center;
 }
@@ -8966,20 +8967,20 @@ textarea.x-form-invalid-field {
 
 /* line 88, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x-progress-default {
-  border-color: #261b0f;
+  border-color: #8203c2;
 }
 /* line 91, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x-progress-default .x-progress-bar {
-  border-right-color: #261b0f;
-  border-top-color: #815a34;
+  border-right-color: #8203c2;
+  border-top-color: #c048fc;
   background-image: none;
-  background-color: #412a13;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7c5025), color-stop(50%, #543719), color-stop(51%, #412a13), color-stop(100%, #2d1d0d));
-  background-image: -webkit-linear-gradient(top, #7c5025, #543719 50%, #412a13 51%, #2d1d0d);
-  background-image: -moz-linear-gradient(top, #7c5025, #543719 50%, #412a13 51%, #2d1d0d);
-  background-image: -o-linear-gradient(top, #7c5025, #543719 50%, #412a13 51%, #2d1d0d);
-  background-image: -ms-linear-gradient(top, #7c5025, #543719 50%, #412a13 51%, #2d1d0d);
-  background-image: linear-gradient(top, #7c5025, #543719 50%, #412a13 51%, #2d1d0d);
+  background-color: #9800e4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bb32ff), color-stop(50%, #a900fe), color-stop(51%, #9800e4), color-stop(100%, #8700cb));
+  background-image: -webkit-linear-gradient(top, #bb32ff, #a900fe 50%, #9800e4 51%, #8700cb);
+  background-image: -moz-linear-gradient(top, #bb32ff, #a900fe 50%, #9800e4 51%, #8700cb);
+  background-image: -o-linear-gradient(top, #bb32ff, #a900fe 50%, #9800e4 51%, #8700cb);
+  background-image: -ms-linear-gradient(top, #bb32ff, #a900fe 50%, #9800e4 51%, #8700cb);
+  background-image: linear-gradient(top, #bb32ff, #a900fe 50%, #9800e4 51%, #8700cb);
 }
 /* line 98, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x-progress-default .x-progress-text {
@@ -8987,7 +8988,7 @@ textarea.x-form-invalid-field {
 }
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x-progress-default .x-progress-text-back {
-  color: black;
+  color: #3e055a;
 }
 
 /* line 111, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
@@ -8998,13 +8999,13 @@ textarea.x-form-invalid-field {
 
 /* line 2, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x-toolbar {
-  font-size: 1em;
+  font-size: 15px;
   border: 1px solid;
   padding: 2px 0 2px 2px;
 }
 /* line 9, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x-toolbar .x-form-item-label {
-  font-size: 1em;
+  font-size: 15px;
   line-height: 15px;
 }
 /* line 14, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
@@ -9016,10 +9017,10 @@ textarea.x-form-invalid-field {
   margin-left: 4px;
   margin-right: 6px;
   white-space: nowrap;
-  color: #3f362d;
+  color: #4c4b4c;
   line-height: 16px;
-  font-family: "DejaVu Sans";
-  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 15px;
   font-weight: normal;
 }
 /* line 29, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
@@ -9035,7 +9036,7 @@ textarea.x-form-invalid-field {
   margin: 0 3px 0 2px;
   height: 14px;
   width: 0px;
-  border-left: 1px solid #984a00;
+  border-left: 1px solid #b429ff;
   border-right: 1px solid white;
 }
 
@@ -9079,7 +9080,7 @@ textarea.x-form-invalid-field {
   height: 0px;
   width: 10px;
   line-height: 0px;
-  border-top: 1px solid #984a00;
+  border-top: 1px solid #b429ff;
   border-bottom: 1px solid white;
 }
 
@@ -9102,15 +9103,15 @@ textarea.x-form-invalid-field {
 
 /* line 140, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x-toolbar-default {
-  border-color: #64411e;
+  border-color: #b013ff;
   background-image: none;
-  background-color: #8c6139;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #97683d), color-stop(100%, #8c6139));
-  background-image: -webkit-linear-gradient(top, #97683d, #8c6139);
-  background-image: -moz-linear-gradient(top, #97683d, #8c6139);
-  background-image: -o-linear-gradient(top, #97683d, #8c6139);
-  background-image: -ms-linear-gradient(top, #97683d, #8c6139);
-  background-image: linear-gradient(top, #97683d, #8c6139);
+  background-color: #c259fc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c868fc), color-stop(100%, #c259fc));
+  background-image: -webkit-linear-gradient(top, #c868fc, #c259fc);
+  background-image: -moz-linear-gradient(top, #c868fc, #c259fc);
+  background-image: -o-linear-gradient(top, #c868fc, #c259fc);
+  background-image: -ms-linear-gradient(top, #c868fc, #c259fc);
+  background-image: linear-gradient(top, #c868fc, #c259fc);
 }
 
 /* line 151, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
@@ -9253,17 +9254,17 @@ textarea.x-form-invalid-field {
 
 /* line 155, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-default {
-  border-color: #3b342d;
+  border-color: #9b28d0;
   -moz-border-radius: 5px 5px;
   -webkit-border-radius: 5px 5px;
   -o-border-radius: 5px 5px;
   -ms-border-radius: 5px 5px;
   -khtml-border-radius: 5px 5px;
   border-radius: 5px 5px;
-  -moz-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -o-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
+  -moz-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
 }
 
 /* line 69, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9295,12 +9296,12 @@ textarea.x-form-invalid-field {
   padding: 4px 4px 4px 4px;
   border-width: 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-default-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9350,26 +9351,26 @@ textarea.x-form-invalid-field {
 
 /* line 174, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-body-default {
-  border-color: #64421e;
+  border-color: #b413ff;
   border-width: 1px;
-  background: #9d7039;
+  background: #d467ff;
   color: black;
 }
 
 /* line 184, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-default {
-  font-size: 1em;
-  border-color: #3b342d;
+  font-size: 15px;
+  border-color: #9b28d0;
   zoom: 1;
 }
 
 /* line 190, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-text-default {
-  color: black;
+  color: #150021;
   font-weight: bold;
   line-height: 17px;
-  font-family: "DejaVu Sans";
-  font-size: 1em;
+  font-family: "Open Sans";
+  font-size: 15px;
 }
 
 /* line 69, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9401,12 +9402,12 @@ textarea.x-form-invalid-field {
   padding: 4px 5px 0 5px;
   border-width: 1px 1px 0 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-top-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9483,12 +9484,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 0;
   border-width: 1px 1px 1px 0;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-right-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9565,12 +9566,12 @@ textarea.x-form-invalid-field {
   padding: 0 5px 4px 5px;
   border-width: 0 1px 1px 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-bottom-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9647,12 +9648,12 @@ textarea.x-form-invalid-field {
   padding: 5px 0px 5px 4px;
   border-width: 1px 0 1px 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-left-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9729,12 +9730,12 @@ textarea.x-form-invalid-field {
   padding: 4px 5px 4px 5px;
   border-width: 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-collapsed-top-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9811,12 +9812,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-collapsed-right-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9893,12 +9894,12 @@ textarea.x-form-invalid-field {
   padding: 4px 5px 4px 5px;
   border-width: 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-collapsed-bottom-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -9975,12 +9976,12 @@ textarea.x-form-invalid-field {
   padding: 5px 4px 5px 4px;
   border-width: 1px;
   border-style: solid;
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-collapsed-left-mc {
-  background-color: #715b45;
+  background-color: #bc5beb;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -10030,34 +10031,34 @@ textarea.x-form-invalid-field {
 
 /* line 213, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-default-top {
-  -moz-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -o-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
+  -moz-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
 }
 
 /* line 217, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-default-right {
-  -moz-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset;
-  -webkit-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset;
-  -o-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset;
-  box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset;
+  -moz-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset;
+  -webkit-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset;
+  -o-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset;
+  box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset;
 }
 
 /* line 221, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-default-bottom {
-  -moz-box-shadow: #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -o-box-shadow: #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  box-shadow: #b57a33 0 -1px 0px 0 inset, #b57a33 -1px 0 0px 0 inset, #b57a33 1px 0 0px 0 inset;
+  -moz-box-shadow: #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  box-shadow: #d879ff 0 -1px 0px 0 inset, #d879ff -1px 0 0px 0 inset, #d879ff 1px 0 0px 0 inset;
 }
 
 /* line 225, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
 .x-window-header-default-left {
-  -moz-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -webkit-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  -o-box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 1px 0 0px 0 inset;
-  box-shadow: #b57a33 0 1px 0px 0 inset, #b57a33 0 -1px 0px 0 inset, #b57a33 1px 0 0px 0 inset;
+  -moz-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -webkit-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  -o-box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff 1px 0 0px 0 inset;
+  box-shadow: #d879ff 0 1px 0px 0 inset, #d879ff 0 -1px 0px 0 inset, #d879ff 1px 0 0px 0 inset;
 }
 
 /* line 126, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_window.scss */
@@ -10067,7 +10068,7 @@ textarea.x-form-invalid-field {
 
 /* line 2, ../../extjs/resources/themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x-message-box .x-window-body {
-  background-color: #715b45;
+  background-color: #bc5beb;
   border: none;
 }
 
@@ -10120,14 +10121,14 @@ textarea.x-form-invalid-field {
   position: relative;
   background-color: transparent;
   background-image: none;
-  background-color: #865d35;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #996a3a), color-stop(100%, #865d35));
-  background-image: -webkit-linear-gradient(top, #996a3a, #865d35);
-  background-image: -moz-linear-gradient(top, #996a3a, #865d35);
-  background-image: -o-linear-gradient(top, #996a3a, #865d35);
-  background-image: -ms-linear-gradient(top, #996a3a, #865d35);
-  background-image: linear-gradient(top, #996a3a, #865d35);
-  font-size: 1em;
+  background-color: #c24ffc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cb65fe), color-stop(100%, #c24ffc));
+  background-image: -webkit-linear-gradient(top, #cb65fe, #c24ffc);
+  background-image: -moz-linear-gradient(top, #cb65fe, #c24ffc);
+  background-image: -o-linear-gradient(top, #cb65fe, #c24ffc);
+  background-image: -ms-linear-gradient(top, #cb65fe, #c24ffc);
+  background-image: linear-gradient(top, #cb65fe, #c24ffc);
+  font-size: 15px;
 }
 
 /* line 78, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tabbar.scss */
@@ -10144,7 +10145,7 @@ textarea.x-form-invalid-field {
 /* line 88, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tabbar.scss */
 .x-tab-bar-body {
   border-style: solid;
-  border-color: #64411e;
+  border-color: #b013ff;
   position: relative;
   z-index: 2;
   zoom: 1;
@@ -10273,8 +10274,8 @@ textarea.x-form-invalid-field {
   z-index: 1;
   border-style: solid;
   overflow: hidden;
-  border-color: #64411e;
-  background-color: #c56e17;
+  border-color: #b013ff;
+  background-color: #ce6dff;
   zoom: 1;
 }
 
@@ -10308,19 +10309,19 @@ textarea.x-form-invalid-field {
   border-width: 1px 1px 0 1px;
   border-style: solid;
   background-image: none;
-  background-color: #c56e17;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9c6427), color-stop(25%, #b06a21), color-stop(45%, #c56e17));
-  background-image: -webkit-linear-gradient(top, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -moz-linear-gradient(top, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -o-linear-gradient(top, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -ms-linear-gradient(top, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: linear-gradient(top, #9c6427, #b06a21 25%, #c56e17 45%);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c464ef), color-stop(25%, #c96af7), color-stop(45%, #ce6dff));
+  background-image: -webkit-linear-gradient(top, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -moz-linear-gradient(top, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -o-linear-gradient(top, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -ms-linear-gradient(top, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: linear-gradient(top, #c464ef, #c96af7 25%, #ce6dff 45%);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-tab-default-top-mc {
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-top-bg.gif');
-  background-color: #c56e17;
+  background-color: #ce6dff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -10397,19 +10398,19 @@ textarea.x-form-invalid-field {
   border-width: 0 1px 1px 1px;
   border-style: solid;
   background-image: none;
-  background-color: #c56e17;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #9c6427), color-stop(25%, #b06a21), color-stop(45%, #c56e17));
-  background-image: -webkit-linear-gradient(bottom, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -moz-linear-gradient(bottom, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -o-linear-gradient(bottom, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: -ms-linear-gradient(bottom, #9c6427, #b06a21 25%, #c56e17 45%);
-  background-image: linear-gradient(bottom, #9c6427, #b06a21 25%, #c56e17 45%);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #c464ef), color-stop(25%, #c96af7), color-stop(45%, #ce6dff));
+  background-image: -webkit-linear-gradient(bottom, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -moz-linear-gradient(bottom, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -o-linear-gradient(bottom, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: -ms-linear-gradient(bottom, #c464ef, #c96af7 25%, #ce6dff 45%);
+  background-image: linear-gradient(bottom, #c464ef, #c96af7 25%, #ce6dff 45%);
 }
 
 /* line 102, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-tab-default-bottom-mc {
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-bottom-bg.gif');
-  background-color: #c56e17;
+  background-color: #ce6dff;
 }
 
 /* line 115, ../../extjs/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -10465,7 +10466,7 @@ textarea.x-form-invalid-field {
   *display: inline;
   white-space: nowrap;
   height: 20px;
-  border-color: #55391c;
+  border-color: #9f25dc;
   cursor: pointer;
   cursor: hand;
 }
@@ -10487,10 +10488,10 @@ textarea.x-form-invalid-field {
   padding: 0;
   margin: 0;
   -webkit-appearance: none;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: bold;
-  font-family: "DejaVu Sans";
-  color: black;
+  font-family: "Open Sans";
+  color: #451b5a;
   outline: 0 none;
   overflow-x: visible;
 }
@@ -10545,11 +10546,11 @@ textarea.x-form-invalid-field {
 
 /* line 123, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-top {
-  -moz-box-shadow: #db852f 0 1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -webkit-box-shadow: #db852f 0 1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -o-box-shadow: #db852f 0 1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  box-shadow: #db852f 0 1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  border-bottom: 1px solid #64411e !important;
+  -moz-box-shadow: #dc9ffb 0 1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -webkit-box-shadow: #dc9ffb 0 1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -o-box-shadow: #dc9ffb 0 1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  box-shadow: #dc9ffb 0 1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  border-bottom: 1px solid #b013ff !important;
 }
 /* line 133, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-top em {
@@ -10575,20 +10576,20 @@ textarea.x-form-invalid-field {
 
 /* line 156, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-top-active {
-  border-bottom-color: #c56e17 !important;
+  border-bottom-color: #ce6dff !important;
 }
 
 /* line 162, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-bottom {
-  -moz-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -webkit-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -o-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  border-top: 1px solid #64411e !important;
-  -moz-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -webkit-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  -o-box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
-  box-shadow: #db852f 0 -1px 0px 0 inset, #db852f -1px 0 0px 0 inset, #db852f 1px 0 0px 0 inset;
+  -moz-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -webkit-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -o-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  border-top: 1px solid #b013ff !important;
+  -moz-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -webkit-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  -o-box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
+  box-shadow: #dc9ffb 0 -1px 0px 0 inset, #dc9ffb -1px 0 0px 0 inset, #dc9ffb 1px 0 0px 0 inset;
 }
 /* line 177, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-bottom em {
@@ -10608,21 +10609,21 @@ textarea.x-form-invalid-field {
 
 /* line 192, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-bottom-active {
-  border-top-color: #c56e17 !important;
+  border-top-color: #ce6dff !important;
 }
 
 /* line 196, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-disabled {
   cursor: default;
-  border-color: #825629;
+  border-color: #be3cff;
   background-image: none;
-  background-color: #b26e2a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b26e2a), color-stop(100%, #d47517));
-  background-image: -webkit-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -moz-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -o-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -ms-linear-gradient(top, #b26e2a, #d47517);
-  background-image: linear-gradient(top, #b26e2a, #d47517);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce6dff), color-stop(100%, #d37cff));
+  background-image: -webkit-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -moz-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -o-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -ms-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: linear-gradient(top, #ce6dff, #d37cff);
 }
 /* line 202, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-default-disabled button {
@@ -10673,59 +10674,63 @@ textarea.x-form-invalid-field {
 /* line 268, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-top-over {
   background-image: none;
-  background-color: #dd740b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c17714), color-stop(25%, #d5780b), color-stop(45%, #dd740b));
-  background-image: -webkit-linear-gradient(top, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -moz-linear-gradient(top, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -o-linear-gradient(top, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -ms-linear-gradient(top, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: linear-gradient(top, #c17714, #d5780b 25%, #dd740b 45%);
+  background-color: #d279ff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d46df8), color-stop(25%, #d571ff), color-stop(45%, #d279ff));
+  background-image: -webkit-linear-gradient(top, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -moz-linear-gradient(top, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -o-linear-gradient(top, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -ms-linear-gradient(top, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: linear-gradient(top, #d46df8, #d571ff 25%, #d279ff 45%);
 }
 
 /* line 271, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-bottom-over {
   background-image: none;
-  background-color: #dd740b;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #c17714), color-stop(25%, #d5780b), color-stop(45%, #dd740b));
-  background-image: -webkit-linear-gradient(bottom, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -moz-linear-gradient(bottom, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -o-linear-gradient(bottom, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: -ms-linear-gradient(bottom, #c17714, #d5780b 25%, #dd740b 45%);
-  background-image: linear-gradient(bottom, #c17714, #d5780b 25%, #dd740b 45%);
+  background-color: #d279ff;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #d46df8), color-stop(25%, #d571ff), color-stop(45%, #d279ff));
+  background-image: -webkit-linear-gradient(bottom, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -moz-linear-gradient(bottom, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -o-linear-gradient(bottom, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: -ms-linear-gradient(bottom, #d46df8, #d571ff 25%, #d279ff 45%);
+  background-image: linear-gradient(bottom, #d46df8, #d571ff 25%, #d279ff 45%);
 }
 
 /* line 276, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-active {
   z-index: 3;
 }
+/* line 282, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
+.x-tab-active button {
+  color: #1f042d;
+}
 
 /* line 298, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-top-active {
   background-image: none;
-  background-color: #c56e17;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #808080), color-stop(25%, #d27b22), color-stop(45%, #c56e17));
-  background-image: -webkit-linear-gradient(top, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -moz-linear-gradient(top, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -o-linear-gradient(top, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -ms-linear-gradient(top, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: linear-gradient(top, #808080, #d27b22 25%, #c56e17 45%);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccec1), color-stop(25%, #d689fb), color-stop(45%, #ce6dff));
+  background-image: -webkit-linear-gradient(top, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -moz-linear-gradient(top, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -o-linear-gradient(top, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -ms-linear-gradient(top, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: linear-gradient(top, #cccec1, #d689fb 25%, #ce6dff 45%);
 }
 
 /* line 301, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-bottom-active {
   background-image: none;
-  background-color: #c56e17;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #808080), color-stop(25%, #d27b22), color-stop(45%, #c56e17));
-  background-image: -webkit-linear-gradient(bottom, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -moz-linear-gradient(bottom, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -o-linear-gradient(bottom, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: -ms-linear-gradient(bottom, #808080, #d27b22 25%, #c56e17 45%);
-  background-image: linear-gradient(bottom, #808080, #d27b22 25%, #c56e17 45%);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #cccec1), color-stop(25%, #d689fb), color-stop(45%, #ce6dff));
+  background-image: -webkit-linear-gradient(bottom, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -moz-linear-gradient(bottom, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -o-linear-gradient(bottom, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: -ms-linear-gradient(bottom, #cccec1, #d689fb 25%, #ce6dff 45%);
+  background-image: linear-gradient(bottom, #cccec1, #d689fb 25%, #ce6dff 45%);
 }
 
 /* line 306, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-disabled {
-  border-color: #825629;
+  border-color: #be3cff;
 }
 /* line 311, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-tab-disabled button {
@@ -10737,13 +10742,13 @@ textarea.x-form-invalid-field {
   background-image: none;
   background: transparent;
   background-image: none;
-  background-color: #b26e2a;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b26e2a), color-stop(100%, #d47517));
-  background-image: -webkit-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -moz-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -o-linear-gradient(top, #b26e2a, #d47517);
-  background-image: -ms-linear-gradient(top, #b26e2a, #d47517);
-  background-image: linear-gradient(top, #b26e2a, #d47517);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce6dff), color-stop(100%, #d37cff));
+  background-image: -webkit-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -moz-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -o-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: -ms-linear-gradient(top, #ce6dff, #d37cff);
+  background-image: linear-gradient(top, #ce6dff, #d37cff);
 }
 
 /* line 332, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
@@ -10751,13 +10756,13 @@ textarea.x-form-invalid-field {
   background-image: none;
   background: transparent;
   background-image: none;
-  background-color: #b26e2a;
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #b26e2a), color-stop(100%, #d47517));
-  background-image: -webkit-linear-gradient(bottom, #b26e2a, #d47517);
-  background-image: -moz-linear-gradient(bottom, #b26e2a, #d47517);
-  background-image: -o-linear-gradient(bottom, #b26e2a, #d47517);
-  background-image: -ms-linear-gradient(bottom, #b26e2a, #d47517);
-  background-image: linear-gradient(bottom, #b26e2a, #d47517);
+  background-color: #ce6dff;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #ce6dff), color-stop(100%, #d37cff));
+  background-image: -webkit-linear-gradient(bottom, #ce6dff, #d37cff);
+  background-image: -moz-linear-gradient(bottom, #ce6dff, #d37cff);
+  background-image: -o-linear-gradient(bottom, #ce6dff, #d37cff);
+  background-image: -ms-linear-gradient(bottom, #ce6dff, #d37cff);
+  background-image: linear-gradient(bottom, #ce6dff, #d37cff);
 }
 
 /* line 341, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
@@ -10850,7 +10855,7 @@ a.x-tab-close-btn:hover {
 }
 /* line 411, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-over .x-frame-mc {
-  background-color: #dd740b;
+  background-color: #d279ff;
   background-repeat: repeat-x;
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-top-over-bg.gif');
 }
@@ -10870,7 +10875,7 @@ a.x-tab-close-btn:hover {
 }
 /* line 433, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-over .x-frame-mc {
-  background-color: #dd740b;
+  background-color: #d279ff;
   background-repeat: repeat-x;
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-bottom-over-bg.gif');
 }
@@ -10890,7 +10895,7 @@ a.x-tab-close-btn:hover {
 }
 /* line 455, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-nbr .x-tab-top-active .x-frame-mc {
-  background-color: #c56e17;
+  background-color: #ce6dff;
   background-repeat: repeat-x;
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-top-active-bg.gif');
 }
@@ -10910,7 +10915,7 @@ a.x-tab-close-btn:hover {
 }
 /* line 477, ../../extjs/resources/themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x-nbr .x-tab-bottom-active .x-frame-mc {
-  background-color: #c56e17;
+  background-color: #ce6dff;
   background-repeat: repeat-x;
   background-image: url('../../extjs/resources/themes/images/default/tab/tab-default-bottom-active-bg.gif');
 }
