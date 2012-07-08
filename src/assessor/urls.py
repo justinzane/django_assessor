@@ -17,4 +17,9 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
-urlpatterns += staticfiles_urlpatterns()
+#urlpatterns += staticfiles_urlpatterns()
+if settings.DEBUG:
+    static_pattern = r'^%s(?P<path>.*)$' % (settings.STATIC_URL[1:],)
+    urlpatterns += patterns('django.contrib.staticfiles.views',
+        url(static_pattern, 'serve', {'show_indexes': True}),
+    )

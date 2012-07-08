@@ -143,17 +143,17 @@ Ext.define('Assessor.controller.Quiz', {
 			}
 		}
 		var pctScore = 100.0 * num_correct / num_questions;
-		scoreContent += '<p>Your score was ' + pctScore + '%. ';
+		scoreContent += 'Your score was <b>' + pctScore + '%</b>. ';
 		if (pctScore>=70.0) {
-			scoreContent += 'Congratulations, you passed!</p>';
+			scoreContent += 'Congratulations, you passed!';
 		} else {
-			scoreContent += 'BBS requires at least a 70%, keep studying.</p>';
+			scoreContent += 'BBS requires at least a 70%, keep studying.';
 		}
 		Ext.ComponentQuery.query('quizcards')[0].removeAll();
 		// make sure the grid has data
 		es.load()
 		rc = Ext.create('Assessor.view.ResultCard', {});
-		Ext.ComponentQuery.query('#resultpanel')[0].html = '<h2>Your Results</h2>' + scoreContent
+		Ext.ComponentQuery.query('#resultpanel')[0].html = scoreContent
 		Ext.ComponentQuery.query('quizcards')[0].add(rc);
 	},
 	//

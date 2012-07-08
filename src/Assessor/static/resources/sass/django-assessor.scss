@@ -3,30 +3,31 @@
 $include-default: false;
 
 // Insert your custom variables here.
-$base-color: #bf3fff;
-$base-gradient: 'flat' !default;
-$font-family: 'Open Sans';
-$condensed-font-family: 'Open Sans Condensed';
-$font-size: 16px; 
+//$base-color: #bfbfff;
+//$base-gradient: 'glossy' !default;
+$font-family: 'Bree Serif';
+$font-size: 14px; 
 
-$form-field-background-color: #cfcfcf;
-$form-field-color: #00002f;
-$form-field-font-family: $font-family;
-$form-label-background-color: #1f1f1f;
-$form-label-color: #dfdfff;
-$form-label-font-family: $condensed-font-family;
-$form-radio-background-color: #efdfbf;
-$form-radio-color: #00002f;
-$fieldset-header-line-height: 20px;
-$fieldset-header-font-family: $font-family !default;
+//$form-field-background-color: #cfcfcf;
+//$form-field-color: #00002f;
+//$form-label-background-color: #1f1f1f;
+//$form-label-color: #dfdfff;
+//$form-radio-background-color: #efdfbf;
+//$form-radio-color: #00002f;
+//$fieldset-header-line-height: 20px;
 
-$panel-body-background-color: #ffefdf;
-$panel-header-font-family: $font-family !default;
+//$panel-body-background-color: #ffefdf;
+$panel-body-font-size: $font-size;
+$form-font-size: $font-size;
+$form-label-font-size: $font-size;
+$form-radio-font-size: $font-size;
+$fieldset-font-size: $font-size;
 
-$button-small-font-family: $condensed-font-family !default;
-$button-medium-font-family: $condensed-font-family !default;
-$button-large-font-family: $condensed-font-family !default;
 
+.x-grid-cell-inner {
+  overflow: auto !important;
+  white-space: normal !important;
+}
 
 //---------------------------------------------------------
 @import 'ext4/default/all';

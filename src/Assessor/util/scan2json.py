@@ -20,32 +20,13 @@ Created on May 29, 2012
 '''
 import re, Levenshtein, json, os
 
-def replace_ligatures(arg_line):
-    CHAR2LIG = {'Et':unichr(0x0026),
-                'ae':unichr(0x00C6),
-                'oe':unichr(0x0152),
-                'ij':unichr(0x0132),
-                'ue':unichr(0x1D6B),
-                'ff':unichr(0xFB00),
-                'fi':unichr(0xFB01),
-                'fl':unichr(0xFB02),
-                'ffi':unichr(0xFB03),
-                'ffl':unichr(0xFB04),
-                'ſt':unichr(0xFB05),
-                'st':unichr(0xFB06),
-                'ae':unichr(0x00E6),
-                'oe':unichr(0x0153),
-                'ij':unichr(0x0133)}
-    for chars in CHAR2LIG.keys():
-        return(arg_line.replace(CHAR2LIG[chars], chars))
-
 def strip_bogus_lines(arg_lines):
     re_blank = re.compile(r'^\s$')
     re_page_left = re.compile(r'^\s*Page [0-9]+')
     re_page_right = re.compile(r'Page [0-9]+\s*$')
     berk_string = 'BERKELEY TRAINING ASSOCIATES © 2009\n'
     mft_string = 'MFT PRACTICE EXAMINATIONS'
-    
+
     lines = []
     for line in arg_lines:
         bogosity = 0.0
@@ -67,15 +48,15 @@ def strip_bogus_lines(arg_lines):
         if bogosity < 0.25:
             lines.append(line)
     return lines
-    
+
 def parse_questions(lines, path):
     questions = []
     choices = []
     text = ''
-    
-    re_quest = re.compile(r'^(?P<num>[0-9]+)\'\.[ ]+(?P<text>[A-Z].+)')
+
+    re_quest = re.compile(r'^(?P<num>[0-9]+)[\*\'\"]\.[ ]+(?P<text>[A-Z“”\"].+)')
     re_choice = re.compile(r'^(?P<num>[a-d])[. ]+(?P<text>.+)')
-    
+
     current = None
     cur_quest_num = None
     for line in lines:
@@ -101,10 +82,10 @@ def parse_questions(lines, path):
             choices.append(cc)
     json.dump(questions, open(path + 'questions.json', 'w'), indent=4)
     json.dump(choices, open(path + 'choices.json', 'w'), indent=4)
-    
+
 
 if __name__ == '__main__':
-    filename = '../quiz2/questions.txt'
+    filename = '../quiz3/questions.txt'
     lines = open(filename, 'r').readlines()
     lines = strip_bogus_lines(lines)
-    parse_questions(lines, '../quiz2/')
+    parse_questions(lines, '../quiz3/')

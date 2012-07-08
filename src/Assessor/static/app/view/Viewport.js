@@ -10,7 +10,6 @@ Ext.define('Assessor.view.Viewport', {
 		'Assessor.view.StartCard',
 		'Assessor.view.QuestionCard'],
 	layout: 'border',
-	padding: 5,
 	items: [{
 		xtype: 'headerpanel',
 		region: 'north'
@@ -25,13 +24,9 @@ Ext.define('Assessor.view.Viewport', {
 		},
 		items: [{
 			xtype: 'quizcards',
-			flex: 85
+			flex: 1
 		}, {
 			xtype: 'buttonpanel',
-			flex: 15
 		}]
-	}, {
-		xtype: 'footerpanel',
-		region: 'south'
 	}]
 })
