@@ -67,7 +67,7 @@ Ext.define('Assessor.controller.Quiz', {
 			for (var i = 0; i < records.length; i++) {
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
-					boxLabel : records[i].data['text'],
+					boxLabel : i + ' - ' + records[i].data['text'],
 					name : 'rb',
 					inputValue : records[i].data['id']
 				});
@@ -178,6 +178,35 @@ Ext.define('Assessor.controller.Quiz', {
 	},
 	//
 	init : function() {
+/**		var nextMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	    }]);
+		var oneMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var twoMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var threeMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var fourMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]); */
 		this.control({
 			'#nextbutton' : {
 				click : this.nextQuestion

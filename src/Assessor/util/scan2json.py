@@ -54,7 +54,7 @@ def parse_questions(lines, path):
     choices = []
     text = ''
 
-    re_quest = re.compile(r'^(?P<num>[0-9]+)[\*\'\"]\.[ ]+(?P<text>[A-Z“”\"].+)')
+    re_quest = re.compile(r'^(?P<num>[0-9]+)[\*\'\"]{0,1}\.[ ]+(?P<text>[A-Z“”\"].+)')
     re_choice = re.compile(r'^(?P<num>[a-d])[. ]+(?P<text>.+)')
 
     current = None
@@ -85,7 +85,7 @@ def parse_questions(lines, path):
 
 
 if __name__ == '__main__':
-    filename = '../quiz3/questions.txt'
+    filename = '../quiz1/questions.txt'
     lines = open(filename, 'r').readlines()
     lines = strip_bogus_lines(lines)
-    parse_questions(lines, '../quiz3/')
+    parse_questions(lines, '../quiz1/')

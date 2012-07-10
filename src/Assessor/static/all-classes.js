@@ -75831,7 +75831,7 @@ Ext.define('Assessor.view.ResultCard', {
 		html: ''
 	}, {
 		xtype: 'explanationgrid',
-		flex: 1,
+		flex: 4,
 	}, {
 		xtype: 'fieldset',
 		flex: 0,
@@ -79541,7 +79541,7 @@ Ext.define('Assessor.controller.Quiz', {
 			for (var i = 0; i < records.length; i++) {
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
-					boxLabel : records[i].data['text'],
+					boxLabel : i + ' - ' + records[i].data['text'],
 					name : 'rb',
 					inputValue : records[i].data['id']
 				});
@@ -79617,17 +79617,17 @@ Ext.define('Assessor.controller.Quiz', {
 			}
 		}
 		var pctScore = 100.0 * num_correct / num_questions;
-		scoreContent += '<p>Your score was ' + pctScore + '%. ';
+		scoreContent += 'Your score was <b>' + pctScore + '%</b>. ';
 		if (pctScore>=70.0) {
-			scoreContent += 'Congratulations, you passed!</p>';
+			scoreContent += 'Congratulations, you passed!';
 		} else {
-			scoreContent += 'BBS requires at least a 70%, keep studying.</p>';
+			scoreContent += 'BBS requires at least a 70%, keep studying.';
 		}
 		Ext.ComponentQuery.query('quizcards')[0].removeAll();
 		// make sure the grid has data
 		es.load()
 		rc = Ext.create('Assessor.view.ResultCard', {});
-		Ext.ComponentQuery.query('#resultpanel')[0].html = '<h2>Your Results</h2>' + scoreContent
+		Ext.ComponentQuery.query('#resultpanel')[0].html = scoreContent
 		Ext.ComponentQuery.query('quizcards')[0].add(rc);
 	},
 	//
@@ -79652,36 +79652,35 @@ Ext.define('Assessor.controller.Quiz', {
 	},
 	//
 	init : function() {
-		var nextMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 174,
-            ctrl: false,
-            target: this
-        });
-		var prevMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 176,
-            ctrl: false,
-            target: this
-        });
-		var oneMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 49,
-            ctrl: false,
-            target: this
-        });
-		var twoMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 50,
-            ctrl: false,
-            target: this
-        });
-		var threeMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 51,
-            ctrl: false,
-            target: this
-        });
-		var fourMap = new Ext.util.KeyMap(Ext.getBody(), {
-            key: 52,
-            ctrl: false,
-            target: this
-        });
+/**		var nextMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	    }]);
+		var oneMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var twoMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var threeMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]);
+		var fourMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
+	        key: Ext.EventObject.N, // Next
+	        shift: false,
+	        ctrl: false,
+	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
+	    }]); */
 		this.control({
 			'#nextbutton' : {
 				click : this.nextQuestion
