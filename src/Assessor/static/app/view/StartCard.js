@@ -6,12 +6,12 @@ Ext.define('Assessor.view.StartCard', {
 		align: 'stretch'
 	},
 	autoScroll: true,
+	border: false,
 	items: [{
 		xtype: 'panel',
 		itemId: 'startpanel',
 		flex: 1,
-		minWidth: 240,
-		maxWidth: 1080,
+		border: false,
 		html: '<p>The Assessor is a practice exam for the California BBS ' +  
 		'Marriage and Family Therapy License Exam. The real exam consists of 200 ' + 
 		'questions. You may choose to try between 5 and 200. Pick how many you ' + 
@@ -19,7 +19,8 @@ Ext.define('Assessor.view.StartCard', {
 	}, {
 		xtype: 'fieldset',
 		flex: 0,
-		layout: 'anchor',
+		layout: 'hbox',
+		border: false,
 		items: [{
 			xtype: 'numberfield',
 			fieldLabel: 'Num. Questions',

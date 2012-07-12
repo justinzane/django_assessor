@@ -21,7 +21,8 @@ Assessor.admin
     along with this program.  If not, see <http://www.gnu.org/licenses/>.    
 '''
 from django.contrib import admin
-from models import Question, Choice
+from models import Question, Choice, Answer
 
 admin.site.register(Question)
 admin.site.register(Choice)
+admin.site.register(Answer)

@@ -6,31 +6,22 @@ Ext.define('Assessor.view.ResultCard', {
 		align: 'stretch'
 	},
 	autoScroll: true,
+	border: false,
 	items: [{
 		xtype: 'panel',
 		itemId: 'resultpanel',
-		flex: 1,
 		html: ''
 	}, {
 		xtype: 'explanationgrid',
-		flex: 4,
+		flex: 1,
 	}, {
 		xtype: 'fieldset',
-		flex: 0,
 		layout: 'anchor',
+		border: false,
 		items: [{
-			xtype: 'numberfield',
-			fieldLabel: 'Num. Questions',
-			alias: 'widget.numQuestionsField',
-			name: 'numQuestions',
-			minValue: 5,
-			maxValue: 200,
-			value: 5,
-			step: 5
-		}, {
 			xtype: 'button',
-			itemId: 'startbutton',
-			text: 'Start Quiz',
+			itemId: 'restartbutton',
+			text: 'Restart Quiz',
 			disabled: false
 		}]
 	}]

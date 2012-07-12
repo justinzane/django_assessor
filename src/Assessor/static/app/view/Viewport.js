@@ -22,6 +22,7 @@ Ext.define('Assessor.view.Viewport', {
 			type: 'vbox',
 			align: 'stretch'
 		},
+		border: false,
 		items: [{
 			xtype: 'quizcards',
 			flex: 1

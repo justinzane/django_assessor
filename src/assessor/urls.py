@@ -8,6 +8,7 @@ import settings
 v1_api = Api(api_name='v1')
 v1_api.register(QuestionResource())
 v1_api.register(ChoiceResource())
+v1_api.register(AnswerResource())
 v1_api.register(UserResource())
 
 admin.autodiscover()

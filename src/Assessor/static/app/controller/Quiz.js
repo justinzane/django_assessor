@@ -1,8 +1,8 @@
 Ext.define('Assessor.controller.Quiz', {
 	extend : 'Ext.app.Controller',
 	itemId : 'quizcontroller',
-	models : ['Question', 'Choice', 'Explanation'],
-	stores : ['Question', 'Choice', 'Explanation'],
+	models : ['Question', 'Choice', 'Explanation', 'Answer'],
+	stores : ['Question', 'Choice', 'Explanation', 'Answer'],
 	views : ['QuestionCard', 'ResultCard', 'ExplanationGrid'],
 
 	// Custom Functions
@@ -26,6 +26,14 @@ Ext.define('Assessor.controller.Quiz', {
 		} else {
 			pb.disable();
 		};
+	}, //end updateButtons
+	/**
+	 * disable the buttons 
+	 */
+	disableButtons : function() {
+		Ext.ComponentQuery.query('#nextbutton')[0].disable();
+		Ext.ComponentQuery.query('#prevbutton')[0].disable();
+		Ext.ComponentQuery.query('#finishbutton')[0].disable();
 	}, //end updateButtons
 	/**
 	 * get active question card index
@@ -60,6 +68,12 @@ Ext.define('Assessor.controller.Quiz', {
 		});
 	},
 	/**
+	 * REstart the quiz
+	 */
+	reStartQuiz : function (args) {
+		location.reload();
+	},
+	/**
 	 * callback to create radiogroups with data from association store
 	 */
 	createRadioGroup : function(records, operation, success) {
@@ -68,7 +82,7 @@ Ext.define('Assessor.controller.Quiz', {
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
 				var bl = Ext.create('Ext.form.field.Radio', {
 					boxLabel : i + ' - ' + records[i].data['text'],
-					name : 'rb',
+					name : 'rb' + records[i].data['id'],
 					inputValue : records[i].data['id']
 				});
 				rg.add(bl);
@@ -109,10 +123,22 @@ Ext.define('Assessor.controller.Quiz', {
 		this.updateButtons();
 	},
 	/**
+	 * record answer by adding model to store
+	 */
+	recordAnswer: function(questionUri, choiceUri) {
+		var answer = Ext.create('Assessor.model.Answer', {
+			question_uri: questionUri,
+			choice_uri: choiceUri
+		});
+		answer.save();
+//		Ext.getStore('Answer').add(answer);
+	},
+	/**
 	 * finishQuiz -- finishes and scores the quiz
 	 * @param {Object} args
 	 */
 	finishQuiz : function(args) {
+		this.disableButtons();
 		var cs = Ext.getStore('Choice');
 		var es = Ext.getStore('Explanation');
 		var qs = Ext.getStore('Question');
@@ -126,13 +152,15 @@ Ext.define('Assessor.controller.Quiz', {
 			var questionId = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).questionId;
 			//get selected radiofield id
 			try {
-				var selected_id = Ext.ComponentQuery.query('#choicegroup-'+questionId)[0].getValue()['rb'];
-				if (cs.getById(selected_id).data['is_correct']) {
+				var selectedObj = Ext.ComponentQuery.query('#choicegroup-'+questionId)[0].getValue();
+				var selectedId = selectedObj[[Object.keys(selectedObj)[0]]];
+				this.recordAnswer(qs.getById(questionId).data['resource_uri'], cs.getById(selectedId).data['resource_uri']);
+				if (cs.getById(selectedId).data['is_correct']) {
 					num_correct += 1;
 				} else {
 					var exp = Ext.create('Assessor.model.Explanation', {
 						question: qs.getById(questionId).data['text'],
-						choice: cs.getById(selected_id).data['text'],
+						choice: cs.getById(selectedId).data['text'],
 						explanation: qs.getById(questionId).data['explanation']
 					});
 					exp.save();
@@ -216,6 +244,9 @@ Ext.define('Assessor.controller.Quiz', {
 			},
 			'#startbutton' : {
 				click : this.startQuiz
+			},
+			'#restartbutton' : {
+				click : this.reStartQuiz
 			},
 			'#finishbutton' : {
 				click : this.finishQuiz
