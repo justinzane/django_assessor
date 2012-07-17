@@ -1,5 +1,6 @@
 Ext.define('Assessor.view.Viewport', {
 	extend: 'Ext.container.Viewport',
+	itemId: 'viewport',
 	requires: [
 		'Assessor.view.Header',
 		'Assessor.view.Footer',

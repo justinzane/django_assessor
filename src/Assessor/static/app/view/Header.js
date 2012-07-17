@@ -2,8 +2,5 @@ Ext.define('Assessor.view.Header', {
 	extend: 'Ext.panel.Panel',
 	alias: 'widget.headerpanel',
 	title: 'Django Assessor',
-	style: {
-		fontFamily: 'UnifrakturCook',
-		fontSize: 24
-	}
+	icon: '/static/resources/images/a_icon01_opt.svg'
 })

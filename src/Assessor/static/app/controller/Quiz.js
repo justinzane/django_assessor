@@ -48,6 +48,30 @@ Ext.define('Assessor.controller.Quiz', {
 		Ext.ComponentQuery.query('quizcards')[0].getLayout().setActiveItem('questioncard-' + index);
 	},
 	/**
+	 * Setup the timer task
+	 */
+	startTimer: function (num) {
+		var timerBar = Ext.ComponentQuery.query('#timerbar')[0];
+		var startTime = new Date().getTime() / 1000.0;
+		var totalTime = timerBar.numToTime(num);
+		var updateTimer = function() {
+			var curTime = new Date().getTime() / 1000.0;
+			var elapsedTime = (curTime - startTime); 
+			var progress = elapsedTime / totalTime;
+			if (progress >= 1.0) {
+				Ext.MessageBox.alert("Time Expired", "Please try to answers questions more promptly.");
+				Assessor.controller.Quiz.finishQuiz();
+			} else {
+				timeText = (elapsedTime / 60.0).toFixed(0) + " min. elapsed";
+				timerBar.updateProgress(progress, timeText);
+			}
+		};
+		var timerTask = Ext.TaskManager.start({
+			run: updateTimer,
+			interval: 10000
+		});
+	},
+	/**
 	 * start the quiz
 	 */
 	startQuiz : function (args) {
@@ -63,6 +87,7 @@ Ext.define('Assessor.controller.Quiz', {
 			},
 			callback: function () {
 				this.createQuestionCards(numQuestions);
+				this.startTimer(numQuestions);
 				this.updateButtons();
 			}
 		});
@@ -80,9 +105,10 @@ Ext.define('Assessor.controller.Quiz', {
 		if (success) {
 			for (var i = 0; i < records.length; i++) {
 				var rg = Ext.ComponentQuery.query('#choicegroup-'+records[i].data['question_id'])[0];
-				var bl = Ext.create('Ext.form.field.Radio', {
+				var bl = Ext.create('Ext.form.Checkbox', {
 					boxLabel : i + ' - ' + records[i].data['text'],
 					name : 'rb' + records[i].data['id'],
+					itemId : 'rb' + records[i].data['id'],
 					inputValue : records[i].data['id']
 				});
 				rg.add(bl);
@@ -105,7 +131,8 @@ Ext.define('Assessor.controller.Quiz', {
 				fieldLabel : 'Question ' + qs.getAt(i).data['id'],
 				value : qs.getAt(i).data['text']
 			});
-			var rg = Ext.create('Ext.form.RadioGroup', {
+			//var rg = Ext.create('Ext.form.RadioGroup', {
+			var rg = Ext.create('Ext.form.CheckboxGroup', {
 				itemId : 'choicegroup-' + qs.getAt(i).data['id'],
 				alias : 'widget.choicegroup-' + qs.getAt(i).data['id'],
 				columns : 1,
@@ -138,6 +165,7 @@ Ext.define('Assessor.controller.Quiz', {
 	 * @param {Object} args
 	 */
 	finishQuiz : function(args) {
+		timerBar = Ext.ComponentQuery.query('#timerbar')[0].disable();
 		this.disableButtons();
 		var cs = Ext.getStore('Choice');
 		var es = Ext.getStore('Explanation');
@@ -206,35 +234,6 @@ Ext.define('Assessor.controller.Quiz', {
 	},
 	//
 	init : function() {
-/**		var nextMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
-	        key: Ext.EventObject.N, // Next
-	        shift: false,
-	        ctrl: false,
-	    }]);
-		var oneMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
-	        key: Ext.EventObject.N, // Next
-	        shift: false,
-	        ctrl: false,
-	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
-	    }]);
-		var twoMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
-	        key: Ext.EventObject.N, // Next
-	        shift: false,
-	        ctrl: false,
-	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
-	    }]);
-		var threeMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
-	        key: Ext.EventObject.N, // Next
-	        shift: false,
-	        ctrl: false,
-	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
-	    }]);
-		var fourMap = Ext.create('Ext.util.KeyMap', Ext.getBody(), [{
-	        key: Ext.EventObject.N, // Next
-	        shift: false,
-	        ctrl: false,
-	        fn: Ext.ComponentQuery.query('#nextbutton')[0].fireEvent('click')
-	    }]); */
 		this.control({
 			'#nextbutton' : {
 				click : this.nextQuestion

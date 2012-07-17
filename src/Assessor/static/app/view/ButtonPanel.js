@@ -1,26 +1,31 @@
 Ext.define('Assessor.view.ButtonPanel', {
 	extend: 'Ext.panel.Panel',
+	requires: 'Assessor.view.TimerBar',
 	alias: 'widget.buttonpanel',
-	layout: 'anchor',
-	align: 'center',
 	bbar: [{
 		xtype: 'buttongroup',
 		itemId: 'quizbuttongroup',
+	layout: 'hbox',
+	width: '100%',
 		items: [{
 			xtype: 'button',
 			itemId: 'prevbutton',
-			text: 'Previous Question',
+			text: 'Previous',
 			disabled: true
 		}, {
 			xtype: 'button',
 			itemId: 'nextbutton',
-			text: 'Next Question',
+			text: 'Next',
 			disabled: true
 		}, {
 			xtype: 'button',
 			itemId: 'finishbutton',
-			text: 'Finish Quiz',
+			text: 'Finish',
 			disabled: true
+		}, {
+			xtype: 'timerbar',
+			itemId: 'timerbar',
+			flex: 1
 		}]
 	}]
 })
