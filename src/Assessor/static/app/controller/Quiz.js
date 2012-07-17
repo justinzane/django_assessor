@@ -60,7 +60,7 @@ Ext.define('Assessor.controller.Quiz', {
 			var progress = elapsedTime / totalTime;
 			if (progress >= 1.0) {
 				Ext.MessageBox.alert("Time Expired", "Please try to answers questions more promptly.");
-				Assessor.controller.Quiz.finishQuiz();
+				timerBar.updateProgress(1.0, "Time Expired!");
 			} else {
 				timeText = (elapsedTime / 60.0).toFixed(0) + " min. elapsed";
 				timerBar.updateProgress(progress, timeText);
@@ -68,7 +68,8 @@ Ext.define('Assessor.controller.Quiz', {
 		};
 		var timerTask = Ext.TaskManager.start({
 			run: updateTimer,
-			interval: 10000
+			interval: 10000,
+			duration: totalTime * 1000
 		});
 	},
 	/**
