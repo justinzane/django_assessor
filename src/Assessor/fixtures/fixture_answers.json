@@ -1,0 +1,274 @@
+[
+    {
+        "pk": 1,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4079,
+            "choice": 1123
+        }
+    },
+    {
+        "pk": 2,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4009,
+            "choice": 840
+        }
+    },
+    {
+        "pk": 3,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2030,
+            "choice": 118
+        }
+    },
+    {
+        "pk": 4,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 1122,
+            "choice": 2083
+        }
+    },
+    {
+        "pk": 5,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4060,
+            "choice": 1047
+        }
+    },
+    {
+        "pk": 6,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4098,
+            "choice": 1199
+        }
+    },
+    {
+        "pk": 7,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3122,
+            "choice": 2888
+        }
+    },
+    {
+        "pk": 8,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3112,
+            "choice": 2847
+        }
+    },
+    {
+        "pk": 9,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 1060,
+            "choice": 1834
+        }
+    },
+    {
+        "pk": 10,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2071,
+            "choice": 284
+        }
+    },
+    {
+        "pk": 11,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3101,
+            "choice": 2804
+        }
+    },
+    {
+        "pk": 12,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4196,
+            "choice": 1594
+        }
+    },
+    {
+        "pk": 13,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4021,
+            "choice": 891
+        }
+    },
+    {
+        "pk": 14,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4056,
+            "choice": 1031
+        }
+    },
+    {
+        "pk": 15,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2129,
+            "choice": 518
+        }
+    },
+    {
+        "pk": 16,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3033,
+            "choice": 2530
+        }
+    },
+    {
+        "pk": 17,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2157,
+            "choice": 630
+        }
+    },
+    {
+        "pk": 18,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3118,
+            "choice": 2872
+        }
+    },
+    {
+        "pk": 19,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3102,
+            "choice": 2808
+        }
+    },
+    {
+        "pk": 20,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 1094,
+            "choice": 1972
+        }
+    },
+    {
+        "pk": 21,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3110,
+            "choice": 2840
+        }
+    },
+    {
+        "pk": 22,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2008,
+            "choice": 33
+        }
+    },
+    {
+        "pk": 23,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3095,
+            "choice": 2780
+        }
+    },
+    {
+        "pk": 24,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 1080,
+            "choice": 1916
+        }
+    },
+    {
+        "pk": 25,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2111,
+            "choice": 446
+        }
+    },
+    {
+        "pk": 26,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 1164,
+            "choice": 2251
+        }
+    },
+    {
+        "pk": 27,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2096,
+            "choice": 384
+        }
+    },
+    {
+        "pk": 28,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2071,
+            "choice": 282
+        }
+    },
+    {
+        "pk": 29,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4053,
+            "choice": 1018
+        }
+    },
+    {
+        "pk": 30,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4005,
+            "choice": 826
+        }
+    },
+    {
+        "pk": 31,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4140,
+            "choice": 1371
+        }
+    },
+    {
+        "pk": 32,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 2041,
+            "choice": 162
+        }
+    },
+    {
+        "pk": 33,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 3140,
+            "choice": 2957
+        }
+    },
+    {
+        "pk": 34,
+        "model": "Assessor.answer",
+        "fields": {
+            "question": 4059,
+            "choice": 1044
+        }
+    }
+]

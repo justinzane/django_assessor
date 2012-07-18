@@ -204,7 +204,7 @@
         "model": "Assessor.question",
         "fields": {
             "text": "You may reveal a client\u2019s privileged communication in the State of California without your client\u2019s consent under which of the following conditions? ",
-            "explanation": "NOT AVAILABLE"
+            "explanation": "B and C are incorrect because the privilege usually applies in civil and criminal trials. Such protection is one of the major purposes of having a privileged communication law. D is incorrect in most cases. Note, however, that privilege does not apply when the patient is under age 16 and disclosure is in the best interest of the child."
         }
     },
     {
@@ -555,7 +555,7 @@
         "pk": 1074,
         "model": "Assessor.question",
         "fields": {
-            "text": "An MFT Intern approaches you to receive qualifying supervision toward licensure. She wants you to focus on helping her develop better treatment plans with her clients. As ",
+            "text": "An MFT Intern approaches you to receive qualifying supervision toward licensure. She wants you to focus on helping her develop better treatment plans with her clients. As licensed MFT, in order for you to provide qualifying supervision to this Intern you must... ",
             "explanation": "This requirement is set forth in Business and Professions Code Section 4996.13. A and C are incorrect because they describe a consultation relationship, not supervision. D is incorrect because the Associate may be employed by you and, in a private practice, must be employed by you."
         }
     },
@@ -995,7 +995,7 @@
         "pk": 1129,
         "model": "Assessor.question",
         "fields": {
-            "text": "A middle aged client with healthy object relations, judgment, sense of identity and cognitive functioning has sought therapy to work through his difficulty in making a major career decision. He seeks brief therapy because he senses that the source of his difficulty with this decision lies in unresolved identity issues. You should consider this client to be ",
+            "text": "A middle aged client with healthy object relations, judgment, sense of identity and cognitive functioning has sought therapy to work through his difficulty in making a major career decision. He seeks brief therapy because he senses that the source of his difficulty with this decision lies in unresolved identity issues. You should consider this client to be good candidate for brief therapy because successful engagement in a brief therapy depends on... ",
             "explanation": "A is false because nobody is free of ambivalence. B is false because few clients have only a single issue when they seek any kind of therapy. Brief therapy can accommodate multiple problems. If, however, a client does not have the capacity to tolerate rapid involvement in a therapeutic alliance, the marriage and family therapist using a brief therapy approach can exert little influence. If the client does not have the capacity to tolerate rapid loss, termination will likely precipitate a stress reaction that the therapist will not have time to work through with the client. D is incorrect because nobody is free of ego defenses."
         }
     },
@@ -1155,7 +1155,7 @@
         "pk": 1149,
         "model": "Assessor.question",
         "fields": {
-            "text": "You are providing psychoeducational groups to help young mothers develop a realistic sense of expectations for their babies\u2019 behavior. You should explain to them, in ",
+            "text": "You are providing psychoeducational groups to help young mothers develop a realistic sense of expectations for their babies\u2019 behavior. You should explain to them, in language that they understand, that in the healthy infant the object concept develops during the developmental stage when a child is dealing with the conflict between... ",
             "explanation": "The object concept develops during infancy which is also the stage of trust vs. mistrust (also known as the oral stage)."
         }
     },
@@ -1595,7 +1595,7 @@
         "pk": 2004,
         "model": "Assessor.question",
         "fields": {
-            "text": "Bob K. has been your client in individual therapy for the past 9 months, dealing with ",
+            "text": "Bob K. has been your client in individual therapy for the past 9 months, dealing with life long problem of low self-esteem. Recently he and his wife have had heated quarrels about whether to purchase a car now or wait until next year. He asks if you would meet with both him and his wife for four or five sessions to resolve the problem. The first thing you should do is to... ",
             "explanation": " Your pre-existing relationship with your individual client would create an unbalanced set of relationships. His wife would be new to you but your relationship with him would be well established. You would be going into these sessions knowing Bob's perspective on his wife, but not knowing her perspective on Bob. All of this would interfere with your ability to help Bob accomplish his purpose of resolving the money issue between him and his wife. A and B are incorrect for the reason that C is correct. D is incorrect because, even though Bob's request might be a resistance, you don't have enough information from the vignette to assume that this is the case. "
         }
     },
@@ -1708,7 +1708,7 @@
         "model": "Assessor.question",
         "fields": {
             "text": "For the past several years your client has been preoccupied with fears of having, or the idea that she actually has, a serious disease based on her misinterpretation of bodily symptoms. Her anxious preoccupation persists despite having been provided with appropriate medical reassurance. She is not delusional, but her preoccupation causes clinically significant distress. You should expect all of the following from this client except... ",
-            "explanation": "MISSING"
+            "explanation": "Hypomanic symptoms are not associated with hypochondriasis. Notice the word \"except\" in the question. In hypochondriasis a great deal of anxiety is involved and all three qualities described in A through C are affected. See the DSM manual for more information."
         }
     },
     {
@@ -1997,6 +1997,14 @@
         "fields": {
             "text": "Your client reveals that he has burglarized a neighbor's house to obtain a piece of jewelry that he has always admired. You... ",
             "explanation": " State law regarding confidentiality and privileged communication does not allow for such a revelation except in specifically defined compelling circumstances. The law does not require you to report crimes sue . as burglary. If your client consents to your report of his crime, you may then reveal the information if you feel it would be in his best interest. In such circumstances it would be best, of course, to encourage the client to make his own report rather than doing it for him. B is incorrect because you may reveal confidential information, even information about a crime, with a client's consent. C is incorrect because California does not require reports of crimes such as burglary, even though it requires reports of crimes involving abuse of children, elders or dependent adults. D is incorrect because you may not report a his crime without his consent. "
+        }
+    },
+    {
+        "pk": 2055,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "Client presents with a variety of symptoms and meets the criteria for several clinical diagnoses. She says that some of her symptoms vary with the seasons. If this is true, you should expect that it would most likely be true for which of this client's symptoms? ",
+            "explanation": "Depression often becomes worse in the winter, perhaps an effect of reduced light during that season. While anxiety, guilt or cognitive functioning might fluctuate by season for some individuals because of special seasonal events that trigger these reactions, seasonal variation is not as commonly found as it is in the case of depression. Depression is the best answer."
         }
     },
     {
@@ -2363,7 +2371,7 @@
         "pk": 2101,
         "model": "Assessor.question",
         "fields": {
-            "text": "You are the therapist for a psychotherapy group designed to help individuals with ",
+            "text": "You are the therapist for a psychotherapy group designed to help individuals with variety of interpersonal relationship problems learn about the nature of their behavior and the effect it has on others. One client has been trying to project a positive, constructive image of himself to other members, and is trying to win others' approval. You should take this to mean that the client is... ",
             "explanation": " The primary task of group psychotherapy is to accomplish personal change and growth through honest self-exploration. Trying to project any particular image of oneself to other members, and trying to win others.' approval will not accomplish this. A is incorrect because this client may be engaging in these behaviors primarily in relation to the other group members, not because of his relationship with the therapist. B is incorrect because these behaviors might be present only in this kind of group situation. Characterological manipulation would be persistent and pervasive, but there is no indication that this is the case for this client. D is incorrect because C is correct, and D presents an opposite statement. "
         }
     },
@@ -2476,7 +2484,7 @@
         "model": "Assessor.question",
         "fields": {
             "text": "Johnny is a 4 year old boy who has been in a nurturing foster placement for 5 months. He was placed in the home after his mother abandoned the family and his alcoholic father felt that he was unable to care for the children. Johnny lacks spontaneity and fails to respond to his caretakers' efforts to reach out to him and offer affection. Speech is normal but Johnny is usually very quiet. He occasionally plays with toys or watches television, but never in concert with another person. Your assessment should recognize that Johnny probably... ",
-            "explanation": "MISSING"
+            "explanation": "MISSING...  disturbed social relatedness are not characteristic of mentally retarded children. C is incorrect because, even though the lack of social relatedness may be found in autism, normal speech would not be expected and other characteristic symptoms of autism are not described here.  D is incorrect because, even though a simple adjustment problem would involve sadness or anxiety after suffering such a loss and displacement, after five months most children probably would have made a better social adjustment than the one described here."
         }
     },
     {
@@ -3099,7 +3107,7 @@
         "pk": 2193,
         "model": "Assessor.question",
         "fields": {
-            "text": "You will be working with an anxious middle aged client who has been troubled by ",
+            "text": "You will be working with an anxious middle aged client who has been troubled by sense of depersonalization and a lack of socially supportive relationships since moving to your community. In taking a Humanistic Existential approach you should move from... ",
             "explanation": " Self-alienation refers to a kind of phobic avoidance of parts of ourselves. To the extent that we keep certain needs, feelings, and desires out of awareness we become alienated from ourselves. A part of ourselves is left in the background  our \"unfinished business\" while we go about tending to the presumably less threatening issues or diversions that we permit into consciousness. Personal integration involves an openness to the full range of our true experience, however unpleasant that may be. The result is personal effectiveness and a more confident sense of presence and integrity. B is incorrect because this describes the general direction of Crisis Intervention Therapy. C is incorrect because Humanistic Existential Psychotherapy moves toward accepting our ambivalences, not overcoming them. The goal is not self certainty and relaxation, but a sense of self acceptance and presence, even in the face of the inevitable self doubts and tensions that arise in our lives. D is incorrect because this is a more apt description of the general direction in Psychodynamic Psychotherapy. "
         }
     },
@@ -3219,7 +3227,7 @@
         "pk": 3008,
         "model": "Assessor.question",
         "fields": {
-            "text": "You are interviewing a chemically dependent person who has just been referred to you for service at your private practice. After explaining the nature of the services you have to offer, the individual says that he will forego therapy and try to overcome his problem on his own, as he has done before. You should... \u2019 ",
+            "text": "You are interviewing a chemically dependent person who has just been referred to you for service at your private practice. After explaining the nature of the services you have to offer, the individual says that he will forego therapy and try to overcome his problem on his own, as he has done before. You should...  ",
             "explanation": "The AAMFT Code of Ethics states that \u201cMFT\u2019s respect the rights of clients to make decisions and help them to understand the consequences of these decisions.\u201d B is incorrect because the code of ethics makes it clear that an MFT can respect the client\u2019s self-determination and still provide information about the potential consequences of a decision. C is incorrect because this approach is very intrusive and would violate the client\u2019s confidentiality as well as his right to self-determination. D is incorrect because there is insufficient information in the stem of the question to establish that residential treatment is the appropriate level of treatment for this individual. Outpatient therapy in combination with self-help group participation can often be just as effective as residential treatment."
         }
     },
@@ -3595,7 +3603,7 @@
         "pk": 3055,
         "model": "Assessor.question",
         "fields": {
-            "text": "Your client, who recently immigrated to this country from Mexico, grew up in a working class family and identifies strongly with her Mexican culture. She presents With ",
+            "text": "Your client, who recently immigrated to this country from Mexico, grew up in a working class family and identifies strongly with her Mexican culture. She presents with variety of mood symptoms and somatoform symptoms. In assessing the nature of symptoms with this client, you are likely to find that she views... ",
             "explanation": "A and B are incorrect because either mental or physical factors, or both, are seen as capable of causing either mental or physical \u201csymptoms.\u201d D is incorrect because both mental and biological functioning can be affected by spiritual factors, just as they can both be affected by physical factors. As in many ethnic cultures, the emphasis is on the integration of mind and body."
         }
     },
@@ -3669,6 +3677,14 @@
         "fields": {
             "text": "You are developing a comprehensive psychosocial assessment of a client from India. When asked about the psychosocial adjustment of others in his family, the client informs you that his brother has a long history of dhat. Your assessment should recognize that the brother is most likely to have experienced any of the following symptoms except... ",
             "explanation": "Note the word \"except\" in the question. People experiencing dhat do not have hallucinations. All other symptoms listed in this question are characteristic of this culture bound syndrome."
+        }
+    },
+    {
+        "pk": 3065,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "You are providing services at your county\u2019s family reunification program. In order to evaluate how efficiently you have achieved your clinical goal of returning children in foster care to the homes of their natural parents, you should conduct... ",
+            "explanation": "A cost-benefit analysis looks at both effectiveness (how well a goal has been achieved) and efficiency (how much resources were used to achieve the effectiveness). This is the only answer that addresses the efficiency issue. B is incorrect because an outcome effectiveness study focuses only on effectiveness. C is incorrect because a consumer satisfaction survey provides little information about the extent to which resources were expended. (It may, however, contain some information about outcome effectiveness.) D is incorrect because a community needs assessment study usually looks at unmet need, not outcome effectiveness or efficiency."
         }
     },
     {
@@ -3880,6 +3896,14 @@
         }
     },
     {
+        "pk": 3092,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "A psychologist colleague has requested that you provide a consultation involving a thorough DSM Cultural Formulation for a Latino client who is in treatment for severe depression. Your report back to the psychologist should address all of the following issues except one. Which one? ",
+            "explanation": "Note the word \"except\" in the question. A, B and C refer to elements of a cultural formulation as presented in the DSM diagnostic manual. D is correct because a cultural formulation may address how differences between the client\u2019s and clinician\u2019s culture affect the client\u2019s presentation of symptoms during sessions, but it addresses the client\u2019s actual understanding of neither his own nor the clinician\u2019s culture."
+        }
+    },
+    {
         "pk": 3093,
         "model": "Assessor.question",
         "fields": {
@@ -4072,6 +4096,14 @@
         }
     },
     {
+        "pk": 3117,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "It would be most effective and appropriate for you to take an authoritative, directive stance involving advice, suggestions, and limit setting with all of the following clients except... ",
+            "explanation": "Note the word \"except\" in the question. The value of self-determination means that clients should be allowed to choose their own goals. And clients need to choose their own goals in order to feel the sense of ownership that motivates a person toward goal attainment. When a client's decision making capacity is compromised due to crisis, organic impairment or severe decompensation, however, the therapist may need to take an authoritative, directive stance to help the client find the means for achieving his or her own ultimate goals."
+        }
+    },
+    {
         "pk": 3118,
         "model": "Assessor.question",
         "fields": {
@@ -4259,7 +4291,7 @@
         "pk": 3141,
         "model": "Assessor.question",
         "fields": {
-            "text": "Your thirty-five year old client is apologetic, overly concerned with others\u2018 judgments, and is afraid to be seen. You should expect that this client will probably have ",
+            "text": "Your thirty-five year old client is apologetic, overly concerned with others\u2018 judgments, and is afraid to be seen. You should expect that this client will probably have tendency toward which of the following\u2018? ",
             "explanation": "Shame is associated with overconcern for other people's judgments, and a sense of not wanting to be seen by others. B is incorrect because a 35 year old person would not have a tendency toward developing a personality disorder which, by definition, must have already been established by adolescence or early adulthood. C is incorrect because the only known predictors of a tendency toward manic episodes are a family history of bipolar disorder or previous major depressive episodes in the individual. The symptoms described in this question are not associated with manic episodes. D is incorrect because adaptive regression is a functional ego defense and is not especially associated with any of the features described in this question."
         }
     },
@@ -4288,11 +4320,27 @@
         }
     },
     {
+        "pk": 3145,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "You are treating a Latino young woman whose sole diagnosis is adjustment disorder with depressed mood. The client sought your help to overcome symptoms that have been interfering with her relationships with significant others. Your best course of action is to... ",
+            "explanation": "A is incorrect because the client sought help in dealing with the response to stress, not a major change in personality. Long term therapy is usually required to make significant improvements in ego strengths. In view of the fact that adjustment disorders tend to be self-limiting and in View of the client's purpose in seeking service, a long term therapy focus would be inappropriate. B would be correct if the client also had a diagnosis of a mood disorder in which persistent automatic thoughts were the cause or a major contributing factor to the depression. However, that is not the case here. Some cognitive restructuring might be helpful, but it should not be the focus and is, therefore, not the best answer. The focus should be on coping better with the precipitating stressor, not automatic thoughts that didn't really cause the present problem. C is incorrect because there is no evidence that the client poses a suicide risk. Most people with this diagnosis will not require hospitalization. When they do, the stay is usually very short and geared to resolving the crisis state."
+        }
+    },
+    {
         "pk": 3146,
         "model": "Assessor.question",
         "fields": {
             "text": "The following four individuals have concurrently sought help from your agency. Your prognosis is needed in order to formulate a triage decision. You should consider which of these clients to be least likely to need urgent intervention? The client with... ",
             "explanation": "Note the word \"except\" in the question. Clients with bulimia tend to be medically stable and are not posing a serious imminent threat of danger to self or others. B is incorrect because anorexia patients often require emergency or urgent medical attention at time of initial contact. C is incorrect because the psychotic loss of contact with reality, coupled by the sudden onset and emotional turmoil of a brief psychosis, often pose urgent problems at the time of intake. D is incorrect because, even though most obsessive compulsive disordered clients do not require urgent care, those who present with psychotic decompensation often do."
+        }
+    },
+    {
+        "pk": 3147,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "Clients with which of the following clusters of personality disorders are most likely to present with psychotic symptoms? ",
+            "explanation": "Psychotic symptoms might occur in any personality disordered person when under exceptional stress, but the three personality disorders listed in C are the most vulnerable to psychotic symptoms."
         }
     },
     {
@@ -4424,6 +4472,14 @@
         }
     },
     {
+        "pk": 3167,
+        "model": "Assessor.question",
+        "fields": {
+            "text": "You have been teaching self-instruction to a group of adolescents with attention deficit hyperactivity disorder. In this context your use of self-instruction should involve... ",
+            "explanation": "Cognitive Therapy may use bibliotherapy or psychoeducation within a group of peers. The Behavioral Therapy technique of systematic desensitization may also be used. However, \u201cself-instruction\u201d specifically refers to the way in which Cognitive Therapy clients learn to make statements to themselves which tend to suppress symptoms and direct their attention to alternatives...for example, the client with ADHD who learns to say \u201cI have to go slowly and carefully. Remember, go slowly.\u201d"
+        }
+    },
+    {
         "pk": 3168,
         "model": "Assessor.question",
         "fields": {
@@ -4531,7 +4587,7 @@
         "pk": 3181,
         "model": "Assessor.question",
         "fields": {
-            "text": "You are working with a middle aged client to develop a better sense of personal integrity through self-exploratory exercises and guided imagery. Your treatment approach is based on the principles of Gestalt Therapy. You say to your client \u201cO.K., now you\u2019ve made it very clear that you like to be orderly and responsible. Now tell me some of the ways in which you hate being orderly and responsible.\u201d You should use such ",
+            "text": "You are working with a middle aged client to develop a better sense of personal integrity through self-exploratory exercises and guided imagery. Your treatment approach is based on the principles of Gestalt Therapy. You say to your client \u201cO.K., now you\u2019ve made it very clear that you like to be orderly and responsible. Now tell me some of the ways in which you hate being orderly and responsible.\u201d You should use such statement for the purpose of helping the client... ",
             "explanation": "This question reflects a Gestalt Therapy technique which seeks to help the client become aware of, and accept responsibility for, the full range of his or her beliefs, emotions and experiences. This involves becoming aware of both sides of his or her ambivalences, especially because people tend to project the unwanted or less desirable side of their mixed feelings. This theory assumes that whatever we may want, there is also a way in which we don\u2019t want it, and whatever we don\u2019t want, there is also a way in which we do want it. A is incorrect because testing misconceptions is a Cognitive Therapy technique of cognitive empiricism. The Gestalt therapist is not seeking to empirically invalidate this client\u2019s beliefs about being orderly and responsible, only to help the client become aware of and accept mixed feelings about this issue. B is incorrect because generating alternatives to dysfunctional schemas is a Cognitive Therapy technique for modifying core beliefs in which Socratic questions are used to lead a client to discover more valid and functional thoughts. D is incorrect because the Gestalt therapist is not trying to help the client resolve conflicts, only to become aware of them and take responsibility for them. The client may or may not then want to resolve any conflicts that come to his or her attention."
         }
     },
@@ -4572,7 +4628,7 @@
 		"model": "Assessor.question",
 		"fields": {
 			"text": "You are interviewing a four year old child who was sexually assaulted by an unidentified person in the community two days earlier. She is cooperative during the interview, but is generally anxious and tearful, as she has been since the assault occurred. When interviewing this child you should... ",
-			"explanation": "NOT AVAILABLE"
+			"explanation": "Begin with general issues. Inquire about the child\u2019s general daily activities and interests. Move to inquiring about more specific interactions that arise in the course of these daily activities. Then move more toward the sexual and secretive aspects of these interactions, as they relate to the assault. A is incorrect because if you condemn the abuser the child may feel that he or she is contributing to the abuser\u2019s punishment, thereby feeling fearful and inhibited. Instead, let the victim know that the abuser needs help and will now have a chance to get help. C is incorrect for the same reason. Your show of shock or disgust will likely tend to inhibit the victim. It is best to remain calm. D is incorrect because these interviews are best conducted in a casual and private setting that feels natural to the child."
 		}
 	},
     {
@@ -5163,7 +5219,7 @@
         "pk": 4060,
         "model": "Assessor.question",
         "fields": {
-            "text": "A former client now living in another part of the state calls you and says that she would like to briefly resume therapy over the phone in order to work through a recent relationship problem. She says that the problem is relevant to her prior psychotherapy ",
+            "text": "A former client now living in another part of the state calls you and says that she would like to briefly resume therapy over the phone in order to work through a recent relationship problem. She says that the problem is relevant to her prior psychotherapy with you. If you decide to offer the requested help you should... ",
             "explanation": "The ethical standards for psychotherapy by phone have not been fully developed, but certain themes emerge across the various position papers and articles on the subject. These themes are consistent with Business and Professions Code 6 Sec. 2290.5 regarding \u201ctelemedicine.\u201d One of these themes requires that the client be informed of the potential risks, consequences and benefits of psychotherapy by phone. Risks include the fact that clients can more easily conceal emotions and information and nonverbal communication cues are limited. A is incorrect because such sessions over the phone would constitute psychotherapy, especially when you already have a pre-existing psychotherapist-client relationship with the person who will be receiving the services. Psychotherapy by phone is subject to all of the same standards and requirements that apply to psychotherapy conducted on a face-to-face basis. C is incorrect because there is no ethical or legal standard requiring a certain mix of face-to-face sessions with telephone sessions. D is incorrect because the sessions with this client will be viewed as psychotherapy even if they are referred to as counseling, especially in view of your prior psychotherapy relationship with this client."
         }
     },
@@ -5507,7 +5563,7 @@
         "pk": 4103,
         "model": "Assessor.question",
         "fields": {
-            "text": "Your client system is a family that is detached from the community at large. Children do not participate in extracurricular activities, the family does not participate in ",
+            "text": "Your client system is a family that is detached from the community at large. Children do not participate in extracurricular activities, the family does not participate in faith community, and most of the family\u2019s recreation is at home. , This family is best described as... ",
             "explanation": "A closed system is one that has a relatively low degree of \u201cenergy exchange\u201d with its social environment. This means relatively little communication, economic or social exchange. A is incorrect because steady state refers to the way in which a social system tends to maintain behavior within a given range of variation. B is incorrect because homeostasis refers to the way in which a social system maintains a state of steady balance as conditions change. The family described in the question may be in either steady state or homeostasis, but these issues are not directly relevant to the family\u2019s lack of exchange with the social environment. D is incorrect because, in clinical practice, incestuous refers to specific patterns of sexual relationship which should not be confused with more general family dynamic issues. A truly incestuous family is likely to be a relatively closed system, but most families which are closed systems are not truly incestuous."
         }
     },
@@ -5635,7 +5691,7 @@
         "pk": 4119,
         "model": "Assessor.question",
         "fields": {
-            "text": "If your 30 year old client, a criminal defendant, informs you of his whereabouts on ",
+            "text": "If your 30 year old client, a criminal defendant, informs you of his whereabouts on particular day, and that information is sought from you by the police, you are required to assert privileged communication if... ",
             "explanation": "A and C are incorrect because a client\u2019s privileged communication is limited once he brings action to establish his competence, or someone else brings action to establish his competence. In this situation he is still entitled to privileged communication for information that is not relevant to the competence proceedings. A, C and D are all incorrect because they are all among the exceptions to the privilege as noted in Evidence Code Sections 1016-1027."
         }
     },
@@ -6392,15 +6448,6 @@
         "fields": {
             "text": "let him know that he needs to see an attorney, not an MFT ",
             "question": 2003,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 13,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "life long problem of low self-esteem. Recently he and his wife have had heated quarrels about whether to purchase a car now or wait until next year. He asks if you would meet with both him and his wife for four or five sessions to resolve the problem. The first thing you should do is to... ",
-            "question": 2004,
             "is_correct": false
         }
     },
@@ -8235,7 +8282,7 @@
         "pk": 217,
         "model": "Assessor.choice",
         "fields": {
-            "text": "may report his crime with or without his consent 55'.  client presents with a variety of symptoms and meets the criteria for several clinical diagnoses. She says that some of her symptoms vary with the seasons. If this is true, you should expect that it would most likely be true for which of this client's symptoms? ",
+            "text": "may report his crime with or without his consent ",
             "question": 2054,
             "is_correct": false
         }
@@ -8245,8 +8292,8 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "anxiety ",
-            "question": 2054,
-            "is_correct": true
+            "question": 2055,
+            "is_correct": false
         }
     },
     {
@@ -8254,7 +8301,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "guilt ",
-            "question": 2054,
+            "question": 2055,
             "is_correct": false
         }
     },
@@ -8263,8 +8310,8 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "depression ",
-            "question": 2054,
-            "is_correct": false
+            "question": 2055,
+            "is_correct": true
         }
     },
     {
@@ -8272,7 +8319,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "cognitive functioning ",
-            "question": 2054,
+            "question": 2055,
             "is_correct": false
         }
     },
@@ -9894,15 +9941,6 @@
             "text": "varies the degree of dependency and independence depending on the issue at hand and on the situation ",
             "question": 2100,
             "is_correct": true
-        }
-    },
-    {
-        "pk": 402,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "variety of interpersonal relationship problems learn about the nature of their behavior and the effect it has on others. One client has been trying to project a positive, constructive image of himself to other members, and is trying to win others' approval. You should take this to mean that the client is... ",
-            "question": 2101,
-            "is_correct": false
         }
     },
     {
@@ -13218,15 +13256,6 @@
         }
     },
     {
-        "pk": 771,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "sense of depersonalization and a lack of socially supportive relationships since moving to your community. In taking a Humanistic Existential approach you should move from... ",
-            "question": 2193,
-            "is_correct": true
-        }
-    },
-    {
         "pk": 772,
         "model": "Assessor.choice",
         "fields": {
@@ -13475,42 +13504,6 @@
         "fields": {
             "text": "taking the role of other dream elements allows us to see ourselves as others see us ",
             "question": 2199,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 800,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "the arrangement is entered into at the client's request ",
-            "question": 2200,
-            "is_correct": true
-        }
-    },
-    {
-        "pk": 801,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "if it is the standard means of receiving payment from your clients, and not applied only to this one or other selected clients on your caseload ",
-            "question": 2200,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 802,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "if the value of the goods or services is less than the fair market value of your clinical services ",
-            "question": 2200,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 803,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "under no circumstances \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000s client as payment for professional services if... ",
-            "question": 2200,
             "is_correct": false
         }
     },
@@ -14409,16 +14402,7 @@
         "pk": 903,
         "model": "Assessor.choice",
         "fields": {
-            "text": "whether or not the client has a sense of time perspective, a sense that there will be ",
-            "question": 4024,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 904,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "future and that he will be there in the future ",
+            "text": "whether or not the client has a sense of time perspective, a sense that there will be future and that he will be there in the future ",
             "question": 4024,
             "is_correct": false
         }
@@ -15680,16 +15664,7 @@
         "fields": {
             "text": "may recommend your supervisee, Ms. Todd, as a referral resource for hypnotherapy ",
             "question": 4059,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 1045,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "with you. If you decide to offer the requested help you should... ",
-            "question": 4060,
-            "is_correct": false
+            "is_correct": true
         }
     },
     {
@@ -17241,15 +17216,6 @@
         }
     },
     {
-        "pk": 1218,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "faith community, and most of the family\u2019s recreation is at home. , This family is best described as... ",
-            "question": 4103,
-            "is_correct": false
-        }
-    },
-    {
         "pk": 1219,
         "model": "Assessor.choice",
         "fields": {
@@ -17822,15 +17788,6 @@
         "fields": {
             "text": "tendency to define one's feelings and beliefs in absolute extremes ",
             "question": 4118,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 1283,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "particular day, and that information is sought from you by the police, you are required to assert privileged communication if... ",
-            "question": 4119,
             "is_correct": false
         }
     },
@@ -21692,7 +21649,7 @@
         "fields": {
             "text": "in a proceeding to determine the sanity of a criminal defendant ",
             "question": 1026,
-            "is_correct": false
+            "is_correct": true
         }
     },
     {
@@ -23267,15 +23224,6 @@
         "fields": {
             "text": "one year ",
             "question": 1073,
-            "is_correct": false
-        }
-    },
-    {
-        "pk": 1888,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "licensed MFT, in order for you to provide qualifying supervision to this Intern you must... ",
-            "question": 1074,
             "is_correct": false
         }
     },
@@ -25260,15 +25208,6 @@
         }
     },
     {
-        "pk": 2109,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "good candidate for brief therapy because successful engagement in a brief therapy depends on... ",
-            "question": 1129,
-            "is_correct": false
-        }
-    },
-    {
         "pk": 2110,
         "model": "Assessor.choice",
         "fields": {
@@ -25986,15 +25925,6 @@
             "text": "legal under all circumstances when done by a child's parent ",
             "question": 1148,
             "is_correct": false
-        }
-    },
-    {
-        "pk": 2190,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "language that they understand, that in the healthy infant the object concept develops during the developmental stage when a child is dealing with the conflict between... ",
-            "question": 1149,
-            "is_correct": true
         }
     },
     {
@@ -28125,9 +28055,18 @@
         "pk": 2427,
         "model": "Assessor.choice",
         "fields": {
-            "text": "inform the individual of the potential consequences of taking such an action ab. accept his decision without commenting on it in respect for his self-determination ",
+            "text": "inform the individual of the potential consequences of taking such an action ",
             "question": 3008,
             "is_correct": true
+        }
+    },
+    {
+        "pk": 92427,
+        "model": "Assessor.choice",
+        "fields": {
+            "text": "accept his decision without commenting on it in respect for his self-determination ",
+            "question": 3008,
+            "is_correct": false
         }
     },
     {
@@ -28674,18 +28613,9 @@
         "pk": 2488,
         "model": "Assessor.choice",
         "fields": {
-            "text": "call the doctor to stress the importance of therapeutic alliance when working with ",
+            "text": "call the doctor to stress the importance of therapeutic alliance when working with a borderline client ",
             "question": 3023,
             "is_correct": false
-        }
-    },
-    {
-        "pk": 2489,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "borderline client ",
-            "question": 3023,
-            "is_correct": true
         }
     },
     {
@@ -29814,15 +29744,6 @@
         }
     },
     {
-        "pk": 2616,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "variety of mood symptoms and somatoform symptoms. In assessing the nature of symptoms with this client, you are likely to find that she views... ",
-            "question": 3055,
-            "is_correct": false
-        }
-    },
-    {
         "pk": 2617,
         "model": "Assessor.choice",
         "fields": {
@@ -30177,7 +30098,7 @@
         "pk": 2656,
         "model": "Assessor.choice",
         "fields": {
-            "text": "severe anxiety 65 \". You are providing services at your county\u2019s family reunification program. In order to evaluate how efficiently you have achieved your clinical goal of returning children in foster care to the homes of their natural parents, you should conduct... ",
+            "text": "severe anxiety ",
             "question": 3064,
             "is_correct": false
         }
@@ -30187,7 +30108,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "a cost-benefit analysis ",
-            "question": 3064,
+            "question": 3065,
             "is_correct": false
         }
     },
@@ -30196,7 +30117,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "an outcome effectiveness study ",
-            "question": 3064,
+            "question": 3065,
             "is_correct": true
         }
     },
@@ -30205,7 +30126,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "a consumer satisfaction survey of both foster parents and natural parents ",
-            "question": 3064,
+            "question": 3065,
             "is_correct": false
         }
     },
@@ -30214,7 +30135,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "a community needs assessment study ",
-            "question": 3064,
+            "question": 3065,
             "is_correct": false
         }
     },
@@ -31149,7 +31070,7 @@
         "pk": 2764,
         "model": "Assessor.choice",
         "fields": {
-            "text": "the arrangement is entered into at the client's request 92''. A psychologist colleague has requested that you provide a consultation involving a thorough DSM Cultural Formulation for a Latino client who is in treatment for severe depression. Your report back to the psychologist should address all of the following issues except one. Which one? ",
+            "text": "the arrangement is entered into at the client's request ",
             "question": 3091,
             "is_correct": false
         }
@@ -31159,7 +31080,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "meaning and perceived severity of symptoms vis a vis cultural norms ",
-            "question": 3091,
+            "question": 3092,
             "is_correct": false
         }
     },
@@ -31168,7 +31089,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "idioms of distress ",
-            "question": 3091,
+            "question": 3092,
             "is_correct": true
         }
     },
@@ -31177,7 +31098,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "effects of cultural differences between the client and clinician on how symptoms are elicited during interviews ",
-            "question": 3091,
+            "question": 3092,
             "is_correct": false
         }
     },
@@ -31186,7 +31107,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "the client\u2019s understanding of the clinician's culture ",
-            "question": 3091,
+            "question": 3092,
             "is_correct": false
         }
     },
@@ -32049,7 +31970,7 @@
         "pk": 2864,
         "model": "Assessor.choice",
         "fields": {
-            "text": "considered to be codependency 117 \". It would be most effective and appropriate for you to take an authoritative, directive stance involving advice, suggestions, and limit setting with all of the following clients except... ",
+            "text": "considered to be codependency ",
             "question": 3116,
             "is_correct": false
         }
@@ -32059,7 +31980,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "the client who is in a crisis ",
-            "question": 3116,
+            "question": 3117,
             "is_correct": false
         }
     },
@@ -32068,7 +31989,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "the client who is unable to formulate his or her own sense of direction due to an organic impairment ",
-            "question": 3116,
+            "question": 3117,
             "is_correct": true
         }
     },
@@ -32077,7 +31998,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "the client who needs to make a decision about personal goals ",
-            "question": 3116,
+            "question": 3117,
             "is_correct": false
         }
     },
@@ -32086,7 +32007,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "the client who needs to make a decision about means to accomplish his or her own goals ",
-            "question": 3116,
+            "question": 3117,
             "is_correct": false
         }
     },
@@ -32919,15 +32840,6 @@
         }
     },
     {
-        "pk": 2961,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "tendency toward which of the following\u2018? ",
-            "question": 3141,
-            "is_correct": true
-        }
-    },
-    {
         "pk": 2962,
         "model": "Assessor.choice",
         "fields": {
@@ -33066,7 +32978,7 @@
         "pk": 2977,
         "model": "Assessor.choice",
         "fields": {
-            "text": "encourage the client to confront the perpetrator of the trauma 145 \". You are treating a Latino young woman whose sole diagnosis is adjustment disorder with depressed mood. The client sought your help to overcome symptoms that have been interfering with her relationships with significant others. Your best course of action is to... ",
+            "text": "encourage the client to confront the perpetrator of the trauma ",
             "question": 3144,
             "is_correct": false
         }
@@ -33076,7 +32988,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "help the client resolve the ego weaknesses that caused the vulnerability to the crisis ",
-            "question": 3144,
+            "question": 3145,
             "is_correct": false
         }
     },
@@ -33085,7 +32997,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "teach cognitive restructuring to help the client overcome depressing automatic thoughts ",
-            "question": 3144,
+            "question": 3145,
             "is_correct": true
         }
     },
@@ -33094,7 +33006,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "arrange for hospitalization in order to manage suicide risk ",
-            "question": 3144,
+            "question": 3145,
             "is_correct": false
         }
     },
@@ -33103,7 +33015,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "help the client cope better with the precipitating stressor ",
-            "question": 3144,
+            "question": 3145,
             "is_correct": false
         }
     },
@@ -33138,7 +33050,7 @@
         "pk": 2985,
         "model": "Assessor.choice",
         "fields": {
-            "text": "obsessive compulsive disorder with delusions 147 \". Clients with which of the following clusters of personality disorders are most likely to present with psychotic symptoms? ",
+            "text": "obsessive compulsive disorder with delusions ",
             "question": 3146,
             "is_correct": false
         }
@@ -33148,7 +33060,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "schizotypal, histrionic and antisocial ",
-            "question": 3146,
+            "question": 3147,
             "is_correct": true
         }
     },
@@ -33157,7 +33069,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "narcissistic, avoidant and obsessive compulsive ",
-            "question": 3146,
+            "question": 3147,
             "is_correct": false
         }
     },
@@ -33166,7 +33078,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "borderline, paranoid and schizotypal . ",
-            "question": 3146,
+            "question": 3147,
             "is_correct": false
         }
     },
@@ -33175,7 +33087,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "borderline, obsessive compulsive and schizotypal ",
-            "question": 3146,
+            "question": 3147,
             "is_correct": false
         }
     },
@@ -33750,7 +33662,7 @@
         "pk": 3053,
         "model": "Assessor.choice",
         "fields": {
-            "text": "their treatment requires real world issues to be brought into therapy, whereas this approach focuses on exploration of fantasies and experience 167 \". You have been teaching self-instruction to a group of adolescents with attention deficit hyperactivity disorder. In this context your use of self-instruction should involve... ",
+            "text": "their treatment requires real world issues to be brought into therapy, whereas this approach focuses on exploration of fantasies and experience ",
             "question": 3166,
             "is_correct": false
         }
@@ -33760,7 +33672,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "making self-statements geared to evoke alternatives to symptoms ",
-            "question": 3166,
+            "question": 3167,
             "is_correct": false
         }
     },
@@ -33769,7 +33681,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "bibliotherapy ",
-            "question": 3166,
+            "question": 3167,
             "is_correct": true
         }
     },
@@ -33778,7 +33690,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "psychoeducation within a group of peers ",
-            "question": 3166,
+            "question": 3167,
             "is_correct": false
         }
     },
@@ -33787,7 +33699,7 @@
         "model": "Assessor.choice",
         "fields": {
             "text": "systematic desensitization ",
-            "question": 3166,
+            "question": 3167,
             "is_correct": false
         }
     },
@@ -34260,15 +34172,6 @@
         }
     },
     {
-        "pk": 3110,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "statement for the purpose of helping the client... ",
-            "question": 3181,
-            "is_correct": false
-        }
-    },
-    {
         "pk": 3111,
         "model": "Assessor.choice",
         "fields": {
@@ -34623,18 +34526,9 @@
         "pk": 3150,
         "model": "Assessor.choice",
         "fields": {
-            "text": "helping the client learn coping skills, relaxation and cognitive restructuring to gain ",
+            "text": "helping the client learn coping skills, relaxation and cognitive restructuring to gain a sense of control over possible future occurrences of the trauma ",
             "question": 3190,
             "is_correct": false
-        }
-    },
-    {
-        "pk": 3151,
-        "model": "Assessor.choice",
-        "fields": {
-            "text": "sense of control over possible future occurrences of the trauma ",
-            "question": 3190,
-            "is_correct": true
         }
     },
     {
