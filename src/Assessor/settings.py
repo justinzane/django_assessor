@@ -7,7 +7,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR + '/assessor.db',
+        'NAME': BASE_DIR + '/Assessor.db',
         'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '',
     }
 }
@@ -58,8 +58,8 @@ CONTEXT_PROCESSORS = (
     'django.contrib.messages.context_processors.messages',
 )
 
-ROOT_URLCONF = 'assessor.urls'
-WSGI_APPLICATION = 'assessor.wsgi.application'
+ROOT_URLCONF = 'Assessor.urls'
+WSGI_APPLICATION = 'Assessor.wsgi.application'
 TEMPLATE_DIRS = ()
 INSTALLED_APPS = (
     'django.contrib.auth',
