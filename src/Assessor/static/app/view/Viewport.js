@@ -4,8 +4,8 @@ Ext.define('Assessor.view.Viewport', {
 	requires: [
 		'Assessor.view.Header',
 		'Assessor.view.Footer',
-		'Assessor.view.IndexPanel',
-		'Assessor.view.IndexMenu',
+//		'Assessor.view.IndexPanel',
+//		'Assessor.view.IndexMenu',
 		'Assessor.view.ButtonPanel',
 		'Assessor.view.QuizCards',
 		'Assessor.view.StartCard',

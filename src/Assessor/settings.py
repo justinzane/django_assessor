@@ -71,7 +71,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
     'tastypie',
-    'extendedmodelresource',
     'Assessor',
 )
 
