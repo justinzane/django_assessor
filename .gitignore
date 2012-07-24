@@ -33,3 +33,6 @@ src/assessor.db
 src/Assessor/static/extjs-4.1.1
 src/dist
 src/build
+src/dist
+src/build
+src/MANIFEST
