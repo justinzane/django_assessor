@@ -1,4 +1,4 @@
-Ext.define('Assessor.view.QuizCards', {
+Ext.define('Assessor.view.quiz.QuizCards', {
 	extend: 'Ext.panel.Panel',
 	alias: 'widget.quizcards',
 	itemId: 'quizcards',

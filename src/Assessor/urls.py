@@ -1,8 +1,9 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from tastypie.api import Api
-from Assessor.api import *
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from Assessor.api import (AnswerResource, ChoiceResource, QuestionResource,
+                          UserResource)
+#from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 import settings
 
 v1_api = Api(api_name='v1')
@@ -17,6 +18,8 @@ urlpatterns = patterns('',
     (r'^api/', include(v1_api.urls)),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    (r'^auth/login\/?$', 'Assessor.views.login'),
+    (r'^auth/logout\/?$', 'Assessor.views.logout'),
 )
 #urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:

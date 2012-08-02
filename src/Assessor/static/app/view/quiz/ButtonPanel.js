@@ -1,6 +1,6 @@
-Ext.define('Assessor.view.ButtonPanel', {
+Ext.define('Assessor.view.quiz.ButtonPanel', {
 	extend: 'Ext.panel.Panel',
-	requires: 'Assessor.view.TimerBar',
+	requires: 'Assessor.view.quiz.TimerBar',
 	alias: 'widget.buttonpanel',
 	bbar: [{
 		xtype: 'buttongroup',

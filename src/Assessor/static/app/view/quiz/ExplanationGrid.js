@@ -1,4 +1,4 @@
-Ext.define('Assessor.view.ExplanationGrid', {
+Ext.define('Assessor.view.quiz.ExplanationGrid', {
 	extend: 'Ext.grid.Panel',
 	title: 'Explanations',
 	alias: 'widget.explanationgrid',

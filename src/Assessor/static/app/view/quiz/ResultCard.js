@@ -1,4 +1,4 @@
-Ext.define('Assessor.view.ResultCard', {
+Ext.define('Assessor.view.quiz.ResultCard', {
 	extend: 'Ext.form.Panel',
 	alias: 'widget.resultcard',
 	layout: {

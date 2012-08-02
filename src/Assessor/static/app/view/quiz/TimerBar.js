@@ -1,4 +1,4 @@
-Ext.define('Assessor.view.TimerBar', {
+Ext.define('Assessor.view.quiz.TimerBar', {
 	extend: 'Ext.ProgressBar',
 	alias: 'widget.timerbar',
 	autoRender: false,

@@ -14,15 +14,16 @@ framework.
 
 """
 import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Assessor.settings")
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "assessor.settings")
-
-# This application object is used by any WSGI server configured to use this
-# file. This includes Django's development server, if the WSGI_APPLICATION
-# setting points here.
+from uwsgidecorators import reload, timer
+from django.utils import autoreload
 from django.core.wsgi import get_wsgi_application
+
 application = get_wsgi_application()
 
-# Apply WSGI middleware here.
-# from helloworld.wsgi import HelloWorldApplication
-# application = HelloWorldApplication(application)
+
+@timer(3)
+def change_code_gracefull_reload(sig):
+    if autoreload.code_changed():
+        reload()

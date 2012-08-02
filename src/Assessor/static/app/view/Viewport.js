@@ -3,13 +3,8 @@ Ext.define('Assessor.view.Viewport', {
 	itemId: 'viewport',
 	requires: [
 		'Assessor.view.Header',
-		'Assessor.view.Footer',
-//		'Assessor.view.IndexPanel',
-//		'Assessor.view.IndexMenu',
-		'Assessor.view.ButtonPanel',
-		'Assessor.view.QuizCards',
-		'Assessor.view.StartCard',
-		'Assessor.view.QuestionCard'],
+		'Assessor.view.auth.LoginPanel'
+	],
 	layout: 'border',
 	items: [{
 		xtype: 'headerpanel',
@@ -25,10 +20,8 @@ Ext.define('Assessor.view.Viewport', {
 		},
 		border: false,
 		items: [{
-			xtype: 'quizcards',
+			xtype: 'loginpanel',
 			flex: 1
-		}, {
-			xtype: 'buttonpanel',
 		}]
 	}]
 })

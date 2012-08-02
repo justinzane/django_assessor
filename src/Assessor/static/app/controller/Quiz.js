@@ -3,7 +3,7 @@ Ext.define('Assessor.controller.Quiz', {
 	itemId : 'quizcontroller',
 	models : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
 	stores : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
-	views : ['StartCard', 'QuestionCard', 'ResultCard', 'ExplanationGrid'],
+	views : ['quiz.StartCard', 'quiz.QuestionCard', 'quiz.ResultCard', 'quiz.ExplanationGrid'],
 
 	// Custom Functions
 	/**
@@ -233,27 +233,9 @@ Ext.define('Assessor.controller.Quiz', {
 		};
 		this.updateButtons();
 	},
-	/**
-	 * Authenticate to server
-	 */
-	authenticateUser: function(user, pass) {
-		
-	},
-	/**
-	 * Login
-	 */
-	login: function(args) {
-		var us = Ext.getStore('User');
-		var user = Ext.ComponentQuery.query('#usernameField')[0].value;
-		var pass = Ext.ComponentQuery.query('#passwordField')[0].value;
-		
-	},
 	//
 	init : function() {
 		this.control({
-			'#loginbutton' : {
-				click : this.login
-			},
 			'#nextbutton' : {
 				click : this.nextQuestion
 			},
