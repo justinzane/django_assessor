@@ -22,23 +22,36 @@ Assessor.api
 '''
 from tastypie.resources import ModelResource
 from tastypie import fields
-from tastypie.authentication import Authentication
-from tastypie.authorization import Authorization
+from tastypie.authentication import BasicAuthentication, Authentication
+from tastypie.authorization import DjangoAuthorization, ReadOnlyAuthorization
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from models import Question, Choice, Answer
 from django.contrib.auth.models import User
 
 
 class UserResource(ModelResource):
+    def obj_create(self, bundle, request=None, **kwargs):
+        return super(UserResource, self).obj_create(bundle,
+                                                    request,
+                                                    user=request.user)
+
+    def apply_authorization_limits(self, request, object_list):
+        return object_list.filter(pk=request.user.pk)
+
     class Meta:
+        authentication = BasicAuthentication()
+        authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = User.objects.all()
         resource_name = 'user'
 
 
 class QuestionResource(ModelResource):
-    #choices = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set', full='id', related_name='choice')
+    #choices = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set',
+    #    full='id', related_name='choice')
     class Meta:
+        authentication = BasicAuthentication()
+        authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = Question.objects.all().order_by('?')
         resource_name = 'question'
@@ -46,8 +59,10 @@ class QuestionResource(ModelResource):
 
 
 #
-# http://localhost:8000/api/v1/choice/?filter=%5B%7B%22property%22%3A%22question_id%22%2C%22value%22%3A2%7D%5D
-# http://localhost:8000/api/v1/choice/?filter=[{"property":"question_id","value":2}]
+# http://localhost:8000/api/v1/choice/?
+#    filter=%5B%7B%22property%22%3A%22question_id%22%2C%22value%22%3A2%7D%5D
+# http://localhost:8000/api/v1/choice/?
+#    filter=[{"property":"question_id","value":2}]
 #
 class ChoiceResource(ModelResource):
     question_id = fields.ToOneField('Assessor.api.QuestionResource',
@@ -56,6 +71,8 @@ class ChoiceResource(ModelResource):
                                     related_name='question')
 
     class Meta:
+        authentication = BasicAuthentication()
+        authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = Choice.objects.all()
         resource_name = 'choice'
@@ -63,21 +80,34 @@ class ChoiceResource(ModelResource):
 
 
 class AnswerResource(ModelResource):
+    user_uri = fields.ToOneField('Assessor.api.UserResource',
+                                 'user',
+                                 full=True,
+                                 related_name='user')
     question_uri = fields.ToOneField('Assessor.api.QuestionResource',
-                                    'question',
-                                    full=True,
-                                    related_name='question')
+                                     'question',
+                                     full=True,
+                                     related_name='question')
     choice_uri = fields.ToOneField('Assessor.api.ChoiceResource',
-                                  'choice',
-                                  full=True,
-                                  related_name='choice')
+                                   'choice',
+                                   full=True,
+                                   related_name='choice')
+
+    def obj_create(self, bundle, request=None, **kwargs):
+        return super(AnswerResource, self).obj_create(bundle,
+                                                      request,
+                                                      user=request.user)
+
+    def apply_authorization_limits(self, request, object_list):
+        return object_list.filter(user=request.user)
 
     class Meta:
-        authentication = Authentication()
-        authorization = Authorization()
+        authentication = BasicAuthentication()
+        authorization = DjangoAuthorization()
         allowed_methods = ['get', 'post', 'put']
         queryset = Answer.objects.all()
         resource_name = 'answer'
-        filtering = {'question_uri': ALL_WITH_RELATIONS,
+        filtering = {'user_uri': ALL_WITH_RELATIONS,
+                     'question_uri': ALL_WITH_RELATIONS,
                      'choice_uri': ALL_WITH_RELATIONS,
                      'id': ALL}

@@ -13,7 +13,7 @@ Ext.define('Assessor.view.Viewport', {
 		xtype: 'panel',
 		region: 'center',
 		alias: 'widget.contentpanel',
-		id: 'contentpanel',
+		itemId: 'contentpanel',
 		layout: {
 			type: 'vbox',
 			align: 'stretch'

@@ -1,9 +1,18 @@
 Ext.define('Assessor.controller.Quiz', {
 	extend : 'Ext.app.Controller',
 	itemId : 'quizcontroller',
+	id: 'quizcontroller',
 	models : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
 	stores : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
-	views : ['quiz.StartCard', 'quiz.QuestionCard', 'quiz.ResultCard', 'quiz.ExplanationGrid'],
+	views : [
+		'auth.LoginPanel', 
+		'quiz.StartCard', 
+		'quiz.QuestionCard', 
+		'quiz.ResultCard', 
+		'quiz.ExplanationGrid', 
+		'quiz.TimerBar', 
+		'quiz.ButtonPanel'
+	],
 
 	// Custom Functions
 	/**
@@ -72,9 +81,19 @@ Ext.define('Assessor.controller.Quiz', {
 			duration: totalTime * 1000
 		});
 	},
-	/**
-	 * start the quiz
-	 */
+	/** clear the login panel and start the quiz. */
+	finishLogin: function() {
+		var cp = Ext.ComponentQuery.query('#contentpanel')[0];
+		cp.removeAll();
+		cp.add({
+			xtype: 'startcard',
+			flex: 1
+		});
+		cp.add({
+			xtype: 'buttonpanel'
+		});
+	},
+	/** start the quiz */
 	startQuiz : function (args) {
 		// find number requested
 		var numQuestions = Ext.ComponentQuery.query('numberfield')[0].value;
@@ -234,6 +253,25 @@ Ext.define('Assessor.controller.Quiz', {
 		this.updateButtons();
 	},
 	//
+	attemptLogin: function() {
+        var form = Ext.ComponentQuery.query('#loginpanel')[0].form;
+        if (form.isValid()) {
+            form.submit({
+            	headers: {'X-CSRFToken': Ext.util.Cookies.get('csrftoken')},
+                success: function(form, action) {
+                   	Assessor.username = Ext.ComponentQuery.query('#usernamefield')[0].value;
+					Assessor.password = Ext.ComponentQuery.query('#passwordfield')[0].value;
+					//console.info('logged in.');
+					Assessor.controller.Quiz.prototype.finishLogin();
+                },
+                failure: function(form, action) {
+                    Ext.ComponentQuery.query('#loginpanel')[0].form.reset();
+					Ext.Msg.alert('Invalid username or password.');
+                }
+            });
+        }
+    },
+	//
 	init : function() {
 		this.control({
 			'#nextbutton' : {
@@ -250,6 +288,9 @@ Ext.define('Assessor.controller.Quiz', {
 			},
 			'#finishbutton' : {
 				click : this.finishQuiz
+			},
+			'#loginbutton' : {
+				click : this.attemptLogin
 			},
 		})
 	}

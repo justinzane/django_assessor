@@ -36,3 +36,9 @@ src/build
 src/dist
 src/build
 src/MANIFEST
+src/Assessor/uwsgi-Assessor.log
+src/Assessor/cherokee.log
+src/Assessor/uwsgi.log
+src/Assessor/nginx-error.log
+src/Assessor/nginx-access.log
+src/Assessor/nginx-error.log

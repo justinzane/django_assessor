@@ -31,23 +31,6 @@ Ext.define('Assessor.view.auth.LoginPanel', {
         text: 'Login',
         type: 'submit',
         formBind: true, //only enabled once the form is valid
-        disabled: true,
-        handler: function() {
-            var form = this.up('form').getForm();
-            if (form.isValid()) {
-                form.submit({
-                	headers: {'X-CSRFToken': Ext.util.Cookies.get('csrftoken')},
-                    success: function(form, action) {
-                       	Assessor.username = Ext.ComponentQuery.query('#usernamefield')[0].value;
-						Assessor.password = Ext.ComponentQuery.query('#passwordfield')[0].value;
-						console.info('logged in.');
-                    },
-                    failure: function(form, action) {
-                        Ext.ComponentQuery.query('#loginpanel')[0].form.reset();
-						Ext.Msg.alert('Invalid username or password.');
-                    }
-                });
-            }
-        }
+        disabled: true
     }],
 })

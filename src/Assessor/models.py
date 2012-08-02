@@ -1,10 +1,13 @@
 from django.db import models
-import json, hashlib
+from django.contrib.auth.models import User
+import json
+
 
 class Question(models.Model):
     '''
     An assessment question.
-    text: The actual question presented to the user. E.g. "The sky is which color?"
+    text: The actual question presented to the user.
+          E.g. "The sky is which color?"
     explanation: An explanation of why the logic behind the question.
                  E.g. "Blue light is scattered by the air."
     '''
@@ -41,6 +44,7 @@ class Answer(models.Model):
     '''
     An instance of a user-answer from an assessment.
     '''
+    user = models.ForeignKey(User)
     question = models.ForeignKey(Question)
     choice = models.ForeignKey(Choice)
 
@@ -53,5 +57,6 @@ class Answer(models.Model):
 
     def __unicode__(self):
         return(json.dumps({'id': self.pk,
+                           'user_id': self.question.pk,
                            'question_id': self.question.pk,
                            'choice_id': self.choice.pk}, indent=4))

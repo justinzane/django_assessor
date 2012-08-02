@@ -8,7 +8,6 @@ Ext.application({
     name: 'Assessor',
     appFolder: 'app',
     controllers: [
-    	'Assessor.controller.Auth',
     	'Assessor.controller.Quiz'
 	],
     requires: ['Assessor.view.Viewport'],
