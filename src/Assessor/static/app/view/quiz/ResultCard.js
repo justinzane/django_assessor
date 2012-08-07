@@ -18,11 +18,6 @@ Ext.define('Assessor.view.quiz.ResultCard', {
 		xtype: 'fieldset',
 		layout: 'anchor',
 		border: false,
-		items: [{
-			xtype: 'button',
-			itemId: 'restartbutton',
-			text: 'Restart Quiz',
-			disabled: false
-		}]
+		items: []
 	}]
 })

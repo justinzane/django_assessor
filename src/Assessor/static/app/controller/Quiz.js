@@ -121,10 +121,10 @@ Ext.define('Assessor.controller.Quiz', {
 		Ext.ComponentQuery.query('quizcards')[0].removeAll();
 		// load numQuestions records from store.Questions
 		var qs = Ext.getStore('Question');
-		var qsMask = Ext.create('Ext.LoadMask', {
-			store: qs,
-			msg: "Loading Questions"
-		});
+		var qsMask = Ext.create('Ext.LoadMask', 
+								Ext.ComponentQuery.query('viewport')[0],
+								{store: qs, msg: "Loading Questions"}
+								);
 		qs.proxy.headers['X-Username'] = Assessor.username;
 		qs.proxy.headers['X-Password'] = Assessor.password;
 		qs.load({
@@ -139,17 +139,17 @@ Ext.define('Assessor.controller.Quiz', {
 			}
 		});
 		var cs = Ext.getStore('Choice');
-		var csMask = Ext.create('Ext.LoadMask', {
-			store: cs,
-			msg: "Loading Questions"
-		});
+		var csMask = Ext.create('Ext.LoadMask', 
+								Ext.ComponentQuery.query('viewport')[0],
+								{store: cs, msg: "Loading Choices"}
+								);
 		cs.proxy.headers['X-Username'] = Assessor.username;
 		cs.proxy.headers['X-Password'] = Assessor.password;
 		var us = Ext.getStore('User');
-		var usMask = Ext.create('Ext.LoadMask', {
-			store: us,
-			msg: "Loading Users"
-		});
+		var usMask = Ext.create('Ext.LoadMask', 
+								Ext.ComponentQuery.query('viewport')[0],
+								{store: us, msg: "Loading Users"}
+								);
 		us.proxy.headers['X-Username'] = Assessor.username;
 		us.proxy.headers['X-Password'] = Assessor.password;
 		us.load();
@@ -162,6 +162,7 @@ Ext.define('Assessor.controller.Quiz', {
 	 * REstart the quiz
 	 */
 	reStartQuiz : function (args) {
+		Ext.ComponentQuery.query('#restartbutton')[0].hide();
 		//TODO: Actually restart
 		location.reload();
 	},
@@ -238,6 +239,7 @@ Ext.define('Assessor.controller.Quiz', {
 	finishQuiz : function(args) {
 		Ext.TaskManager.stopAll();
 		this.disableButtons();
+		Ext.ComponentQuery.query('#restartbutton')[0].show();
 		var cs = Ext.getStore('Choice');
 		var es = Ext.getStore('Explanation');
 		var qs = Ext.getStore('Question');

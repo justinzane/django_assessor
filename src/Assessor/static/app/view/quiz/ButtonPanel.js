@@ -28,6 +28,12 @@ Ext.define('Assessor.view.quiz.ButtonPanel', {
 			flex: 1
 		}, {
 			xtype: 'button',
+			itemId: 'restartbutton',
+			text: 'Restart Quiz',
+			disabled: true,
+			hidden: true
+		}, {
+			xtype: 'button',
 			itemId: 'logoutbutton',
 			alias: 'widget.logoutbutton',
 	        text: 'Logout',

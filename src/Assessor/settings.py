@@ -57,7 +57,7 @@ TEMPLATE_LOADERS = (
 
 MIDDLEWARE_CLASSES = (
 #    'django.middleware.gzip.GZipMiddleware',
-#    'django.middleware.http.ConditionalGetMiddleware',
+    'django.middleware.http.ConditionalGetMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -92,12 +92,44 @@ INSTALLED_APPS = (
     'Assessor',
 )
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#EMAIL_FILE_PATH = directory used by file email backend to store output files.
+EMAIL_HOST = 'tiny.justinzane.com'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST_USER = ''        # If empty, Django won't attempt authentication.
+EMAIL_PORT = 25
+EMAIL_SUBJECT_PREFIX = '[assessor.justinzane.com] '
+EMAIL_USE_TLS = True
+
+SESSION_COOKIE_AGE = 14400
+SESSION_COOKIE_DOMAIN = '.justinzane.com'
+SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_NAME = 'sessionid'
+SESSION_COOKIE_PATH = '/'
+SESSION_COOKIE_SECURE = True
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+#    'django.contrib.sessions.backends.file'
+#    'django.contrib.sessions.backends.cache'
+#    'django.contrib.sessions.backends.cached_db'
+#    'django.contrib.sessions.backends.signed_cookies'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_FILE_PATH = None
+SESSION_SAVE_EVERY_REQUEST = False
+
+#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
+CSRF_COOKIE_SECURE = True
+
+API_LIMIT_PER_PAGE = 0
+USE_ETAGS = True
+FIXTURE_DIRS = os.path.join(BASE_DIR, 'fixtures')
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'formatters': {
         'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+            'format': '%(asctime)s %(levelname)s %(module)s %(process)d \
+%(thread)d\n\t%(message)s\n'
         },
         'simple': {
             'format': '%(levelname)s %(message)s'
@@ -111,10 +143,6 @@ LOGGING = {
                                  'filters': ['require_debug_false'],
                                  'class': 'django.utils.log.AdminEmailHandler'
                                  },
-                 'console': {'level': 'DEBUG',
-                             'class': 'logging.StreamHandler',
-                             'formatter': 'verbose',
-                             'stream': 'sys.stdout'},
                  'file': {'level': 'DEBUG',
                           'class': 'logging.FileHandler',
                           'formatter': 'verbose',
@@ -122,11 +150,14 @@ LOGGING = {
                  },
     'loggers': {
         'django': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+        'django_debug': {
             'handlers': ['file'],
             'level': 'DEBUG',
             'propagate': True,
         },
     }
 }
-API_LIMIT_PER_PAGE = 0
-USE_ETAGS = True

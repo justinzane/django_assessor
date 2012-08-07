@@ -4828,3 +4828,1146 @@ DEBUG 2012-08-06 16:59:30,519 util 5709 140722738628480 (0.001) UPDATE "Assessor
 DEBUG 2012-08-06 16:59:30,663 api 5709 140722738628480 HeaderAuthentication.get_identifier
 	Returning calidog
 
+WARNING 2012-08-06 17:04:42,355 base 5709 140722717546240 Not Found: /favicon.ico
+WARNING 2012-08-06 17:04:42,374 base 5709 140722738628480 Not Found: /favicon.ico
+DEBUG 2012-08-06 17:04:58,932 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=(u'calidog',)
+DEBUG 2012-08-06 17:04:59,068 util 5709 140722717546240 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b  AND "django_session"."expire_date" > 2012-08-07 00:04:59.067074 ); args=('20efca0794f8eb64aeda240852f0736b', u'2012-08-07 00:04:59.067074')
+DEBUG 2012-08-06 17:04:59,070 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 17:04:59,071 util 5709 140722717546240 (0.000) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 00:04:59.069058, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 00:04:59.069058', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 17:04:59,194 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b  LIMIT 1; args=('20efca0794f8eb64aeda240852f0736b',)
+DEBUG 2012-08-06 17:04:59,196 util 5709 140722717546240 (0.000) UPDATE "django_session" SET "session_data" = MGJmNTIwY2ZiN2VkMmQyZTY2OTBjNWQ1NzFhODk2ZTI1NzY1OGJkYjqAAn1xAShVDV9hdXRoX3Vz
+ZXJfaWRLAlUSX2F1dGhfdXNlcl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRz
+Lk1vZGVsQmFja2VuZHECdS4=
+, "expire_date" = 2012-08-21 00:04:59.193487 WHERE "django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b ; args=('MGJmNTIwY2ZiN2VkMmQyZTY2OTBjNWQ1NzFhODk2ZTI1NzY1OGJkYjqAAn1xAShVDV9hdXRoX3Vz\nZXJfaWRLAlUSX2F1dGhfdXNlcl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRz\nLk1vZGVsQmFja2VuZHECdS4=\n', u'2012-08-21 00:04:59.193487', '20efca0794f8eb64aeda240852f0736b')
+DEBUG 2012-08-06 17:05:05,392 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:05,394 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:05,397 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:05,410 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:05,653 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:05,696 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:05,720 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:05,722 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:05,724 util 5709 140722738628480 (0.002) SELECT COUNT(*) FROM "Assessor_question"; args=()
+DEBUG 2012-08-06 17:05:05,725 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:05,727 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog  LIMIT 25; args=('calidog',)
+DEBUG 2012-08-06 17:05:05,729 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:05,733 util 5709 140722738628480 (0.007) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" ORDER BY RANDOM() LIMIT 5; args=()
+DEBUG 2012-08-06 17:05:05,735 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:06,546 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:06,547 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:06,551 util 5709 140722717546240 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:06,563 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:06,748 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:06,814 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:06,905 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:06,906 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:06,906 util 5709 140722738628480 (0.018) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,909 util 5709 140722717546240 (0.001) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,910 util 5709 140722738628480 (0.001) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,910 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,913 util 5709 140722738628480 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,917 util 5709 140722717546240 (0.003) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,917 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,919 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,925 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,925 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,931 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:05:06,931 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:05:06,932 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:06,934 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:06,936 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:06,940 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:06,942 util 5709 140722738628480 (0.005) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:06,948 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:07,105 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:07,170 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:07,280 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:07,280 util 5709 140722738628480 (0.028) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,280 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:07,283 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,284 util 5709 140722738628480 (0.002) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,286 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,288 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,290 util 5709 140722717546240 (0.006) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,290 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,295 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2047 ; args=(2047,)
+DEBUG 2012-08-06 17:05:07,296 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:07,296 util 5709 140722717546240 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,299 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,302 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:05:07,302 util 5709 140722717546240 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,306 util 5709 140722738628480 (0.003) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:05:07,342 util 5709 140722717546240 (0.036) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1007 ; args=(1007,)
+DEBUG 2012-08-06 17:05:07,343 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:07,454 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:05:07,454 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:05:07,456 util 5709 140722738628480 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,457 util 5709 140722738628480 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,459 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,461 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,462 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,464 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4113 ; args=(4113,)
+DEBUG 2012-08-06 17:05:07,465 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:06:56,498 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:06:56,500 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:06:56,554 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 17:06:56,559 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:06:56,699 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:06:56,714 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:06:56,716 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:06:56,716 api 5709 140722717546240 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 17:06:56,719 api 5709 140722717546240 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/3121/","choice_id":"/api/v1/choice/2881/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '20efca0794f8eb64aeda240852f0736b'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=20efca0794f8eb64aeda240852f0736b',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49676',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 1,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x31c1930>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x7ffc880e6170>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 17:06:56,829 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 17:06:56,831 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:06:56,833 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 17:06:56,833 api 5709 140722738628480 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 17:06:56,836 api 5709 140722738628480 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/3200/","choice_id":"/api/v1/choice/3189/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '20efca0794f8eb64aeda240852f0736b'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=20efca0794f8eb64aeda240852f0736b',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49677',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 0,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x262b4b0>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x32badb0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 17:06:56,836 util 5709 140722717546240 (0.005) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2881 ; args=(2881,)
+DEBUG 2012-08-06 17:06:56,838 util 5709 140722738628480 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 3189 ; args=(3189,)
+DEBUG 2012-08-06 17:06:56,842 util 5709 140722717546240 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121 ; args=(3121,)
+DEBUG 2012-08-06 17:06:56,843 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200 ; args=(3200,)
+DEBUG 2012-08-06 17:06:56,850 util 5709 140722717546240 (0.004) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 17:06:56,850 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 17:06:56,852 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200  ORDER BY RANDOM(); args=(3200,)
+DEBUG 2012-08-06 17:06:56,856 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121  ORDER BY RANDOM(); args=(3121,)
+DEBUG 2012-08-06 17:06:56,876 util 5709 140722738628480 (0.022) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 3200, 3189); args=[2, 3200, 3189]
+DEBUG 2012-08-06 17:06:57,066 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 3189  LIMIT 1; args=(3189,)
+DEBUG 2012-08-06 17:06:57,067 util 5709 140722738628480 (0.000) UPDATE "Assessor_choice" SET "text" = is probably experiencing the effect of liver damage , "is_correct" = True, "question_id" = 3200 WHERE "Assessor_choice"."id" = 3189 ; args=(u'is probably experiencing the effect of liver damage ', True, 3200, 3189)
+DEBUG 2012-08-06 17:06:57,184 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 17:06:57,187 util 5709 140722717546240 (0.330) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 3121, 2881); args=[2, 3121, 2881]
+DEBUG 2012-08-06 17:06:57,326 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2881  LIMIT 1; args=(2881,)
+DEBUG 2012-08-06 17:06:57,327 util 5709 140722717546240 (0.000) UPDATE "Assessor_choice" SET "text" = early school years, approximately ages 5 through 9 , "is_correct" = True, "question_id" = 3121 WHERE "Assessor_choice"."id" = 2881 ; args=(u'early school years, approximately ages 5 through 9 ', True, 3121, 2881)
+DEBUG 2012-08-06 17:06:57,459 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 17:06:57,463 util 5709 140722717546240 (0.001) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 00:04:59.069058, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 00:04:59.069058', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 17:06:57,576 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3121  LIMIT 1; args=(3121,)
+DEBUG 2012-08-06 17:06:57,578 util 5709 140722717546240 (0.000) UPDATE "Assessor_question" SET "text" = In conducting assessments of a broad cross section of clients, you should expect to find that fantasies and magical thinking are most prevalent at which of the following developmental stages? , "explanation" = Fantasies and magical thinking are most characteristic of the Oedipal period, also referred to by Erikson as the stage of initiative vs. guilt, which occurs during the early elementary school years. All of the other answers are incorrect because they occur at older ages when the ego functions of reason, reality testing and judgment provide more functional alternatives to fantasies and magical thinking in many situations. WHERE "Assessor_question"."id" = 3121 ; args=(u'In conducting assessments of a broad cross section of clients, you should expect to find that fantasies and magical thinking are most prevalent at which of the following developmental stages? ', u'Fantasies and magical thinking are most characteristic of the Oedipal period, also referred to by Erikson as the stage of initiative vs. guilt, which occurs during the early elementary school years. All of the other answers are incorrect because they occur at older ages when the ego functions of reason, reality testing and judgment provide more functional alternatives to fantasies and magical thinking in many situations.', 3121)
+DEBUG 2012-08-06 17:06:57,709 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 14  LIMIT 1; args=(14,)
+DEBUG 2012-08-06 17:06:57,712 util 5709 140722717546240 (0.001) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 3121, "choice_id" = 2881 WHERE "Assessor_answer"."id" = 14 ; args=(2, 3121, 2881, 14)
+DEBUG 2012-08-06 17:06:57,832 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:06:57,918 util 5709 140722738628480 (0.731) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 00:04:59.069058, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 00:04:59.069058', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 17:06:58,041 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3200  LIMIT 1; args=(3200,)
+DEBUG 2012-08-06 17:06:58,042 util 5709 140722738628480 (0.000) UPDATE "Assessor_question" SET "text" = Your client is a twenty year old man with a long term history of alcohol dependence. He reports that he now needs to drink less than he used to in order to feel just as intoxicated. In carrying out your clinical assessment, you should recognize that your client... , "explanation" = Alcohol dependence usually involves tolerance, meaning that the individual needs to consume more and more of a particular substance in order to achieve the same intoxicating effect. However, after many years of excessive alcohol consumption an individual’s liver damage will often lead to the reverse effect. The person is still physiologically dependent on alcohol, and withdrawal symptoms should be expected upon abstinence, but smaller amounts of alcohol will be needed for intoxication. C is incorrect because such liver damage is usually associated with a chronic and regressed state of alcohol dependence, not early recovery. Recovery can begin at any time, however the pattern described in the question is not especially associated with the onset of recovery. D is incorrect because the question describes a common pattern among persons with long standing alcohol dependencies. Such a report from a client should not be presumed to be untruthful. WHERE "Assessor_question"."id" = 3200 ; args=(u'Your client is a twenty year old man with a long term history of alcohol dependence. He reports that he now needs to drink less than he used to in order to feel just as intoxicated. In carrying out your clinical assessment, you should recognize that your client... ', u'Alcohol dependence usually involves tolerance, meaning that the individual needs to consume more and more of a particular substance in order to achieve the same intoxicating effect. However, after many years of excessive alcohol consumption an individual\u2019s liver damage will often lead to the reverse effect. The person is still physiologically dependent on alcohol, and withdrawal symptoms should be expected upon abstinence, but smaller amounts of alcohol will be needed for intoxication. C is incorrect because such liver damage is usually associated with a chronic and regressed state of alcohol dependence, not early recovery. Recovery can begin at any time, however the pattern described in the question is not especially associated with the onset of recovery. D is incorrect because the question describes a common pattern among persons with long standing alcohol dependencies. Such a report from a client should not be presumed to be untruthful.', 3200)
+DEBUG 2012-08-06 17:06:58,226 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 13  LIMIT 1; args=(13,)
+DEBUG 2012-08-06 17:06:58,229 util 5709 140722738628480 (0.001) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 3200, "choice_id" = 3189 WHERE "Assessor_answer"."id" = 13 ; args=(2, 3200, 3189, 13)
+DEBUG 2012-08-06 17:06:58,374 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 17:08:06,209 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b  AND "django_session"."expire_date" > 2012-08-07 00:08:06.207570 ); args=('20efca0794f8eb64aeda240852f0736b', u'2012-08-07 00:08:06.207570')
+DEBUG 2012-08-06 17:08:06,210 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2 ; args=(2,)
+DEBUG 2012-08-06 17:08:06,221 util 5709 140722717546240 (0.000) SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:08:06,368 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b  LIMIT 1; args=('20efca0794f8eb64aeda240852f0736b',)
+DEBUG 2012-08-06 17:08:06,371 util 5709 140722717546240 (0.002) UPDATE "django_session" SET "session_data" = ZTQzMWIxNjFkZjMxNmYyMWQ2ODFlMjQ0OThlZTY5MDgyZDk3MmI2MTqAAn1xAShVCnRlc3Rjb29r
+aWVxAlUGd29ya2VkcQNVEl9hdXRoX3VzZXJfYmFja2VuZFUpZGphbmdvLmNvbnRyaWIuYXV0aC5i
+YWNrZW5kcy5Nb2RlbEJhY2tlbmRVDV9hdXRoX3VzZXJfaWRLAnUu
+, "expire_date" = 2012-08-21 00:08:06.367339 WHERE "django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b ; args=('ZTQzMWIxNjFkZjMxNmYyMWQ2ODFlMjQ0OThlZTY5MDgyZDk3MmI2MTqAAn1xAShVCnRlc3Rjb29r\naWVxAlUGd29ya2VkcQNVEl9hdXRoX3VzZXJfYmFja2VuZFUpZGphbmdvLmNvbnRyaWIuYXV0aC5i\nYWNrZW5kcy5Nb2RlbEJhY2tlbmRVDV9hdXRoX3VzZXJfaWRLAnUu\n', u'2012-08-21 00:08:06.367339', '20efca0794f8eb64aeda240852f0736b')
+DEBUG 2012-08-06 17:08:13,119 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b  AND "django_session"."expire_date" > 2012-08-07 00:08:13.116383 ); args=('20efca0794f8eb64aeda240852f0736b', u'2012-08-07 00:08:13.116383')
+DEBUG 2012-08-06 17:08:13,120 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2 ; args=(2,)
+DEBUG 2012-08-06 17:08:13,123 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = justin ; args=(u'justin',)
+DEBUG 2012-08-06 17:08:13,250 util 5709 140722738628480 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 20efca0794f8eb64aeda240852f0736b ; args=('20efca0794f8eb64aeda240852f0736b',)
+DEBUG 2012-08-06 17:08:13,251 util 5709 140722738628480 (0.000) DELETE FROM "django_session" WHERE "session_key" IN (20efca0794f8eb64aeda240852f0736b); args=(u'20efca0794f8eb64aeda240852f0736b',)
+DEBUG 2012-08-06 17:08:13,586 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  LIMIT 1; args=('03329d8e80e6b5d87123949c617939fa',)
+DEBUG 2012-08-06 17:08:13,611 util 5709 140722738628480 (0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 03329d8e80e6b5d87123949c617939fa AS "session_key", ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=
+ AS "session_data", 2012-08-21 00:08:13.609404 AS "expire_date"; args=('03329d8e80e6b5d87123949c617939fa', 'ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=\n', u'2012-08-21 00:08:13.609404')
+DEBUG 2012-08-06 17:08:13,987 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 1  LIMIT 1; args=(1,)
+DEBUG 2012-08-06 17:08:13,991 util 5709 140722738628480 (0.001) UPDATE "auth_user" SET "username" = justin, "first_name" = , "last_name" = , "email" = justin@justinzane.com, "password" = pbkdf2_sha256$10000$wDSAanmBTrwv$tExgQ7s6LO+SkVuF2sKPnwNp1x1ySZj2c3qIPwQ1orI=, "is_staff" = True, "is_active" = True, "is_superuser" = True, "last_login" = 2012-08-07 00:08:13.985054, "date_joined" = 2012-07-29 05:25:11.586272 WHERE "auth_user"."id" = 1 ; args=(u'justin', u'', u'', u'justin@justinzane.com', u'pbkdf2_sha256$10000$wDSAanmBTrwv$tExgQ7s6LO+SkVuF2sKPnwNp1x1ySZj2c3qIPwQ1orI=', True, True, True, u'2012-08-07 00:08:13.985054', u'2012-07-29 05:25:11.586272', 1)
+DEBUG 2012-08-06 17:08:14,130 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  LIMIT 1; args=('03329d8e80e6b5d87123949c617939fa',)
+DEBUG 2012-08-06 17:08:14,132 util 5709 140722738628480 (0.000) UPDATE "django_session" SET "session_data" = ZGNjNjI5ZWI3YWU5NmI3N2ZlYWU4MzkyMjEwYTE2M2M2ZjliZWQ3YjqAAn1xAShVEl9hdXRoX3Vz
+ZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED
+VQ1fYXV0aF91c2VyX2lkcQRLAXUu
+, "expire_date" = 2012-08-21 00:08:14.128046 WHERE "django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa ; args=('ZGNjNjI5ZWI3YWU5NmI3N2ZlYWU4MzkyMjEwYTE2M2M2ZjliZWQ3YjqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n', u'2012-08-21 00:08:14.128046', '03329d8e80e6b5d87123949c617939fa')
+DEBUG 2012-08-06 17:09:39,675 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:09:39.673028 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:09:39.673028')
+DEBUG 2012-08-06 17:09:39,676 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:09:39,749 util 5709 140722717546240 (0.001) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1  ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
+DEBUG 2012-08-06 17:09:49,796 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:09:49.794421 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:09:49.794421')
+DEBUG 2012-08-06 17:09:49,798 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:09:49,819 util 5709 140722738628480 (0.000) SELECT COUNT(*) FROM "auth_user"; args=()
+DEBUG 2012-08-06 17:09:49,823 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" ASC; args=()
+DEBUG 2012-08-06 17:09:50,176 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:09:50.173750 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:09:50.173750')
+DEBUG 2012-08-06 17:09:50,177 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:09:54,808 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:09:54.806590 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:09:54.806590')
+DEBUG 2012-08-06 17:09:54,810 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:09:54,814 util 5709 140722738628480 (0.000) SELECT "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = user  AND "django_content_type"."app_label" = auth ); args=('user', 'auth')
+DEBUG 2012-08-06 17:09:55,134 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:09:55.131464 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:09:55.131464')
+DEBUG 2012-08-06 17:09:55,136 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:10:09,313 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:10:09.311756 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:10:09.311756')
+DEBUG 2012-08-06 17:10:09,315 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:10:09,317 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lzane ; args=(u'lzane',)
+DEBUG 2012-08-06 17:10:09,318 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = lzane  LIMIT 1; args=(u'lzane',)
+DEBUG 2012-08-06 17:10:09,442 util 5709 140722738628480 (0.000) INSERT INTO "auth_user" ("username", "first_name", "last_name", "email", "password", "is_staff", "is_active", "is_superuser", "last_login", "date_joined") VALUES (lzane, , , , pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=, False, True, False, 2012-08-07 00:10:09.316260, 2012-08-07 00:10:09.316275); args=[u'lzane', '', '', '', 'pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=', False, True, False, u'2012-08-07 00:10:09.316260', u'2012-08-07 00:10:09.316275']
+DEBUG 2012-08-06 17:10:09,443 util 5709 140722738628480 (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-07 00:10:09.443217, 1, 3, 3, lzane, 1, ); args=[u'2012-08-07 00:10:09.443217', 1, 3, u'3', u'lzane', 1, '']
+DEBUG 2012-08-06 17:10:32,901 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:10:32.898323 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:10:32.898323')
+DEBUG 2012-08-06 17:10:32,904 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:10:32,906 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:10:32,921 util 5709 140722717546240 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:10:32,924 util 5709 140722717546240 (0.000) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 3  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(3,)
+DEBUG 2012-08-06 17:10:32,973 util 5709 140722717546240 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group"; args=()
+DEBUG 2012-08-06 17:10:32,977 util 5709 140722717546240 (0.000) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=()
+DEBUG 2012-08-06 17:10:33,266 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:10:33.262834 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:10:33.262834')
+DEBUG 2012-08-06 17:10:33,268 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:11:05,451 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:11:05.448884 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:11:05.448884')
+DEBUG 2012-08-06 17:11:05,454 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:11:05,460 util 5709 140722717546240 (0.000) SELECT "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = group  AND "django_content_type"."app_label" = auth ); args=('group', 'auth')
+DEBUG 2012-08-06 17:11:05,485 util 5709 140722717546240 (0.000) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=()
+DEBUG 2012-08-06 17:11:05,699 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:11:05.695961 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:11:05.695961')
+DEBUG 2012-08-06 17:11:05,702 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:11:56,076 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:11:56.074100 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:11:56.074100')
+DEBUG 2012-08-06 17:11:56,077 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:11:56,088 util 5709 140722717546240 (0.000) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."id" IN (30, 33, 29, 32, 36, 35) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(30, 33, 29, 32, 36, 35)
+DEBUG 2012-08-06 17:11:56,091 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_group" WHERE "auth_group"."name" = contributors  LIMIT 1; args=(u'contributors',)
+DEBUG 2012-08-06 17:11:56,092 util 5709 140722717546240 (0.000) INSERT INTO "auth_group" ("name") VALUES (contributors); args=[u'contributors']
+DEBUG 2012-08-06 17:11:56,095 util 5709 140722717546240 (0.000) SELECT "auth_group_permissions"."id", "auth_group_permissions"."group_id", "auth_group_permissions"."permission_id" FROM "auth_group_permissions" WHERE "auth_group_permissions"."group_id" = 2 ; args=(2,)
+DEBUG 2012-08-06 17:11:56,096 util 5709 140722717546240 (0.000) SELECT "auth_group_permissions"."permission_id" FROM "auth_group_permissions" WHERE ("auth_group_permissions"."group_id" = 2  AND "auth_group_permissions"."permission_id" IN (32, 33, 35, 36, 29, 30)); args=(2, 32, 33, 35, 36, 29, 30)
+DEBUG 2012-08-06 17:11:56,097 util 5709 140722717546240 (0.000) INSERT INTO "auth_group_permissions" ("id", "group_id", "permission_id") SELECT None AS "id", 2 AS "group_id", 32 AS "permission_id" UNION SELECT None, 2, 33 UNION SELECT None, 2, 35 UNION SELECT None, 2, 36 UNION SELECT None, 2, 29 UNION SELECT None, 2, 30; args=(None, 2, 32, None, 2, 33, None, 2, 35, None, 2, 36, None, 2, 29, None, 2, 30)
+DEBUG 2012-08-06 17:11:56,098 util 5709 140722717546240 (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-07 00:11:56.098078, 1, 2, 2, contributors, 1, ); args=[u'2012-08-07 00:11:56.098078', 1, 2, u'2', u'contributors', 1, '']
+DEBUG 2012-08-06 17:12:04,223 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 00:12:04.221182 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 00:12:04.221182')
+DEBUG 2012-08-06 17:12:04,225 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 17:12:04,228 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:12:04,265 util 5709 140722738628480 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:12:04,266 util 5709 140722738628480 (0.000) SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 3  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(3,)
+DEBUG 2012-08-06 17:12:04,269 util 5709 140722738628480 (0.000) SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" WHERE "auth_group"."id" IN (1, 2); args=(1, 2)
+DEBUG 2012-08-06 17:12:04,310 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE ("auth_user"."username" = lzane  AND NOT ("auth_user"."id" = 3 )) LIMIT 1; args=(u'lzane', 3)
+DEBUG 2012-08-06 17:12:04,311 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 3  LIMIT 1; args=(3,)
+DEBUG 2012-08-06 17:12:04,313 util 5709 140722738628480 (0.000) UPDATE "auth_user" SET "username" = lzane, "first_name" = Leslie, "last_name" = Zane, "email" = lzane@lesliezane.net, "password" = pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 00:10:09, "date_joined" = 2012-08-07 00:10:09 WHERE "auth_user"."id" = 3 ; args=(u'lzane', u'Leslie', u'Zane', u'lzane@lesliezane.net', u'pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=', False, True, False, u'2012-08-07 00:10:09', u'2012-08-07 00:10:09', 3)
+DEBUG 2012-08-06 17:12:04,315 util 5709 140722738628480 (0.000) SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:12:04,317 util 5709 140722738628480 (0.000) SELECT "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE ("auth_user_groups"."user_id" = 3  AND "auth_user_groups"."group_id" IN (1, 2)); args=(3, 1, 2)
+DEBUG 2012-08-06 17:12:04,318 util 5709 140722738628480 (0.000) INSERT INTO "auth_user_groups" ("id", "user_id", "group_id") SELECT None AS "id", 3 AS "user_id", 1 AS "group_id" UNION SELECT None, 3, 2; args=(None, 3, 1, None, 3, 2)
+DEBUG 2012-08-06 17:12:04,319 util 5709 140722738628480 (0.000) SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 3 ; args=(3,)
+DEBUG 2012-08-06 17:12:04,321 util 5709 140722738628480 (0.000) INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-07 00:12:04.320875, 1, 3, 3, lzane, 2, Changed password, first_name, last_name, email and groups.); args=[u'2012-08-07 00:12:04.320875', 1, 3, u'3', u'lzane', 2, u'Changed password, first_name, last_name, email and groups.']
+DEBUG 2012-08-06 18:02:00,491 util 5709 140722717546240 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 01:02:00.489880 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 01:02:00.489880')
+DEBUG 2012-08-06 18:02:00,493 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 18:02:00,495 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "auth_user"; args=()
+DEBUG 2012-08-06 18:02:00,497 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC, "auth_user"."id" ASC; args=()
+DEBUG 2012-08-06 18:02:01,078 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 01:02:01.076401 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 01:02:01.076401')
+DEBUG 2012-08-06 18:02:01,080 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 ; args=(1,)
+DEBUG 2012-08-06 18:02:22,812 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lzane ; args=(u'lzane',)
+DEBUG 2012-08-06 18:02:22,943 util 5709 140722717546240 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa  AND "django_session"."expire_date" > 2012-08-07 01:02:22.941695 ); args=('03329d8e80e6b5d87123949c617939fa', u'2012-08-07 01:02:22.941695')
+DEBUG 2012-08-06 18:02:22,944 util 5709 140722717546240 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 03329d8e80e6b5d87123949c617939fa ; args=('03329d8e80e6b5d87123949c617939fa',)
+DEBUG 2012-08-06 18:02:22,945 util 5709 140722717546240 (0.000) DELETE FROM "django_session" WHERE "session_key" IN (03329d8e80e6b5d87123949c617939fa); args=(u'03329d8e80e6b5d87123949c617939fa',)
+DEBUG 2012-08-06 18:02:23,131 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = a969815bb017e1b810ac52f3c854ef08  LIMIT 1; args=('a969815bb017e1b810ac52f3c854ef08',)
+DEBUG 2012-08-06 18:02:23,132 util 5709 140722717546240 (0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT a969815bb017e1b810ac52f3c854ef08 AS "session_key", ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=
+ AS "session_data", 2012-08-21 01:02:23.131568 AS "expire_date"; args=('a969815bb017e1b810ac52f3c854ef08', 'ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=\n', u'2012-08-21 01:02:23.131568')
+DEBUG 2012-08-06 18:02:23,267 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 3  LIMIT 1; args=(3,)
+DEBUG 2012-08-06 18:02:23,271 util 5709 140722717546240 (0.001) UPDATE "auth_user" SET "username" = lzane, "first_name" = Leslie, "last_name" = Zane, "email" = lzane@lesliezane.net, "password" = pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:23.264846, "date_joined" = 2012-08-07 00:10:09 WHERE "auth_user"."id" = 3 ; args=(u'lzane', u'Leslie', u'Zane', u'lzane@lesliezane.net', u'pbkdf2_sha256$10000$lzSWhlmUoFiE$7phFxJCB44FQJ2tvsmJp32D9t6xEu4SmuN4QfKiigJg=', False, True, False, u'2012-08-07 01:02:23.264846', u'2012-08-07 00:10:09', 3)
+DEBUG 2012-08-06 18:02:23,401 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = a969815bb017e1b810ac52f3c854ef08  LIMIT 1; args=('a969815bb017e1b810ac52f3c854ef08',)
+DEBUG 2012-08-06 18:02:23,404 util 5709 140722717546240 (0.000) UPDATE "django_session" SET "session_data" = MmZmODlmN2UxNTRjMDIzZjA0NGI1YzM5MzgwNTg4ZWU2NmU5ZTgxYTqAAn1xAShVEl9hdXRoX3Vz
+ZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED
+VQ1fYXV0aF91c2VyX2lkcQRLA3Uu
+, "expire_date" = 2012-08-21 01:02:23.398573 WHERE "django_session"."session_key" = a969815bb017e1b810ac52f3c854ef08 ; args=('MmZmODlmN2UxNTRjMDIzZjA0NGI1YzM5MzgwNTg4ZWU2NmU5ZTgxYTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLA3Uu\n', u'2012-08-21 01:02:23.398573', 'a969815bb017e1b810ac52f3c854ef08')
+DEBUG 2012-08-06 18:02:26,149 util 5709 140722738628480 (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a969815bb017e1b810ac52f3c854ef08  AND "django_session"."expire_date" > 2012-08-07 01:02:26.146483 ); args=('a969815bb017e1b810ac52f3c854ef08', u'2012-08-07 01:02:26.146483')
+DEBUG 2012-08-06 18:02:26,151 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3 ; args=(3,)
+DEBUG 2012-08-06 18:02:26,152 util 5709 140722738628480 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = a969815bb017e1b810ac52f3c854ef08 ; args=('a969815bb017e1b810ac52f3c854ef08',)
+DEBUG 2012-08-06 18:02:26,153 util 5709 140722738628480 (0.000) DELETE FROM "django_session" WHERE "session_key" IN (a969815bb017e1b810ac52f3c854ef08); args=(u'a969815bb017e1b810ac52f3c854ef08',)
+DEBUG 2012-08-06 18:02:26,293 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 1508b84028345758bb6acf936a6806b2  LIMIT 1; args=('1508b84028345758bb6acf936a6806b2',)
+DEBUG 2012-08-06 18:02:26,295 util 5709 140722738628480 (0.001) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 1508b84028345758bb6acf936a6806b2 AS "session_key", ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=
+ AS "session_data", 2012-08-21 01:02:26.293730 AS "expire_date"; args=('1508b84028345758bb6acf936a6806b2', 'ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=\n', u'2012-08-21 01:02:26.293730')
+DEBUG 2012-08-06 18:02:26,459 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 1508b84028345758bb6acf936a6806b2  LIMIT 1; args=('1508b84028345758bb6acf936a6806b2',)
+DEBUG 2012-08-06 18:02:26,462 util 5709 140722738628480 (0.001) UPDATE "django_session" SET "session_data" = ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=
+, "expire_date" = 2012-08-21 01:02:26.456953 WHERE "django_session"."session_key" = 1508b84028345758bb6acf936a6806b2 ; args=('ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=\n', u'2012-08-21 01:02:26.456953', '1508b84028345758bb6acf936a6806b2')
+DEBUG 2012-08-06 18:02:44,681 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=(u'calidog',)
+DEBUG 2012-08-06 18:02:44,809 util 5709 140722717546240 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 1508b84028345758bb6acf936a6806b2  AND "django_session"."expire_date" > 2012-08-07 01:02:44.807452 ); args=('1508b84028345758bb6acf936a6806b2', u'2012-08-07 01:02:44.807452')
+DEBUG 2012-08-06 18:02:44,810 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 30b3957450692d50306701e3ad591b50  LIMIT 1; args=('30b3957450692d50306701e3ad591b50',)
+DEBUG 2012-08-06 18:02:44,811 util 5709 140722717546240 (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 30b3957450692d50306701e3ad591b50 AS "session_key", ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=
+ AS "session_data", 2012-08-21 01:02:44.810937 AS "expire_date"; args=('30b3957450692d50306701e3ad591b50', 'ZmRmMjNlNGVjNDIzYzhkYjk3MWIzNGEwYzVhOTNiNGU1ODZlMjVkNTqAAn1xAS4=\n', u'2012-08-21 01:02:44.810937')
+DEBUG 2012-08-06 18:02:44,976 util 5709 140722717546240 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 1508b84028345758bb6acf936a6806b2 ; args=('1508b84028345758bb6acf936a6806b2',)
+DEBUG 2012-08-06 18:02:44,978 util 5709 140722717546240 (0.001) DELETE FROM "django_session" WHERE "session_key" IN (1508b84028345758bb6acf936a6806b2); args=(u'1508b84028345758bb6acf936a6806b2',)
+DEBUG 2012-08-06 18:02:45,135 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:02:45,138 util 5709 140722717546240 (0.001) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:02:45,285 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 30b3957450692d50306701e3ad591b50  LIMIT 1; args=('30b3957450692d50306701e3ad591b50',)
+DEBUG 2012-08-06 18:02:45,288 util 5709 140722717546240 (0.000) UPDATE "django_session" SET "session_data" = OTAxYzhhN2EyODBkYWU3MTA5ZDU0YjZjMzc4YTg0MTgwYzgyMzEyNTqAAn1xAShVEl9hdXRoX3Vz
+ZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED
+VQ1fYXV0aF91c2VyX2lkcQRLAnUu
+, "expire_date" = 2012-08-21 01:02:45.282761 WHERE "django_session"."session_key" = 30b3957450692d50306701e3ad591b50 ; args=('OTAxYzhhN2EyODBkYWU3MTA5ZDU0YjZjMzc4YTg0MTgwYzgyMzEyNTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAnUu\n', u'2012-08-21 01:02:45.282761', '30b3957450692d50306701e3ad591b50')
+DEBUG 2012-08-06 18:16:47,649 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:47,652 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:47,653 util 5709 140722738628480 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:47,778 util 5709 140722717546240 (0.124) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:47,819 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:47,950 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:47,981 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:47,983 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:47,986 util 5709 140722738628480 (0.003) SELECT COUNT(*) FROM "Assessor_question"; args=()
+DEBUG 2012-08-06 18:16:47,986 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:47,988 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog  LIMIT 25; args=('calidog',)
+DEBUG 2012-08-06 18:16:47,991 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:47,995 util 5709 140722738628480 (0.007) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" ORDER BY RANDOM() LIMIT 5; args=()
+DEBUG 2012-08-06 18:16:47,997 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:48,589 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:48,592 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:48,594 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:48,666 util 5709 140722717546240 (0.075) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:48,773 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:48,918 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:48,918 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:48,921 util 5709 140722738628480 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,921 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:48,923 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,924 util 5709 140722738628480 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,927 util 5709 140722717546240 (0.002) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,929 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,932 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,935 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,938 util 5709 140722717546240 (0.009) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,938 util 5709 140722738628480 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:16:48,943 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:48,944 util 5709 140722717546240 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,946 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,948 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:16:48,949 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:48,951 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:48,952 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:48,955 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:49,115 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:49,115 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:49,117 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,118 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,120 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,122 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,123 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,125 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:16:49,126 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:49,127 util 5709 140722738628480 (0.125) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:49,166 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:16:49,168 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:16:49,420 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:49,447 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:16:49,448 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:49,448 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:49,452 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,452 util 5709 140722738628480 (0.002) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,454 util 5709 140722717546240 (0.001) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,456 util 5709 140722738628480 (0.002) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,456 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,460 util 5709 140722717546240 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,461 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,461 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,463 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,466 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:16:49,468 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:16:49,469 util 5709 140722738628480 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,472 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:16:49,475 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:05,260 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:17:05,264 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:05,314 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:17:05,428 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:17:05,429 util 5709 140722738628480 (0.059) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:05,429 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:05,589 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:17:05,589 util 5709 140722717546240 (0.026) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:05,589 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:05,590 api 5709 140722717546240 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 18:17:05,594 api 5709 140722717546240 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/4074/","choice_id":"/api/v1/choice/1105/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '30b3957450692d50306701e3ad591b50'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=30b3957450692d50306701e3ad591b50',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49794',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 1,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x262b4b0>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x7ffc881211a0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 18:17:05,596 util 5709 140722738628480 (0.004) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:05,596 api 5709 140722738628480 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 18:17:05,601 api 5709 140722738628480 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/4090/","choice_id":"/api/v1/choice/1169/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '30b3957450692d50306701e3ad591b50'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=30b3957450692d50306701e3ad591b50',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49795',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 0,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x3388c00>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x345f500>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 18:17:05,601 util 5709 140722717546240 (0.006) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 1105 ; args=(1105,)
+DEBUG 2012-08-06 18:17:05,604 util 5709 140722738628480 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 1169 ; args=(1169,)
+DEBUG 2012-08-06 18:17:05,608 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090 ; args=(4090,)
+DEBUG 2012-08-06 18:17:05,610 util 5709 140722717546240 (0.004) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074 ; args=(4074,)
+DEBUG 2012-08-06 18:17:05,611 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 18:17:05,617 util 5709 140722717546240 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 18:17:05,617 util 5709 140722738628480 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090  ORDER BY RANDOM(); args=(4090,)
+DEBUG 2012-08-06 18:17:05,620 util 5709 140722717546240 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074  ORDER BY RANDOM(); args=(4074,)
+DEBUG 2012-08-06 18:17:05,620 util 5709 140722738628480 (0.000) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 4090, 1169); args=[2, 4090, 1169]
+DEBUG 2012-08-06 18:17:05,736 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 1169  LIMIT 1; args=(1169,)
+DEBUG 2012-08-06 18:17:05,738 util 5709 140722738628480 (0.000) UPDATE "Assessor_choice" SET "text" = direct questioning, collateral reports and toxicity screens but not direct observation , "is_correct" = False, "question_id" = 4090 WHERE "Assessor_choice"."id" = 1169 ; args=(u'direct questioning, collateral reports and toxicity screens but not direct observation ', False, 4090, 1169)
+DEBUG 2012-08-06 18:17:05,853 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:17:05,857 util 5709 140722738628480 (0.001) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:17:05,971 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4090  LIMIT 1; args=(4090,)
+DEBUG 2012-08-06 18:17:05,974 util 5709 140722738628480 (0.000) UPDATE "Assessor_question" SET "text" = Your new client is a rather self-conscious and quiet 19 year old college student who has been troubled by his abuse of marijuana and alcohol. In gathering assessment information you should use... , "explanation" = All four techniques are appropriate means of gathering assessment information with a substance abusing client. Toxicity screens and gathering collateral reports will require you to obtain the client’s permission, but there is no reason to assume that the client will object based on the information presented in the question, especially since the client is troubled by his substance abuse and appears to recognize it as a problem.   B, C and D are incorrect because they each rule out the option of using a valuable assessment technique. WHERE "Assessor_question"."id" = 4090 ; args=(u'Your new client is a rather self-conscious and quiet 19 year old college student who has been troubled by his abuse of marijuana and alcohol. In gathering assessment information you should use... ', u'All four techniques are appropriate means of gathering assessment information with a substance abusing client. Toxicity screens and gathering collateral reports will require you to obtain the client\u2019s permission, but there is no reason to assume that the client will object based on the information presented in the question, especially since the client is troubled by his substance abuse and appears to recognize it as a problem.   B, C and D are incorrect because they each rule out the option of using a valuable assessment technique.', 4090)
+DEBUG 2012-08-06 18:17:06,103 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 15  LIMIT 1; args=(15,)
+DEBUG 2012-08-06 18:17:06,104 util 5709 140722738628480 (0.000) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 4090, "choice_id" = 1169 WHERE "Assessor_answer"."id" = 15 ; args=(2, 4090, 1169, 15)
+DEBUG 2012-08-06 18:17:06,237 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:06,241 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:17:06,247 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:06,251 util 5709 140722717546240 (0.630) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 4074, 1105); args=[2, 4074, 1105]
+DEBUG 2012-08-06 18:17:06,373 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:17:06,373 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:06,395 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 1105  LIMIT 1; args=(1105,)
+DEBUG 2012-08-06 18:17:06,398 util 5709 140722717546240 (0.000) UPDATE "Assessor_choice" SET "text" = speak directly to you, not to the client , "is_correct" = False, "question_id" = 4074 WHERE "Assessor_choice"."id" = 1105 ; args=(u'speak directly to you, not to the client ', False, 4074, 1105)
+DEBUG 2012-08-06 18:17:06,521 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:17:06,524 util 5709 140722717546240 (0.001) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:17:06,636 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4074  LIMIT 1; args=(4074,)
+DEBUG 2012-08-06 18:17:06,637 util 5709 140722717546240 (0.000) UPDATE "Assessor_question" SET "text" = Your client, Luisa G, is a depressed 35 year old married woman who is having difficulty accessing child care resources now that she has taken a job outside the home. Her primary language is Portuguese and she speaks very little English. Unable to find a referral resource fluent in Portuguese you arrange for a translator to participate in your sessions. You should ask the translator to... , "explanation" = After hearing the literal translations, you can explore the client’s deeper meaning in a way that makes sense from your therapeutic perspective. B is incorrect because a translator using this approach is likely to interject much of his or her own assumptions and motivations. You need to hear a literal translation of what the client said, then explore its meaning with the client through the translator. C is incorrect because, although it is a better approach than B, it would make the progress of sessions even more cumbersome, it would shift a focus to the relationship between the client and the translator rather than to the therapeutic relationship, and even after the translator establishes the client’s confirmation of the paraphrasing, you will still need to explore the deeper meaning for the client. D is incorrect because it would feel very unnatural for the translator to refrain from speaking directly to the client, and would accomplish no constructive purpose. WHERE "Assessor_question"."id" = 4074 ; args=(u'Your client, Luisa G, is a depressed 35 year old married woman who is having difficulty accessing child care resources now that she has taken a job outside the home. Her primary language is Portuguese and she speaks very little English. Unable to find a referral resource fluent in Portuguese you arrange for a translator to participate in your sessions. You should ask the translator to... ', u'After hearing the literal translations, you can explore the client\u2019s deeper meaning in a way that makes sense from your therapeutic perspective. B is incorrect because a translator using this approach is likely to interject much of his or her own assumptions and motivations. You need to hear a literal translation of what the client said, then explore its meaning with the client through the translator. C is incorrect because, although it is a better approach than B, it would make the progress of sessions even more cumbersome, it would shift a focus to the relationship between the client and the translator rather than to the therapeutic relationship, and even after the translator establishes the client\u2019s confirmation of the paraphrasing, you will still need to explore the deeper meaning for the client. D is incorrect because it would feel very unnatural for the translator to refrain from speaking directly to the client, and would accomplish no constructive purpose.', 4074)
+DEBUG 2012-08-06 18:17:06,795 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 16  LIMIT 1; args=(16,)
+DEBUG 2012-08-06 18:17:06,796 util 5709 140722717546240 (0.000) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 4074, "choice_id" = 1105 WHERE "Assessor_answer"."id" = 16 ; args=(2, 4074, 1105, 16)
+DEBUG 2012-08-06 18:17:06,927 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:06,930 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:17:06,934 util 5709 140722717546240 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:07,079 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:17:07,080 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:07,080 util 5709 140722738628480 (0.706) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:07,082 api 5709 140722738628480 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 18:17:07,085 api 5709 140722738628480 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/4017/","choice_id":"/api/v1/choice/875/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '30b3957450692d50306701e3ad591b50'},
+META:{'CONTENT_LENGTH': '102',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '102',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=30b3957450692d50306701e3ad591b50',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49798',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 0,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x3388c00>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x345f500>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 18:17:07,086 util 5709 140722717546240 (0.004) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:07,088 util 5709 140722738628480 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 875 ; args=(875,)
+DEBUG 2012-08-06 18:17:07,089 api 5709 140722717546240 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 18:17:07,094 api 5709 140722717546240 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/3120/","choice_id":"/api/v1/choice/2880/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '30b3957450692d50306701e3ad591b50'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=30b3957450692d50306701e3ad591b50',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49796',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 1,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x262b4b0>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x7ffc88120630>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 18:17:07,096 util 5709 140722738628480 (0.006) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017 ; args=(4017,)
+DEBUG 2012-08-06 18:17:07,100 util 5709 140722717546240 (0.004) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2880 ; args=(2880,)
+DEBUG 2012-08-06 18:17:07,104 util 5709 140722738628480 (0.003) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 18:17:07,104 util 5709 140722717546240 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120 ; args=(3120,)
+DEBUG 2012-08-06 18:17:07,115 util 5709 140722738628480 (0.008) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017  ORDER BY RANDOM(); args=(4017,)
+DEBUG 2012-08-06 18:17:07,118 util 5709 140722717546240 (0.003) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 18:17:07,119 util 5709 140722738628480 (0.001) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 4017, 875); args=[2, 4017, 875]
+DEBUG 2012-08-06 18:17:07,269 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 875  LIMIT 1; args=(875,)
+DEBUG 2012-08-06 18:17:07,271 util 5709 140722738628480 (0.000) UPDATE "Assessor_choice" SET "text" = if he is depressed most of the day nearly every day , "is_correct" = True, "question_id" = 4017 WHERE "Assessor_choice"."id" = 875 ; args=(u'if he is depressed most of the day nearly every day ', True, 4017, 875)
+DEBUG 2012-08-06 18:17:07,419 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:17:07,421 util 5709 140722738628480 (0.000) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:17:07,555 util 5709 140722717546240 (0.431) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120  ORDER BY RANDOM(); args=(3120,)
+DEBUG 2012-08-06 18:17:07,555 util 5709 140722738628480 (0.001) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4017  LIMIT 1; args=(4017,)
+DEBUG 2012-08-06 18:17:07,558 util 5709 140722717546240 (0.001) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 3120, 2880); args=[2, 3120, 2880]
+DEBUG 2012-08-06 18:17:07,704 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2880  LIMIT 1; args=(2880,)
+DEBUG 2012-08-06 18:17:07,707 util 5709 140722717546240 (0.000) UPDATE "Assessor_choice" SET "text" = reality testing , "is_correct" = True, "question_id" = 3120 WHERE "Assessor_choice"."id" = 2880 ; args=(u'reality testing ', True, 3120, 2880)
+DEBUG 2012-08-06 18:17:07,838 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:17:07,841 util 5709 140722717546240 (0.001) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:17:07,963 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3120  LIMIT 1; args=(3120,)
+DEBUG 2012-08-06 18:17:07,966 util 5709 140722717546240 (0.001) UPDATE "Assessor_question" SET "text" = Jackie S avoids the conscious awareness of conflict. When she sees other people express hostility to one another, she interprets that as their way of getting close. She says that such conflicts are a form of intimacy, even when the conflicting parties are saying extremely hurtful things to one another and engaging in "character assassination." Your assessment should recognize that this tendency reflects a problem with which of the following ego functions? , "explanation" = Reality testing refers to how well a person distinguishes between inner and outer stimuli; in other words, to what extent do wishes and fantasies interfere with accurate perception and interpretation of events? Problems of reality testing are not limited to the extremes of psychotic distortion. A is incorrect because judgment involves how well a person can anticipate the probable consequences of intended behavior and whether the person chooses to adapt their behavior in light of those probable consequences. B is incorrect because a problematic sense of reality would involve the experience of depersonalization or derealization. These features are not described in the question. C is incorrect because adaptive regression involves the ability to suspend logical, rational thought in favor of fantasy, imagination and intuition in a way which serves, rather than impairs, adaptive functioning. These qualities are also not described in the question. WHERE "Assessor_question"."id" = 3120 ; args=(u'Jackie S avoids the conscious awareness of conflict. When she sees other people express hostility to one another, she interprets that as their way of getting close. She says that such conflicts are a form of intimacy, even when the conflicting parties are saying extremely hurtful things to one another and engaging in "character assassination." Your assessment should recognize that this tendency reflects a problem with which of the following ego functions? ', u'Reality testing refers to how well a person distinguishes between inner and outer stimuli; in other words, to what extent do wishes and fantasies interfere with accurate perception and interpretation of events? Problems of reality testing are not limited to the extremes of psychotic distortion. A is incorrect because judgment involves how well a person can anticipate the probable consequences of intended behavior and whether the person chooses to adapt their behavior in light of those probable consequences. B is incorrect because a problematic sense of reality would involve the experience of depersonalization or derealization. These features are not described in the question. C is incorrect because adaptive regression involves the ability to suspend logical, rational thought in favor of fantasy, imagination and intuition in a way which serves, rather than impairs, adaptive functioning. These qualities are also not described in the question.', 3120)
+DEBUG 2012-08-06 18:17:08,111 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 18  LIMIT 1; args=(18,)
+DEBUG 2012-08-06 18:17:08,113 util 5709 140722717546240 (0.000) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 3120, "choice_id" = 2880 WHERE "Assessor_answer"."id" = 18 ; args=(2, 3120, 2880, 18)
+DEBUG 2012-08-06 18:17:08,269 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:08,270 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:17:08,274 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:08,418 util 5709 140722738628480 (0.860) UPDATE "Assessor_question" SET "text" = Your new client is a 26 year old carpenter who is troubled by depression. In order to determine whether or not he has a major depressive disorder versus dysthymia, you will need to find out... , "explanation" = All of the answers are relevant to assessing a person who is depressed, but D is the only answer that is relevant to distinguishing between major depressive disorder and dysthymia. Maj or depressive disorder involves depression most of the day nearly every day for at least two weeks, whereas dysthymic disorder involves depression most of the day, more days than not, over two years or more. A is incorrect because both major depression and dysthymia can involve vegetative symptoms. B is incorrect because this information is needed to distinguish these diagnoses from a substance induced disorder, not from each other. C is incorrect because both major depression and dysthymia can involve suicidality. WHERE "Assessor_question"."id" = 4017 ; args=(u'Your new client is a 26 year old carpenter who is troubled by depression. In order to determine whether or not he has a major depressive disorder versus dysthymia, you will need to find out... ', u'All of the answers are relevant to assessing a person who is depressed, but D is the only answer that is relevant to distinguishing between major depressive disorder and dysthymia. Maj or depressive disorder involves depression most of the day nearly every day for at least two weeks, whereas dysthymic disorder involves depression most of the day, more days than not, over two years or more. A is incorrect because both major depression and dysthymia can involve vegetative symptoms. B is incorrect because this information is needed to distinguish these diagnoses from a substance induced disorder, not from each other. C is incorrect because both major depression and dysthymia can involve suicidality.', 4017)
+DEBUG 2012-08-06 18:17:08,427 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:17:08,427 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:08,620 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 17  LIMIT 1; args=(17,)
+DEBUG 2012-08-06 18:17:08,623 util 5709 140722738628480 (0.001) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 4017, "choice_id" = 875 WHERE "Assessor_answer"."id" = 17 ; args=(2, 4017, 875, 17)
+DEBUG 2012-08-06 18:17:08,786 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:17:08,859 util 5709 140722717546240 (0.430) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:17:08,860 api 5709 140722717546240 
+AnswerResource.obj_create
+	user: calidog
+
+DEBUG 2012-08-06 18:17:08,865 api 5709 140722717546240 
+---------------
+<WSGIRequest
+path:/api/v1/answer/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'{"question_id":"/api/v1/question/3002/","choice_id":"/api/v1/choice/2406/","user_id":"/api/v1/user/2/"}': [u'']}>,
+COOKIES:{'csrftoken': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'sessionid': '30b3957450692d50306701e3ad591b50'},
+META:{'CONTENT_LENGTH': '103',
+ 'CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'CSRF_COOKIE': 'c0c7c1eef09658a43c22f63b02a89bf8',
+ 'DOCUMENT_ROOT': '/etc/nginx/html',
+ 'HTTP_ACCEPT': 'application/json',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-us,en;q=0.5',
+ 'HTTP_CACHE_CONTROL': 'no-cache',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_CONTENT_LENGTH': '103',
+ 'HTTP_CONTENT_TYPE': 'application/json; charset=UTF-8',
+ 'HTTP_COOKIE': 'csrftoken=c0c7c1eef09658a43c22f63b02a89bf8; sessionid=30b3957450692d50306701e3ad591b50',
+ 'HTTP_HOST': 'localhost',
+ 'HTTP_PRAGMA': 'no-cache',
+ 'HTTP_REFERER': 'https://localhost/static/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1',
+ 'HTTP_X_PASSWORD': 'f00f3b02',
+ 'HTTP_X_REQUESTED_WITH': 'XMLHttpRequest',
+ 'HTTP_X_USERNAME': 'calidog',
+ 'PATH_INFO': u'/api/v1/answer/',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_PORT': '49797',
+ 'REQUEST_METHOD': 'POST',
+ 'REQUEST_URI': '/api/v1/answer/',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '4320s.justinzane.com',
+ 'SERVER_PORT': '443',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'uwsgi.core': 1,
+ 'uwsgi.node': 'justin-4320s',
+ 'uwsgi.version': '1.2.4',
+ 'wsgi.errors': <open file 'wsgi_errors', mode 'w' at 0x262b4b0>,
+ 'wsgi.file_wrapper': <built-in function uwsgi_sendfile>,
+ 'wsgi.input': <uwsgi._Input object at 0x7ffc88120630>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+---------------
+
+DEBUG 2012-08-06 18:17:08,869 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2406 ; args=(2406,)
+DEBUG 2012-08-06 18:17:08,872 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002 ; args=(3002,)
+DEBUG 2012-08-06 18:17:08,876 util 5709 140722717546240 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE ("auth_user"."id" = 2  AND "auth_user"."username" = calidog ); args=(2, 'calidog')
+DEBUG 2012-08-06 18:17:08,877 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002  ORDER BY RANDOM(); args=(3002,)
+DEBUG 2012-08-06 18:17:08,878 util 5709 140722717546240 (0.000) INSERT INTO "Assessor_answer" ("user_id", "question_id", "choice_id") VALUES (2, 3002, 2406); args=[2, 3002, 2406]
+DEBUG 2012-08-06 18:17:09,020 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_choice" WHERE "Assessor_choice"."id" = 2406  LIMIT 1; args=(2406,)
+DEBUG 2012-08-06 18:17:09,023 util 5709 140722717546240 (0.000) UPDATE "Assessor_choice" SET "text" = call the police , "is_correct" = False, "question_id" = 3002 WHERE "Assessor_choice"."id" = 2406 ; args=(u'call the police ', False, 3002, 2406)
+DEBUG 2012-08-06 18:17:09,144 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:17:09,146 util 5709 140722717546240 (0.000) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:02:45.132358, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:02:45.132358', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:17:09,279 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_question" WHERE "Assessor_question"."id" = 3002  LIMIT 1; args=(3002,)
+DEBUG 2012-08-06 18:17:09,282 util 5709 140722717546240 (0.001) UPDATE "Assessor_question" SET "text" = Your client, a 35 year old man, has just presented information that leads you to a reasonable suspicion that he is engaging in physical child abuse. When you tell him that you will make a mandated report he gives subtle nonverbal cues of becoming physically threatening. He becomes agitated, occasionally getting up from his chair and pacing. You should... , "explanation" = Aggressive and threatening clients should be asked to sit during interviews. A person is much more likely to strike out physically while standing than while sitting. That's why B is incorrect. Instead of discharging pent up tension, continued pacing might lead to an escalation of the client's tension. Of course, if you attempt to have the client sit but he strongly refuses, the best thing to do is to stand yourself. If you were to remain sitting that would suggest an unequal power balance which can lead to an escalation. C is incorrect because it may not be necessary. The approach described in A should be tried first. D is incorrect because it would be inappropriate to call the police unless the client was presenting an imminent physical threat. Such a threat is not evident from the question. WHERE "Assessor_question"."id" = 3002 ; args=(u'Your client, a 35 year old man, has just presented information that leads you to a reasonable suspicion that he is engaging in physical child abuse. When you tell him that you will make a mandated report he gives subtle nonverbal cues of becoming physically threatening. He becomes agitated, occasionally getting up from his chair and pacing. You should... ', u"Aggressive and threatening clients should be asked to sit during interviews. A person is much more likely to strike out physically while standing than while sitting. That's why B is incorrect. Instead of discharging pent up tension, continued pacing might lead to an escalation of the client's tension. Of course, if you attempt to have the client sit but he strongly refuses, the best thing to do is to stand yourself. If you were to remain sitting that would suggest an unequal power balance which can lead to an escalation. C is incorrect because it may not be necessary. The approach described in A should be tried first. D is incorrect because it would be inappropriate to call the police unless the client was presenting an imminent physical threat. Such a threat is not evident from the question.", 3002)
+DEBUG 2012-08-06 18:17:09,446 util 5709 140722717546240 (0.000) SELECT (1) AS "a" FROM "Assessor_answer" WHERE "Assessor_answer"."id" = 19  LIMIT 1; args=(19,)
+DEBUG 2012-08-06 18:17:09,449 util 5709 140722717546240 (0.001) UPDATE "Assessor_answer" SET "user_id" = 2, "question_id" = 3002, "choice_id" = 2406 WHERE "Assessor_answer"."id" = 19 ; args=(2, 3002, 2406, 19)
+DEBUG 2012-08-06 18:17:09,594 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:34,295 util 5709 140722738628480 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=(u'calidog',)
+DEBUG 2012-08-06 18:31:34,425 util 5709 140722738628480 (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 30b3957450692d50306701e3ad591b50  AND "django_session"."expire_date" > 2012-08-07 01:31:34.423990 ); args=('30b3957450692d50306701e3ad591b50', u'2012-08-07 01:31:34.423990')
+DEBUG 2012-08-06 18:31:34,427 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1; args=(2,)
+DEBUG 2012-08-06 18:31:34,429 util 5709 140722738628480 (0.000) UPDATE "auth_user" SET "username" = calidog, "first_name" = Cali, "last_name" = Dog, "email" = , "password" = pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-07 01:31:34.426128, "date_joined" = 2012-07-29 05:33:36 WHERE "auth_user"."id" = 2 ; args=(u'calidog', u'Cali', u'Dog', u'', u'pbkdf2_sha256$10000$QtEP0JKO8Ebc$5oBL+X/MYqSDNPHgmN6T1c9B4K2X0IOq552/cfHg4TI=', False, True, False, u'2012-08-07 01:31:34.426128', u'2012-07-29 05:33:36', 2)
+DEBUG 2012-08-06 18:31:34,540 util 5709 140722738628480 (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 30b3957450692d50306701e3ad591b50  LIMIT 1; args=('30b3957450692d50306701e3ad591b50',)
+DEBUG 2012-08-06 18:31:34,541 util 5709 140722738628480 (0.000) UPDATE "django_session" SET "session_data" = MGJmNTIwY2ZiN2VkMmQyZTY2OTBjNWQ1NzFhODk2ZTI1NzY1OGJkYjqAAn1xAShVDV9hdXRoX3Vz
+ZXJfaWRLAlUSX2F1dGhfdXNlcl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRz
+Lk1vZGVsQmFja2VuZHECdS4=
+, "expire_date" = 2012-08-21 01:31:34.538928 WHERE "django_session"."session_key" = 30b3957450692d50306701e3ad591b50 ; args=('MGJmNTIwY2ZiN2VkMmQyZTY2OTBjNWQ1NzFhODk2ZTI1NzY1OGJkYjqAAn1xAShVDV9hdXRoX3Vz\nZXJfaWRLAlUSX2F1dGhfdXNlcl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRz\nLk1vZGVsQmFja2VuZHECdS4=\n', u'2012-08-21 01:31:34.538928', '30b3957450692d50306701e3ad591b50')
+DEBUG 2012-08-06 18:31:40,771 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:40,771 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:40,777 util 5709 140722738628480 (0.003) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:40,778 util 5709 140722717546240 (0.004) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:40,945 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:41,106 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:41,106 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:41,106 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:41,110 util 5709 140722738628480 (0.001) SELECT COUNT(*) FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:41,111 util 5709 140722717546240 (0.001) SELECT COUNT(*) FROM "Assessor_question"; args=()
+DEBUG 2012-08-06 18:31:41,112 util 5709 140722738628480 (0.000) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog  LIMIT 25; args=('calidog',)
+DEBUG 2012-08-06 18:31:41,115 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:41,120 util 5709 140722717546240 (0.006) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" ORDER BY RANDOM() LIMIT 5; args=()
+DEBUG 2012-08-06 18:31:41,122 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,278 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:42,280 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:42,284 util 5709 140722738628480 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:42,447 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:42,447 util 5709 140722717546240 (0.164) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:42,448 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,621 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:42,621 util 5709 140722738628480 (0.153) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,621 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,625 util 5709 140722738628480 (0.002) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,625 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,627 util 5709 140722738628480 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,628 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,630 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,634 util 5709 140722738628480 (0.003) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,635 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,639 util 5709 140722738628480 (0.002) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2025 ; args=(2025,)
+DEBUG 2012-08-06 18:31:42,640 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,641 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,645 util 5709 140722717546240 (0.001) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,649 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2055 ; args=(2055,)
+DEBUG 2012-08-06 18:31:42,652 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,655 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:42,660 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:42,661 util 5709 140722738628480 (0.004) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:42,665 util 5709 140722717546240 (0.002) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:42,824 api 5709 140722738628480 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:42,838 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,986 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:42,987 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:42,989 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,990 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,991 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,993 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,995 util 5709 140722738628480 (0.152) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:42,995 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,998 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 4159 ; args=(4159,)
+DEBUG 2012-08-06 18:31:42,999 util 5709 140722738628480 (0.002) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:43,000 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:43,003 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:43,005 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:43,006 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:43,008 util 5709 140722738628480 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 1142 ; args=(1142,)
+DEBUG 2012-08-06 18:31:43,009 api 5709 140722738628480 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:43,010 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	calidog:f00f3b02
+
+DEBUG 2012-08-06 18:31:43,012 util 5709 140722717546240 (0.001) SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = calidog ; args=('calidog',)
+DEBUG 2012-08-06 18:31:43,134 api 5709 140722717546240 
+HeaderAuthentication.is_authenticated
+	user exists, returning True
+
+DEBUG 2012-08-06 18:31:43,135 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
+DEBUG 2012-08-06 18:31:43,136 util 5709 140722717546240 (0.000) SELECT COUNT(*) FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,137 util 5709 140722717546240 (0.000) SELECT "Assessor_choice"."id", "Assessor_choice"."text", "Assessor_choice"."is_correct", "Assessor_choice"."question_id" FROM "Assessor_choice" WHERE "Assessor_choice"."question_id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,139 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,141 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,142 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,144 util 5709 140722717546240 (0.000) SELECT "Assessor_question"."id", "Assessor_question"."text", "Assessor_question"."explanation" FROM "Assessor_question" WHERE "Assessor_question"."id" = 2180 ; args=(2180,)
+DEBUG 2012-08-06 18:31:43,145 api 5709 140722717546240 HeaderAuthentication.get_identifier
+	Returning calidog
+
