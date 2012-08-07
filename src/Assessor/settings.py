@@ -1,4 +1,5 @@
-import os
+import os, sys
+
 BASE_DIR = os.path.abspath(os.path.curdir)
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -45,7 +46,7 @@ PASSWORD_HASHERS = (
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
-    'django.contrib.auth.backends.RemoteUserBackend',
+#    'django.contrib.auth.backends.RemoteUserBackend',
 )
 
 TEMPLATE_LOADERS = (
@@ -55,15 +56,15 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.gzip.GZipMiddleware',
-    'django.middleware.http.ConditionalGetMiddleware',
+#    'django.middleware.gzip.GZipMiddleware',
+#    'django.middleware.http.ConditionalGetMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.RemoteUserMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
+#   'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
 CONTEXT_PROCESSORS = (
@@ -94,22 +95,35 @@ INSTALLED_APPS = (
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
     'filters': {
-        'require_debug_false': {
-            '()': 'django.utils.log.RequireDebugFalse'
-        }
+            'require_debug_false': {'()': 'django.utils.log.RequireDebugFalse'}
     },
     'handlers': {
-        'mail_admins': {
-            'level': 'ERROR',
-            'filters': ['require_debug_false'],
-            'class': 'django.utils.log.AdminEmailHandler'
-        }
-    },
+                 'mail_admins': {'level': 'ERROR',
+                                 'filters': ['require_debug_false'],
+                                 'class': 'django.utils.log.AdminEmailHandler'
+                                 },
+                 'console': {'level': 'DEBUG',
+                             'class': 'logging.StreamHandler',
+                             'formatter': 'verbose',
+                             'stream': 'sys.stdout'},
+                 'file': {'level': 'DEBUG',
+                          'class': 'logging.FileHandler',
+                          'formatter': 'verbose',
+                          'filename': 'Assessor.log'},
+                 },
     'loggers': {
-        'django.request': {
-            'handlers': ['mail_admins'],
-            'level': 'ERROR',
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
             'propagate': True,
         },
     }

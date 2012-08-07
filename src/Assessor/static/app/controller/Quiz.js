@@ -6,12 +6,13 @@ Ext.define('Assessor.controller.Quiz', {
 	stores : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
 	views : [
 		'auth.LoginPanel', 
-		'quiz.StartCard', 
-		'quiz.QuestionCard', 
-		'quiz.ResultCard', 
+		'quiz.ButtonPanel',
 		'quiz.ExplanationGrid', 
-		'quiz.TimerBar', 
-		'quiz.ButtonPanel'
+		'quiz.QuestionCard', 
+		'quiz.QuizCards',
+		'quiz.ResultCard', 
+		'quiz.StartCard', 
+		'quiz.TimerBar'
 	],
 
 	// Custom Functions
@@ -71,13 +72,23 @@ Ext.define('Assessor.controller.Quiz', {
 				Ext.MessageBox.alert("Time Expired", "Please try to answers questions more promptly.");
 				timerBar.updateProgress(1.0, "Time Expired!");
 			} else {
-				timeText = (elapsedTime / 60.0).toFixed(0) + " min. elapsed";
-				timerBar.updateProgress(progress, timeText);
+				var elTimeMin = (elapsedTime / 60.0).toFixed(0).toString();
+				var elTimeSec = (elapsedTime - (60 * elTimeMin)).toFixed(0).toString();
+				var elText = "";
+				if (elTimeMin.length == 1) {
+					elTimeMin = "0" + elTimeMin;
+				}
+				if (elTimeSec.length == 1) {
+					elTimeSec = "0" + elTimeSec;
+				}
+				elText = elTimeMin + ":" + elTimeSec + " elapsed"
+				timerBar.updateProgress(progress, elText);
 			}
 		};
 		var timerTask = Ext.TaskManager.start({
+			itemId: 'timertask',
 			run: updateTimer,
-			interval: 10000,
+			interval: 2000,
 			duration: totalTime * 1000
 		});
 	},
@@ -86,11 +97,20 @@ Ext.define('Assessor.controller.Quiz', {
 		var cp = Ext.ComponentQuery.query('#contentpanel')[0];
 		cp.removeAll();
 		cp.add({
-			xtype: 'startcard',
+			xtype: 'quizcards',
 			flex: 1
 		});
 		cp.add({
 			xtype: 'buttonpanel'
+		});
+	},
+	/** clear the login panel and start the quiz. */
+	showLogin: function() {
+		var cp = Ext.ComponentQuery.query('#contentpanel')[0];
+		cp.removeAll();
+		cp.add({
+			xtype: 'loginpanel',
+			flex: 1
 		});
 	},
 	/** start the quiz */
@@ -100,7 +120,14 @@ Ext.define('Assessor.controller.Quiz', {
 		// remove startCard
 		Ext.ComponentQuery.query('quizcards')[0].removeAll();
 		// load numQuestions records from store.Questions
-		Ext.getStore('Question').load({
+		var qs = Ext.getStore('Question');
+		var qsMask = Ext.create('Ext.LoadMask', {
+			store: qs,
+			msg: "Loading Questions"
+		});
+		qs.proxy.headers['X-Username'] = Assessor.username;
+		qs.proxy.headers['X-Password'] = Assessor.password;
+		qs.load({
 			scope: this,
 			params: {
 				limit: numQuestions
@@ -111,11 +138,31 @@ Ext.define('Assessor.controller.Quiz', {
 				this.updateButtons();
 			}
 		});
+		var cs = Ext.getStore('Choice');
+		var csMask = Ext.create('Ext.LoadMask', {
+			store: cs,
+			msg: "Loading Questions"
+		});
+		cs.proxy.headers['X-Username'] = Assessor.username;
+		cs.proxy.headers['X-Password'] = Assessor.password;
+		var us = Ext.getStore('User');
+		var usMask = Ext.create('Ext.LoadMask', {
+			store: us,
+			msg: "Loading Users"
+		});
+		us.proxy.headers['X-Username'] = Assessor.username;
+		us.proxy.headers['X-Password'] = Assessor.password;
+		us.load();
+		var as = Ext.getStore('Answer');
+		as.proxy.headers['X-Username'] = Assessor.username;
+		as.proxy.headers['X-Password'] = Assessor.password;
+		
 	},
 	/**
 	 * REstart the quiz
 	 */
 	reStartQuiz : function (args) {
+		//TODO: Actually restart
 		location.reload();
 	},
 	/**
@@ -159,8 +206,11 @@ Ext.define('Assessor.controller.Quiz', {
 				vertical : true
 			});
 			var qs_cs = qs.getAt(i).getChoices();
-			qs_cs.load(this.createRadioGroup);
-			var card = Ext.create('Assessor.view.QuestionCard', {
+			qs_cs.load({
+				callback: this.createRadioGroup,
+				addRecords: true
+			});
+			var card = Ext.create('Assessor.view.quiz.QuestionCard', {
 				itemId : 'questioncard-' + i,
 				questionId : qs.getAt(i).data['id'],
 				items : [df, rg]
@@ -172,10 +222,11 @@ Ext.define('Assessor.controller.Quiz', {
 	/**
 	 * record answer by adding model to store
 	 */
-	recordAnswer: function(questionUri, choiceUri) {
+	recordAnswer: function(questionId, choiceId, userId) {
 		var answer = Ext.create('Assessor.model.Answer', {
-			question_uri: questionUri,
-			choice_uri: choiceUri
+			question_id: "/api/v1/question/" + questionId + "/",
+			choice_id: "/api/v1/choice/" + choiceId + "/",
+			user_id: "/api/v1/user/" + userId + "/"
 		});
 		answer.save();
 //		Ext.getStore('Answer').add(answer);
@@ -185,11 +236,14 @@ Ext.define('Assessor.controller.Quiz', {
 	 * @param {Object} args
 	 */
 	finishQuiz : function(args) {
-		timerBar = Ext.ComponentQuery.query('#timerbar')[0].disable();
+		Ext.TaskManager.stopAll();
 		this.disableButtons();
 		var cs = Ext.getStore('Choice');
 		var es = Ext.getStore('Explanation');
 		var qs = Ext.getStore('Question');
+		var us = Ext.getStore('User');
+		//
+		var userId = us.data.getAt(us.find('username',Assessor.username)).data['id']
 		// Empty Explanation store/model/proxy.
 		es.model.proxy.clear();
 		var scoreContent = '';
@@ -202,13 +256,16 @@ Ext.define('Assessor.controller.Quiz', {
 			try {
 				var selectedObj = Ext.ComponentQuery.query('#choicegroup-'+questionId)[0].getValue();
 				var selectedId = selectedObj[[Object.keys(selectedObj)[0]]];
-				this.recordAnswer(qs.getById(questionId).data['resource_uri'], cs.getById(selectedId).data['resource_uri']);
-				if (cs.getById(selectedId).data['is_correct']) {
+				this.recordAnswer(qs.getById(questionId).data['id'],
+								  qs.getById(questionId).getChoices().getById(selectedId).data['id'],
+								  userId
+								 );
+				if (qs.getById(questionId).getChoices().getById(selectedId).data['is_correct']) {
 					num_correct += 1;
 				} else {
 					var exp = Ext.create('Assessor.model.Explanation', {
 						question: qs.getById(questionId).data['text'],
-						choice: cs.getById(selectedId).data['text'],
+						choice: qs.getById(questionId).getChoices().getById(selectedId).data['text'],
 						explanation: qs.getById(questionId).data['explanation']
 					});
 					exp.save();
@@ -228,7 +285,7 @@ Ext.define('Assessor.controller.Quiz', {
 		Ext.ComponentQuery.query('quizcards')[0].removeAll();
 		// make sure the grid has data
 		es.load()
-		rc = Ext.create('Assessor.view.ResultCard', {});
+		rc = Ext.create('Assessor.view.quiz.ResultCard', {});
 		Ext.ComponentQuery.query('#resultpanel')[0].html = scoreContent
 		Ext.ComponentQuery.query('quizcards')[0].add(rc);
 	},
@@ -272,6 +329,23 @@ Ext.define('Assessor.controller.Quiz', {
         }
     },
 	//
+	attemptLogout: function() {
+		Ext.Ajax.request({
+		    url: '/auth/logout',
+		    headers: {'X-CSRFToken': Ext.util.Cookies.get('csrftoken')},
+            params: {},
+		    success: function(response){
+		        console.info(response);
+		        Assessor.username = null;
+		        Assessor.password = null;
+		        Assessor.controller.Quiz.prototype.showLogin();
+		    },
+            failure: function(response) {
+				Ext.Msg.alert('Logout failed! This is a bug!');
+            }
+		});
+    },
+	//
 	init : function() {
 		this.control({
 			'#nextbutton' : {
@@ -292,6 +366,9 @@ Ext.define('Assessor.controller.Quiz', {
 			'#loginbutton' : {
 				click : this.attemptLogin
 			},
+			'#logoutbutton' : {
+				click : this.attemptLogout
+			}
 		})
 	}
 })

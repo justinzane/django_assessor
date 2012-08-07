@@ -26,6 +26,12 @@ Ext.define('Assessor.view.quiz.ButtonPanel', {
 			xtype: 'timerbar',
 			itemId: 'timerbar',
 			flex: 1
-		}]
+		}, {
+			xtype: 'button',
+			itemId: 'logoutbutton',
+			alias: 'widget.logoutbutton',
+	        text: 'Logout',
+	        type: 'button'
+	    }]
 	}]
 })

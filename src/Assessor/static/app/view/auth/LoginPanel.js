@@ -13,7 +13,7 @@ Ext.define('Assessor.view.auth.LoginPanel', {
 		itemId: 'usernamefield',
 		alias: 'widget.usernamefield',
 		allowBlank: false,
-		minLength: 6,
+		minLength: 4,
 		width: 200
 	}, {
 		xtype: 'textfield',
@@ -21,8 +21,9 @@ Ext.define('Assessor.view.auth.LoginPanel', {
 		name: 'password',
 		itemId: 'passwordfield',
 		alias: 'widget.passwordfield',
+		inputType: 'password',
 		allowBlank: false,
-		minLength: 6,
+		minLength: 4,
 		width: 200
 	}],
 	buttons: [{

@@ -22,24 +22,61 @@ Assessor.api
 '''
 from tastypie.resources import ModelResource
 from tastypie import fields
-from tastypie.authentication import BasicAuthentication, Authentication
-from tastypie.authorization import DjangoAuthorization, ReadOnlyAuthorization
+from tastypie.authentication import Authentication
+from tastypie.authorization import DjangoAuthorization, Authorization
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from models import Question, Choice, Answer
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, AnonymousUser
+from django.contrib.auth import authenticate
+import logging
+
+
+class HeaderAuthentication(Authentication):
+    def is_authenticated(self, request, **kwargs):
+        logger = logging.getLogger('django')
+        try:
+            un = request.META['HTTP_X_USERNAME']
+            pw = request.META['HTTP_X_PASSWORD']
+            logger.debug('\nHeaderAuthentication.is_authenticated\n\t%s:%s\n' % (un, pw))
+            user = authenticate(username=un, password=pw)
+            if user:
+                logger.debug('\nHeaderAuthentication.is_authenticated\n\tuser exists, returning True\n')
+                return True
+            else:
+                logger.debug('\nHeaderAuthentication.is_authenticated\n\tuser is None, returning False\n')
+                return False
+        except:
+            logger.debug('\nHeaderAuthentication.is_authenticated\n\tException, returning False\n')
+            return False
+
+    # Optional but recommended
+    def get_identifier(self, request):
+        logger = logging.getLogger('django')
+        try:
+            logger.debug('HeaderAuthentication.get_identifier\n\tReturning %s\n' % (request.META['HTTP_X_USERNAME']))
+            return request.META['HTTP_X_USERNAME']
+        except:
+            logger.debug('HeaderAuthentication.get_identifier\n\tReturning %s\n' % (AnonymousUser.username))
+            return AnonymousUser.username
 
 
 class UserResource(ModelResource):
     def obj_create(self, bundle, request=None, **kwargs):
+        logger = logging.getLogger('django')
+        logger.debug('\nUserResource.obj_create\n\tuser: %s\n' % (str(request.user.username)))
         return super(UserResource, self).obj_create(bundle,
                                                     request,
                                                     user=request.user)
 
     def apply_authorization_limits(self, request, object_list):
-        return object_list.filter(pk=request.user.pk)
+        #logger = logging.getLogger('django')
+        #logger.debug('UserResource.apply_auth_limits\n\trequest.user: %s' % (str(request.user.username)))
+        #return object_list.filter(pk=request.user.pk)
+        un = request.META['HTTP_X_USERNAME']
+        return object_list.filter(username=un)
 
     class Meta:
-        authentication = BasicAuthentication()
+        authentication = HeaderAuthentication()
         authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = User.objects.all()
@@ -50,7 +87,7 @@ class QuestionResource(ModelResource):
     #choices = fields.ToManyField('Assessor.api.ChoiceResource', 'choice_set',
     #    full='id', related_name='choice')
     class Meta:
-        authentication = BasicAuthentication()
+        authentication = HeaderAuthentication()
         authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = Question.objects.all().order_by('?')
@@ -71,7 +108,7 @@ class ChoiceResource(ModelResource):
                                     related_name='question')
 
     class Meta:
-        authentication = BasicAuthentication()
+        authentication = HeaderAuthentication()
         authorization = DjangoAuthorization()
         allowed_methods = ['get']
         queryset = Choice.objects.all()
@@ -80,34 +117,41 @@ class ChoiceResource(ModelResource):
 
 
 class AnswerResource(ModelResource):
-    user_uri = fields.ToOneField('Assessor.api.UserResource',
+    user_id = fields.ToOneField('Assessor.api.UserResource',
                                  'user',
-                                 full=True,
+                                 full='id',
                                  related_name='user')
-    question_uri = fields.ToOneField('Assessor.api.QuestionResource',
+    question_id = fields.ToOneField('Assessor.api.QuestionResource',
                                      'question',
-                                     full=True,
+                                     full='id',
                                      related_name='question')
-    choice_uri = fields.ToOneField('Assessor.api.ChoiceResource',
+    choice_id = fields.ToOneField('Assessor.api.ChoiceResource',
                                    'choice',
-                                   full=True,
+                                   full='id',
                                    related_name='choice')
 
     def obj_create(self, bundle, request=None, **kwargs):
+        un = request.META['HTTP_X_USERNAME']
+        user = User.objects.get_by_natural_key(un)
+        logger = logging.getLogger('django')
+        logger.debug('\nAnswerResource.obj_create\n\tuser: %s\n' % (str(user)))
+        logger.debug('\n---------------\n%s\n---------------\n' % (str(request)))
         return super(AnswerResource, self).obj_create(bundle,
                                                       request,
-                                                      user=request.user)
+                                                      user=user)
 
     def apply_authorization_limits(self, request, object_list):
-        return object_list.filter(user=request.user)
+        un = request.META['HTTP_X_USERNAME']
+        user = User.objects.get_by_natural_key(un)
+        return object_list.filter(user=user)
 
     class Meta:
-        authentication = BasicAuthentication()
-        authorization = DjangoAuthorization()
+        authentication = HeaderAuthentication()
+        authorization = Authorization()
         allowed_methods = ['get', 'post', 'put']
         queryset = Answer.objects.all()
         resource_name = 'answer'
-        filtering = {'user_uri': ALL_WITH_RELATIONS,
-                     'question_uri': ALL_WITH_RELATIONS,
-                     'choice_uri': ALL_WITH_RELATIONS,
-                     'id': ALL}
+#        filtering = {'user_id': ALL_WITH_RELATIONS,
+#                     'question_id': ALL_WITH_RELATIONS,
+#                     'choice_id': ALL_WITH_RELATIONS,
+#                     'id': ALL}
