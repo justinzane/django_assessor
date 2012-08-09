@@ -33,5 +33,5 @@ Ext.define('Assessor.view.auth.LoginPanel', {
         type: 'submit',
         formBind: true, //only enabled once the form is valid
         disabled: true
-    }],
-})
+    }]
+});

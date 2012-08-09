@@ -37,4 +37,4 @@ Ext.define('Assessor.view.quiz.StartCard', {
 			disabled: false
 		}]
 	}]
-})
+});

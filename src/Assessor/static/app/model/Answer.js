@@ -27,4 +27,4 @@ Ext.define('Assessor.model.Answer', {
 			writeAllFields: false
 		}
 	}
-})
+});

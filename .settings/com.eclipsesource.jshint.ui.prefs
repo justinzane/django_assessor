@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
-projectSpecificOptions=true
+excluded=src/Assessor/static/extjs-4.1.1//*\:src/Assessor/static/extjs//*
+included=//*.js

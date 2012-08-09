@@ -40,4 +40,4 @@ Ext.define('Assessor.view.quiz.ButtonPanel', {
 	        type: 'button'
 	    }]
 	}]
-})
+});

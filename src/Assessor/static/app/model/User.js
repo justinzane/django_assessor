@@ -32,4 +32,4 @@ Ext.define('Assessor.model.User',{
 			type: 'json'
 		}
 	}
-})
+});

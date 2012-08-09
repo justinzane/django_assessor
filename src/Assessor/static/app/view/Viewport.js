@@ -24,4 +24,4 @@ Ext.define('Assessor.view.Viewport', {
 			flex: 1
 		}]
 	}]
-})
+});

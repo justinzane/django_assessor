@@ -10,4 +10,4 @@ Ext.define('Assessor.model.Explanation', {
 		type: 'localstorage',
 		id: 'explanations'
 	}
-})
+});

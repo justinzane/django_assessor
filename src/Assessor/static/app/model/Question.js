@@ -10,6 +10,7 @@ Ext.define('Assessor.model.Question', {
 		model: 'Assessor.model.Choice',
 		name: 'choices',
 		foreignKey: 'question_id',
+		//TODO: Fix the dup names
 		name: 'getChoices'
 	},
 	proxy: {
@@ -29,4 +30,4 @@ Ext.define('Assessor.model.Question', {
 			type: 'json'
 		}
 	}
-})
+});

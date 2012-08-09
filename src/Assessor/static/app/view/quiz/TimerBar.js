@@ -1,19 +1,19 @@
 Ext.define('Assessor.view.quiz.TimerBar', {
-	extend: 'Ext.ProgressBar',
-	alias: 'widget.timerbar',
-	autoRender: false,
-	autoWidth: true,
-	minWidth: 100,
+	extend : 'Ext.ProgressBar',
+	alias : 'widget.timerbar',
+	autoRender : false,
+	autoWidth : true,
+	minWidth : 100,
 	/**
 	 * For the BBS MFT Exam, 4 hours/200 questions
 	 */
-	secPerQuestion: 144.0,
+	secPerQuestion : 144.0,
 	/**
-	 * Returns time for a given number of questions based on the factor 
+	 * Returns time for a given number of questions based on the factor
 	 * secPerQuestion
 	 * @param {Object} num
 	 */
-	numToTime: function(num) {
+	numToTime : function(num) {
 		if (num <= 0) {
 			console.warn("Non-positive number.");
 			return 0;
@@ -21,4 +21,4 @@ Ext.define('Assessor.view.quiz.TimerBar', {
 			return (this.secPerQuestion * num);
 		}
 	}
-})
+});

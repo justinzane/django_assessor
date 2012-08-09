@@ -3,4 +3,4 @@ Ext.define('Assessor.view.Header', {
 	alias: 'widget.headerpanel',
 	title: 'The Assessor',
 	icon: '/static/resources/images/a_icon01_opt.svg'
-})
+});

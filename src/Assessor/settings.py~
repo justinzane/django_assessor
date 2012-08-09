@@ -146,7 +146,7 @@ LOGGING = {
                  'file': {'level': 'DEBUG',
                           'class': 'logging.FileHandler',
                           'formatter': 'verbose',
-                          'filename': '/var/log/uwsgi/djangoAssessor.log'},
+                          'filename': 'Assessor.log'},
                  },
     'loggers': {
         'django': {

@@ -4,7 +4,7 @@ import json
 
 
 def login(request):
-    ''' This login method is tailored to produce json responses based on the 
+    ''' This login method is tailored to produce json responses based on the
         needs of ExtJS 4.1/ '''
     result = {}
     username = request.POST['username']
@@ -14,15 +14,18 @@ def login(request):
         if user.is_active:
             auth.login(request, user)
             result['success'] = True
-            return HttpResponse(json.dumps(result), mimetype='application/json')
+            return HttpResponse(json.dumps(result),
+                                mimetype='application/json')
         else:
             result['success'] = False
             result['errors'] = {'message': 'Invalid username.'}
-            return HttpResponse(json.dumps(result), mimetype='application/json')
+            return HttpResponse(json.dumps(result),
+                                mimetype='application/json')
     else:
         result['success'] = False
         result['errors'] = {'message': 'Invalid password.'}
-        return HttpResponse(json.dumps(result), mimetype='application/json')
+        return HttpResponse(json.dumps(result),
+                            mimetype='application/json')
 
 
 def logout(request):

@@ -7,4 +7,4 @@ Ext.define('Assessor.view.quiz.QuizCards', {
 	items: [{
 		xtype: 'startcard'
 	}]
-})
+});

@@ -42,3 +42,4 @@ src/Assessor/uwsgi.log
 src/Assessor/nginx-error.log
 src/Assessor/nginx-access.log
 src/Assessor/nginx-error.log
+src/Assessor/backup.db

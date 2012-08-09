@@ -11,4 +11,4 @@ Ext.define('Assessor.view.quiz.ExplanationGrid', {
 	autoHeight: true,
 	autoRender: true,
 	flex: 1
-})
+});
