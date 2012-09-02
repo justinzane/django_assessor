@@ -14,16 +14,8 @@ framework.
 
 """
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Assessor.settings")
-
-from uwsgidecorators import reload, timer
-from django.utils import autoreload
 from django.core.wsgi import get_wsgi_application
 
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Assessor.settings")
+
 application = get_wsgi_application()
-
-
-@timer(3)
-def change_code_gracefull_reload(sig):
-    if autoreload.code_changed():
-        reload()

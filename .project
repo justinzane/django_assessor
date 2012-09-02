@@ -3,6 +3,7 @@
 	<name>django-assessor</name>
 	<comment></comment>
 	<projects>
+		<project>django-debug-rnr-middleware</project>
 		<project>django-tastypie</project>
 	</projects>
 	<buildSpec>

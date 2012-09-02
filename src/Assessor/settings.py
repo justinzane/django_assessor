@@ -1,4 +1,4 @@
-import os, sys
+import os
 
 BASE_DIR = os.path.abspath(os.path.curdir)
 DEBUG = True
@@ -7,10 +7,18 @@ ADMINS = (('Justin Chudgar', 'justin@justinzane.com'),)
 MANAGERS = ADMINS
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR + '/Assessor.db',
-        'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Assessor',
+        'USER': 'Assessor',
+        'PASSWORD': 'f00f3b02',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR + '/Assessor.db',
+#        'USER': '', 'PASSWORD': '', 'HOST': '', 'PORT': '',
+#    }
 }
 TIME_ZONE = None
 LANGUAGE_CODE = 'en-us'
@@ -60,7 +68,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.http.ConditionalGetMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+#    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.RemoteUserMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -88,6 +96,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'emailconfirmation',
     'tastypie',
     'Assessor',
 )
@@ -102,10 +111,6 @@ EMAIL_SUBJECT_PREFIX = '[assessor.justinzane.com] '
 EMAIL_USE_TLS = True
 
 SESSION_COOKIE_AGE = 14400
-SESSION_COOKIE_DOMAIN = '.justinzane.com'
-SESSION_COOKIE_HTTPONLY = True
-SESSION_COOKIE_NAME = 'sessionid'
-SESSION_COOKIE_PATH = '/'
 SESSION_COOKIE_SECURE = True
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 #    'django.contrib.sessions.backends.file'
@@ -116,12 +121,14 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_FILE_PATH = None
 SESSION_SAVE_EVERY_REQUEST = False
 
-#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
-CSRF_COOKIE_SECURE = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
+#CSRF_COOKIE_SECURE = True
 
 API_LIMIT_PER_PAGE = 0
 USE_ETAGS = True
-FIXTURE_DIRS = os.path.join(BASE_DIR, 'fixtures')
+FIXTURE_DIRS = os.path.join(BASE_DIR, 'fixtures/')
+
+EMAIL_CONFIRMATION_DAYS = 14
 
 LOGGING = {
     'version': 1,
@@ -143,20 +150,24 @@ LOGGING = {
                                  'filters': ['require_debug_false'],
                                  'class': 'django.utils.log.AdminEmailHandler'
                                  },
-                 'file': {'level': 'DEBUG',
-                          'class': 'logging.FileHandler',
+#                 'file': {'level': 'DEBUG',
+#                          'class': 'logging.FileHandler',
+#                          'formatter': 'verbose',
+#                          'filename': '/tmp/djangoAssessor.log'},
+                 'console': {'level': 'DEBUG',
+                          'class': 'logging.StreamHandler',
                           'formatter': 'verbose',
-                          'filename': '/var/log/uwsgi/djangoAssessor.log'},
+                          'stream': 'ext://sys.stdout'},
                  },
     'loggers': {
+        'debug': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
         'django': {
             'handlers': ['mail_admins'],
             'level': 'ERROR',
-            'propagate': True,
-        },
-        'django_debug': {
-            'handlers': ['file'],
-            'level': 'DEBUG',
             'propagate': True,
         },
     }

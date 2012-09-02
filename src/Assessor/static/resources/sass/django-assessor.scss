@@ -5,7 +5,7 @@ $include-default: false;
 // Insert your custom variables here.
 $base-color: #bfbfff;
 $base-gradient: 'flat' !default;
-$font-family: 'Neuton';
+$font-family: 'Gillius ADF';
 $font-size: 14px; 
 
 //$form-field-background-color: #cfcfcf;
@@ -53,6 +53,7 @@ $progress-text-font-weight: normal !default;
 
 //---------------------------------------------------------
 @import 'ext4/default/all';
+@import url('../fonts/GilliusADF-Regular.otf');
 
 // You may remove any of the following modules that you
 // do not use in order to create a smaller css file.

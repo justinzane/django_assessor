@@ -20,6 +20,9 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     (r'^auth/login\/?$', 'Assessor.views.login'),
     (r'^auth/logout\/?$', 'Assessor.views.logout'),
+    (r'^json/histogram\/?$', 'Assessor.views.histogram'),
+    (r'^json/per_cat_results\/?$', 'Assessor.views.per_cat_results'),
+    (r'^util/reportbogus\/?$', 'Assessor.views.report_bogus'),
 )
 #urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:

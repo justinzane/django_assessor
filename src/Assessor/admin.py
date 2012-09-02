@@ -18,11 +18,12 @@ Assessor.admin
     GNU Affero General Public License for more details.
 
     You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.    
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 from django.contrib import admin
-from models import Question, Choice, Answer
+from models import Answer, Category, Choice, Question
 
-admin.site.register(Question)
-admin.site.register(Choice)
 admin.site.register(Answer)
+admin.site.register(Category)
+admin.site.register(Choice)
+admin.site.register(Question)

@@ -2,9 +2,9 @@ Ext.define('Assessor.controller.Quiz', {
 	extend : 'Ext.app.Controller',
 	itemId : 'quizcontroller',
 	id : 'quizcontroller',
-	models : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
-	stores : ['User', 'Question', 'Choice', 'Explanation', 'Answer'],
-	views : ['auth.LoginPanel', 'quiz.ButtonPanel', 'quiz.ExplanationGrid', 'quiz.QuestionCard', 'quiz.QuizCards', 'quiz.ResultCard', 'quiz.StartCard', 'quiz.TimerBar'],
+	models : ['User', 'Question', 'Choice', 'Answer'],
+	stores : ['User', 'Question', 'Choice', 'Answer'],
+	views : ['quiz.ButtonPanel', 'quiz.ExplanationGrid', 'quiz.QuestionCard', 'quiz.QuizCards', 'quiz.StartCard', 'quiz.TimerBar'],
 
 	// Custom Functions
 	/** update the buttons based on the state of the quiz cards */
@@ -26,24 +26,17 @@ Ext.define('Assessor.controller.Quiz', {
 			pb.disable();
 		}
 	}, //end updateButtons
-	
-	/** disable the buttons */
-	disableButtons : function() {
-		Ext.ComponentQuery.query('#nextbutton')[0].disable();
-		Ext.ComponentQuery.query('#prevbutton')[0].disable();
-		Ext.ComponentQuery.query('#finishbutton')[0].disable();
-	}, //end updateButtons
-	
+
 	/** get active question card index */
 	getCardIndex : function() {
 		return (Ext.ComponentQuery.query('quizcards')[0].getLayout().activeItem.itemId.split('-')[1]);
 	},
-	
+
 	/** set active question card index */
 	setCardIndex : function(index) {
 		Ext.ComponentQuery.query('quizcards')[0].getLayout().setActiveItem('questioncard-' + index);
 	},
-	
+
 	/** Setup the timer task */
 	startTimer : function(num) {
 		var timerBar = Ext.ComponentQuery.query('#timerbar')[0];
@@ -77,28 +70,29 @@ Ext.define('Assessor.controller.Quiz', {
 			duration : totalTime * 1000
 		});
 	},
-	/** clear the login panel and start the quiz. */
-	finishLogin : function() {
-		var cp = Ext.ComponentQuery.query('#contentpanel')[0];
-		cp.removeAll();
-		cp.add({
+
+	setupAssessment : function() {
+		var tp = Ext.ComponentQuery.query('#tabs')[0];
+		var ap = Ext.ComponentQuery.query('#assessmentPanel')[0];
+		ap.removeAll();
+		ap.add({
 			xtype : 'quizcards',
 			flex : 1
 		});
-		cp.add({
+		ap.add({
 			xtype : 'buttonpanel'
 		});
+		ap.enable();
+		tp.setActiveTab(ap);
 	},
-	/** clear the login panel and start the quiz. */
-	showLogin : function() {
-		var cp = Ext.ComponentQuery.query('#contentpanel')[0];
-		cp.removeAll();
-		cp.add({
-			xtype : 'loginpanel',
-			flex : 1
-		});
+	
+	disableAssessment: function() {
+		var tp = Ext.ComponentQuery.query('#tabs')[0];
+		var ap = Ext.ComponentQuery.query('#assessmentPanel')[0];
+		ap.removeAll();
+		ap.disable();
 	},
-	/** start the quiz */
+
 	startQuiz : function(args) {
 		// find number requested
 		var numQuestions = Ext.ComponentQuery.query('numberfield')[0].value;
@@ -141,16 +135,21 @@ Ext.define('Assessor.controller.Quiz', {
 		var as = Ext.getStore('Answer');
 		as.proxy.headers['X-Username'] = Assessor.username;
 		as.proxy.headers['X-Password'] = Assessor.password;
-
 	},
-	
+
 	/** REstart the quiz */
 	reStartQuiz : function(args) {
-		Ext.ComponentQuery.query('#restartbutton')[0].hide();
-		//TODO: Actually restart
-		location.reload();
+		Ext.ComponentQuery.query('#restartbutton')[0].disable();
+		// Clear the relevant stores
+		var qs = Ext.getStore('Question');
+		var cs = Ext.getStore('Choice');
+		var as = Ext.getStore('Answer');
+		qs.removeAll();
+		cs.removeAll();
+		as.removeAll();
+		this.setupAssessment();
 	},
-	
+
 	/** callback to create radiogroups with data from association store */
 	createRadioGroup : function(records, operation, success) {
 		if (success) {
@@ -166,7 +165,7 @@ Ext.define('Assessor.controller.Quiz', {
 			}
 		}
 	},
-	
+
 	/** create the UI cards with questions from server. */
 	createQuestionCards : function(numQuestions) {
 		var qs = Ext.getStore('Question');
@@ -202,7 +201,7 @@ Ext.define('Assessor.controller.Quiz', {
 		}
 		this.updateButtons();
 	},
-	
+
 	/** record answer by adding model to store */
 	recordAnswer : function(questionId, choiceId, userId) {
 		var answer = Ext.create('Assessor.model.Answer', {
@@ -211,14 +210,20 @@ Ext.define('Assessor.controller.Quiz', {
 			user_id : "/api/v1/user/" + userId + "/"
 		});
 		answer.save();
-		//		Ext.getStore('Answer').add(answer);
 	},
-	
+
 	/** finishQuiz -- finishes and scores the quiz */
 	finishQuiz : function(args) {
+		// stop the timer
 		Ext.TaskManager.stopAll();
-		this.disableButtons();
-		Ext.ComponentQuery.query('#restartbutton')[0].show();
+		// disable the quiz buttons
+		Ext.ComponentQuery.query('#nextbutton')[0].disable();
+		Ext.ComponentQuery.query('#prevbutton')[0].disable();
+		Ext.ComponentQuery.query('#finishbutton')[0].disable();
+		Ext.ComponentQuery.query('#bogusbutton')[0].disable();
+		//
+		Ext.ComponentQuery.query('#restartbutton')[0].enable();
+		//
 		var cs = Ext.getStore('Choice');
 		var es = Ext.getStore('Explanation');
 		var qs = Ext.getStore('Question');
@@ -227,7 +232,6 @@ Ext.define('Assessor.controller.Quiz', {
 		var userId = us.data.getAt(us.find('username',Assessor.username)).data['id'];
 		// Empty Explanation store/model/proxy.
 		es.model.proxy.clear();
-		var scoreContent = '';
 		var num_questions = Ext.ComponentQuery.query('quizcards')[0].items.length;
 		var num_correct = 0;
 		// loop through quiz cards
@@ -250,22 +254,40 @@ Ext.define('Assessor.controller.Quiz', {
 					es.add(exp);
 				}
 			} catch (e) {
-				console.log(e);
+				Ext.log({
+					level : 'warn',
+					msg : 'Problem calculating score.',
+					dump : e
+				});
 			}
 		}
-		var pctScore = 100.0 * num_correct / num_questions;
-		scoreContent += 'Your score was <b>' + pctScore + '%</b>. ';
-		if (pctScore >= 70.0) {
-			scoreContent += 'Congratulations, you passed!';
-		} else {
-			scoreContent += 'BBS requires at least a 70%, keep studying.';
-		}
-		Ext.ComponentQuery.query('quizcards')[0].removeAll();
-		// make sure the grid has data
-		es.load();
-		rc = Ext.create('Assessor.view.quiz.ResultCard', {});
-		Ext.ComponentQuery.query('#resultpanel')[0].html = scoreContent;
-		Ext.ComponentQuery.query('quizcards')[0].add(rc);
+		var score = num_correct / num_questions;
+		var rc = this.getController('Result');
+		rc.showScore(score);
+	},
+
+	reportBogus : function(args) {
+		var questionId = Ext.ComponentQuery.query('quizcards')[0].items.getAt(i).questionId;
+		var req = Ext.Ajax.request({
+			url : 'util/reportbogus/',
+			headers : {
+				'X-Username' : Assessor.username,
+				'X-Password' : Assessor.password
+			},
+			params : {
+				'question_id' : questionId
+			},
+			success : function(response) {
+				Ext.Msg.alert('Bogosity', 'Bogus question reported.');
+			},
+			failure : function(response) {
+				Ext.log({
+					level : 'warn',
+					msg : 'Bogosity report failed.',
+					dump : response
+				});
+			}
+		});
 	},
 	//
 	nextQuestion : function(args) {
@@ -288,48 +310,45 @@ Ext.define('Assessor.controller.Quiz', {
 		this.updateButtons();
 	},
 	//
-	attemptLogin : function() {
-		var form = Ext.ComponentQuery.query('#loginpanel')[0].form;
-		if (form.isValid()) {
-			form.submit({
-				headers : {
-					'X-CSRFToken' : Ext.util.Cookies.get('csrftoken')
-				},
-				success : function(form, action) {
-					Assessor.username = Ext.ComponentQuery.query('#usernamefield')[0].value;
-					Assessor.password = Ext.ComponentQuery.query('#passwordfield')[0].value;
-					//console.info('logged in.');
-					Assessor.controller.Quiz.prototype.finishLogin();
-				},
-				failure : function(form, action) {
-					Ext.ComponentQuery.query('#loginpanel')[0].form.reset();
-					Ext.Msg.alert('Invalid username or password.');
-				}
-			});
-		}
-	},
-	//
-	attemptLogout : function() {
-		Ext.Ajax.request({
-			url : '/auth/logout',
-			headers : {
-				'X-CSRFToken' : Ext.util.Cookies.get('csrftoken')
-			},
-			params : {},
-			success : function(response) {
-				console.info(response);
-				Assessor.username = null;
-				Assessor.password = null;
-				Assessor.controller.Quiz.prototype.showLogin();
-			},
-			failure : function(response) {
-				Ext.Msg.alert('Logout failed! This is a bug!');
-			}
-		});
-	},
-	//
 	init : function() {
+		Ext.log({
+			level : 'info',
+			msg : 'Quiz controller loaded.'
+		});
+		
+		if (!Object.keys) {
+			Object.keys = (function() {
+				var hasOwnProperty = Object.prototype.hasOwnProperty, hasDontEnumBug = !( {
+					toString : null
+				}).propertyIsEnumerable('toString'), dontEnums = ['toString', 'toLocaleString', 'valueOf', 'hasOwnProperty', 'isPrototypeOf', 'propertyIsEnumerable', 'constructor'], dontEnumsLength = dontEnums.length
+
+				return function(obj) {
+					if ( typeof obj !== 'object' && typeof obj !== 'function' || obj === null)
+						throw new TypeError('Object.keys called on non-object')
+
+					var result = []
+
+					for (var prop in obj) {
+						if (hasOwnProperty.call(obj, prop))
+							result.push(prop)
+					}
+
+					if (hasDontEnumBug) {
+						for (var i = 0; i < dontEnumsLength; i++) {
+							if (hasOwnProperty.call(obj, dontEnums[i]))
+								result.push(dontEnums[i])
+						}
+					}
+					return result
+				}
+			})()
+		};
+
 		this.control({
+			'viewport': {
+				logincomplete: this.setupAssessment,
+				logoutcomplete: this.disableAssessment,
+			},
 			'#nextbutton' : {
 				click : this.nextQuestion
 			},
@@ -345,11 +364,8 @@ Ext.define('Assessor.controller.Quiz', {
 			'#finishbutton' : {
 				click : this.finishQuiz
 			},
-			'#loginbutton' : {
-				click : this.attemptLogin
-			},
-			'#logoutbutton' : {
-				click : this.attemptLogout
+			'#bogusbutton' : {
+				click : this.reportBogus
 			}
 		});
 	}

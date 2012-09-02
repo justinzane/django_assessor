@@ -22,55 +22,27 @@ Assessor.api
 '''
 from tastypie.resources import ModelResource
 from tastypie import fields
-from tastypie.authentication import Authentication
 from tastypie.authorization import DjangoAuthorization, Authorization
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from models import Question, Choice, Answer
-from django.contrib.auth.models import User, AnonymousUser
-from django.contrib.auth import authenticate
+from auth import HeaderAuthentication
+from django.contrib.auth.models import User
 import logging
-
-
-class HeaderAuthentication(Authentication):
-    def is_authenticated(self, request, **kwargs):
-        logger = logging.getLogger('django')
-        try:
-            un = request.META['HTTP_X_USERNAME']
-            pw = request.META['HTTP_X_PASSWORD']
-            logger.debug('\nHeaderAuthentication.is_authenticated\n\t%s:%s\n' % (un, pw))
-            user = authenticate(username=un, password=pw)
-            if user:
-                logger.debug('\nHeaderAuthentication.is_authenticated\n\tuser exists, returning True\n')
-                return True
-            else:
-                logger.debug('\nHeaderAuthentication.is_authenticated\n\tuser is None, returning False\n')
-                return False
-        except:
-            logger.debug('\nHeaderAuthentication.is_authenticated\n\tException, returning False\n')
-            return False
-
-    # Optional but recommended
-    def get_identifier(self, request):
-        logger = logging.getLogger('django')
-        try:
-            logger.debug('HeaderAuthentication.get_identifier\n\tReturning %s\n' % (request.META['HTTP_X_USERNAME']))
-            return request.META['HTTP_X_USERNAME']
-        except:
-            logger.debug('HeaderAuthentication.get_identifier\n\tReturning %s\n' % (AnonymousUser.username))
-            return AnonymousUser.username
 
 
 class UserResource(ModelResource):
     def obj_create(self, bundle, request=None, **kwargs):
-        logger = logging.getLogger('django')
-        logger.debug('\nUserResource.obj_create\n\tuser: %s\n' % (str(request.user.username)))
+        logger = logging.getLogger('debug')
+        logger.debug('\nUserResource.obj_create\n\tuser: %s\n' %
+                     (str(request.user.username)))
         return super(UserResource, self).obj_create(bundle,
                                                     request,
                                                     user=request.user)
 
     def apply_authorization_limits(self, request, object_list):
         #logger = logging.getLogger('django')
-        #logger.debug('UserResource.apply_auth_limits\n\trequest.user: %s' % (str(request.user.username)))
+        #logger.debug('UserResource.apply_auth_limits\n\trequest.user: %s' %
+        #             (str(request.user.username)))
         #return object_list.filter(pk=request.user.pk)
         un = request.META['HTTP_X_USERNAME']
         return object_list.filter(username=un)
@@ -133,9 +105,11 @@ class AnswerResource(ModelResource):
     def obj_create(self, bundle, request=None, **kwargs):
         un = request.META['HTTP_X_USERNAME']
         user = User.objects.get_by_natural_key(un)
-        logger = logging.getLogger('django')
-        logger.debug('\nAnswerResource.obj_create\n\tuser: %s\n' % (str(user)))
-        logger.debug('\n---------------\n%s\n---------------\n' % (str(request)))
+        logger = logging.getLogger('debug')
+        logger.debug('\nAnswerResource.obj_create\n\tuser: %s\n' %
+                     (str(user)))
+        logger.debug('\n---------------\n%s\n---------------\n' %
+                     (str(request)))
         return super(AnswerResource, self).obj_create(bundle,
                                                       request,
                                                       user=user)

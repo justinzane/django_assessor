@@ -23,6 +23,11 @@ Ext.define('Assessor.view.quiz.ButtonPanel', {
 			text: 'Finish',
 			disabled: true
 		}, {
+			xtype: 'button',
+			itemId: 'bogusbutton',
+			text: 'Report Bogosity',
+			disabled: true
+		}, {
 			xtype: 'timerbar',
 			itemId: 'timerbar',
 			flex: 1
@@ -30,14 +35,7 @@ Ext.define('Assessor.view.quiz.ButtonPanel', {
 			xtype: 'button',
 			itemId: 'restartbutton',
 			text: 'Restart Quiz',
-			disabled: true,
-			hidden: true
-		}, {
-			xtype: 'button',
-			itemId: 'logoutbutton',
-			alias: 'widget.logoutbutton',
-	        text: 'Logout',
-	        type: 'button'
-	    }]
+			disabled: true
+		}]
 	}]
 });
